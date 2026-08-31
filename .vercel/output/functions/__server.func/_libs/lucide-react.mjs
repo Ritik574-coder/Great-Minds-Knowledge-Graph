@@ -1,5 +1,5 @@
 import { i as __toESM } from "../_runtime.mjs";
-import { z as require_react } from "./@tanstack/react-router+[...].mjs";
+import { B as require_react } from "./@tanstack/react-router+[...].mjs";
 //#region node_modules/lucide-react/dist/esm/shared/src/utils.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 /**
@@ -271,6 +271,34 @@ var GitBranch = createLucideIcon("git-branch", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var GitCompare = createLucideIcon("git-compare", [
+	["circle", {
+		cx: "18",
+		cy: "18",
+		r: "3",
+		key: "1xkwt0"
+	}],
+	["circle", {
+		cx: "6",
+		cy: "6",
+		r: "3",
+		key: "1lh9wr"
+	}],
+	["path", {
+		d: "M13 6h3a2 2 0 0 1 2 2v7",
+		key: "1yeb86"
+	}],
+	["path", {
+		d: "M11 18H8a2 2 0 0 1-2-2V9",
+		key: "19pyzm"
+	}]
+]);
+/**
+* @license lucide-react v0.510.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var LibraryBig = createLucideIcon("library-big", [
 	["rect", {
 		width: "8",
@@ -309,6 +337,29 @@ var Menu = createLucideIcon("menu", [
 		key: "1o0s65"
 	}]
 ]);
+/**
+* @license lucide-react v0.510.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var Minus = createLucideIcon("minus", [["path", {
+	d: "M5 12h14",
+	key: "1ays0h"
+}]]);
+/**
+* @license lucide-react v0.510.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var Plus = createLucideIcon("plus", [["path", {
+	d: "M5 12h14",
+	key: "1ays0h"
+}], ["path", {
+	d: "M12 5v14",
+	key: "s699le"
+}]]);
 /**
 * @license lucide-react v0.510.0 - ISC
 *
@@ -399,4 +450,4 @@ var X = createLucideIcon("x", [["path", {
 	key: "d8bk6v"
 }]]);
 //#endregion
-export { Scale as a, GitBranch as c, CircleHelp as d, Brain as f, ArrowLeft as g, ArrowRight as h, Search as i, Funnel as l, BookOpenCheck as m, TriangleAlert as n, Menu as o, BookOpen as p, ShieldCheck as r, LibraryBig as s, X as t, Database as u };
+export { BookOpenCheck as _, Scale as a, Menu as c, GitBranch as d, Funnel as f, BookOpen as g, Brain as h, Search as i, LibraryBig as l, CircleHelp as m, TriangleAlert as n, Plus as o, Database as p, ShieldCheck as r, Minus as s, X as t, GitCompare as u, ArrowRight as v, ArrowLeft as y };
