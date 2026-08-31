@@ -1,0 +1,9701 @@
+import { i as __toESM } from "../_runtime.mjs";
+import { R as notFound, f as createRouter, g as createRootRoute, h as createFileRoute, l as Scripts, m as lazyRouteComponent, p as Outlet, u as HeadContent, v as useRouter, y as require_jsx_runtime, z as require_react } from "../_libs/@tanstack/react-router+[...].mjs";
+import { c as GitBranch, f as Brain, i as Search, n as TriangleAlert, o as Menu, p as BookOpen, s as LibraryBig, t as X } from "../_libs/lucide-react.mjs";
+import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/catalog-B9cKWKXV.js
+function opt$1(id, label, chosen, evidence = "inference") {
+	return {
+		id,
+		label,
+		chosen,
+		evidence
+	};
+}
+var builderDecisions = [
+	{
+		id: "bezos-long-term-1997",
+		slug: "bezos-long-term-1997",
+		personId: "jeff-bezos",
+		title: "Tell public shareholders that Amazon will optimize for long-term leadership, not near-term profit",
+		year: 1997,
+		categories: [
+			"strategic",
+			"communication",
+			"financial"
+		],
+		styles: ["principle-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Amazon has just gone public. Internet retailers are expected to show a path to profit. Bezos writes the 1997 letter (published with the 1998 proxy/report cycle) and later reprints it annually.",
+		problem: "Public markets can force a young network business to look like a bookstore with thin margins.",
+		availableInformation: "Early growth; the letter's own claim about internet adoption; IPO capital.",
+		unknownInformation: "Whether 2000 would destroy the firm; how long investors would tolerate losses.",
+		goal: "Keep the right to invest in customer experience and infrastructure.",
+		options: [opt$1("profit", "Guide to near-term profitability", false), opt$1("lt", "Pre-commit, in writing, to long-term market leadership", true, "direct_quote")],
+		chosen: "The 1997 letter's investment rule.",
+		rejected: ["Managing to quarterly profit as the primary score"],
+		reasoning: "If the scoreboard is wrong, operations will follow the scoreboard. Change the scoreboard in public.",
+		assumptions: ["Enough shareholders will accept the rule", "Customer experience compounds"],
+		risksAccepted: ["Stock punishment", "Accusations of empire-building"],
+		risksRejected: ["A profitable small bookstore"],
+		resources: "IPO cash; founder control relative to later years.",
+		constraints: "SEC reporting; competition.",
+		timePressure: "First letters after IPO.",
+		peopleInvolved: [
+			"Jeff Bezos",
+			"Amazon board",
+			"public shareholders"
+		],
+		communication: "A letter that becomes liturgy — reprinted as an appendix.",
+		execution: "Years of reinvestment. Causal share versus the 1990s bubble is mixed.",
+		shortTerm: "A stated policy.",
+		longTerm: "A giant firm. Also labor and market-power controversies the letter does not mention.",
+		whatWorked: "Selecting (some) patient capital.",
+		whatFailed: "The letter is not a complete ethics of the firm.",
+		whatChanged: "A template other founders copy, including when they should not.",
+		outcome: "positive",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "Reasonable as a capital-market communication for a land-grab. Survival through 2001 also required luck and a crash that killed rivals. Do not treat the letter as a sufficient cause of Amazon.",
+		evidence: "direct_quote",
+		confidence: "high",
+		sourceIds: ["bezos-1997-letter"],
+		lessons: ["lesson-write-the-rule", "lesson-survivorship-dotcom"]
+	},
+	{
+		id: "bezos-two-way-doors",
+		slug: "bezos-two-way-doors",
+		personId: "jeff-bezos",
+		title: "Classify decisions as one-way or two-way doors",
+		year: 2015,
+		categories: ["operational", "strategic"],
+		styles: ["principle-driven"],
+		reversibility: "reversible",
+		uncertainty: "low",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Amazon is large. Bureaucracy threatens speed. The 2015 letter states a taxonomy: Type 1 consequential irreversible decisions versus Type 2 changeable ones, which should be made by small groups with high velocity. Disagree-and-commit appears in the 2016 letter.",
+		problem: "A big company using one-way-door process on two-way-door choices.",
+		availableInformation: "Internal experience of slow meetings; the letter as teaching.",
+		unknownInformation: "How often Amazon actually misclassifies a door.",
+		goal: "Speed without being reckless on true one-way doors.",
+		options: [opt$1("uniform", "Uniform heavy process", false), opt$1("tax", "Taxonomy by reversibility", true, "direct_quote")],
+		chosen: "Publish the taxonomy to shareholders (and thus to employees).",
+		rejected: ["One process for all decisions"],
+		reasoning: "Reversibility is a better first cut than 'importance,' because importance is inflated.",
+		assumptions: ["Most decisions are two-way", "People can tell the difference"],
+		risksAccepted: ["Two-way rhetoric used to rush a one-way choice", "The taxonomy becoming a slogan"],
+		risksRejected: ["Universal slowness"],
+		resources: "CEO pulpit.",
+		constraints: "A now-huge organization.",
+		timePressure: "Competitive cloud and retail clocks.",
+		peopleInvolved: ["Jeff Bezos", "Amazon S-team / managers"],
+		communication: "Shareholder letter as management manual.",
+		execution: "Unknown internally in detail. The text is the public artifact.",
+		shortTerm: "A vocabulary.",
+		longTerm: "A widely copied framework. Empirical compliance inside Amazon is not fully visible.",
+		whatWorked: "A clear conceptual cut.",
+		whatFailed: "If misused, it excuses haste. The letter cannot police itself.",
+		whatChanged: "Managerial language in tech.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The model is sound as a heuristic. We lack independent measurement of Amazon's error rates under it. Treat as a well-documented principle, not a proven causal engine.",
+		evidence: "direct_quote",
+		confidence: "high",
+		sourceIds: ["bezos-2015-letter", "bezos-2016-letter"],
+		lessons: ["lesson-reversibility"]
+	},
+	{
+		id: "jobs-iphone-2007",
+		slug: "jobs-iphone-2007",
+		personId: "steve-jobs",
+		title: "Ship a multi-touch computer as a phone, framed as three products in one",
+		year: 2007,
+		categories: [
+			"product",
+			"communication",
+			"strategic"
+		],
+		styles: ["intuition-driven", "mixed"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "iPod success, iTunes, a phone market of BlackBerry and Nokia. Apple has multi-touch research and a secret project. Jobs on stage at Macworld, 9 January 2007.",
+		problem: "How to enter phones without making a worse BlackBerry.",
+		availableInformation: "Capacitive multi-touch; App Store is not yet the 2008 story; carrier negotiations (AT&T in the U.S.).",
+		unknownInformation: "Whether users would accept no physical keyboard; developer ecosystem later.",
+		goal: "Redefine the category.",
+		options: [opt$1("bb", "A better keyboard phone", false), opt$1("touch", "A full-surface multi-touch device", true, "documented_decision")],
+		chosen: "iPhone, introduced as iPod + phone + internet communicator.",
+		rejected: ["Licensing iPod/iTunes to phone makers as the only path (a path Apple had explored)"],
+		reasoning: "The keynote's structure is the decision made visible: collapse three categories so the missing keyboard looks like subtraction of clutter.",
+		assumptions: ["Software keyboards will suffice", "A computer in the pocket is the product"],
+		risksAccepted: [
+			"Carrier dependence",
+			"First-generation radio/hardware complaints",
+			"Cannibalizing iPod"
+		],
+		risksRejected: ["A niche gadget without telephony"],
+		resources: "Apple's design and operations; Jobs as a communication instrument; a large unnamed engineering org.",
+		constraints: "Secret project; AT&T exclusive in the U.S. at launch.",
+		timePressure: "Competitive, not existential in 2007 the way 1997 was.",
+		peopleInvolved: [
+			"Steve Jobs",
+			"Jony Ive",
+			"iPhone engineering leadership",
+			"AT&T"
+		],
+		communication: "The keynote is primary. Treat Isaacson as secondary on interior debate.",
+		execution: "Launch, then 2008 App Store — a second decision often backdated into 2007.",
+		shortTerm: "A hit product with known v1 limits.",
+		longTerm: "Smartphone as default computer. Also App Store control controversies.",
+		whatWorked: "Framing plus a real multi-touch stack.",
+		whatFailed: "Not the category bet. Early hardware and later platform-power fights are separate.",
+		whatChanged: "The phone industry.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The product model was right. Credit is collective. Communication quality is unusually well documented because the keynote exists.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["jobs-macworld-2007", "isaacson-jobs"],
+		lessons: ["lesson-framing-is-a-decision"]
+	},
+	{
+		id: "nadella-cloud-first",
+		slug: "nadella-cloud-first",
+		personId: "satya-nadella",
+		title: "Declare Microsoft's job as thriving in a mobile-and-cloud-first world",
+		year: 2014,
+		date: "2014-02-04",
+		categories: ["strategic", "communication"],
+		styles: ["principle-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "fast",
+		context: "First day as CEO. Windows-centric culture had missed mobile. Azure existed. The email is a primary text.",
+		problem: "An incumbent's identity is still the PC OS.",
+		availableInformation: "Internal cloud work; market share facts about mobile; the email's own sentence.",
+		unknownInformation: "Whether culture language would change capital allocation.",
+		goal: "Name the environment so the company can fund it.",
+		options: [opt$1("windows", "Double down on Windows as the center", false), opt$1("cloud", "Name mobile and cloud as the environment", true, "direct_quote")],
+		chosen: "The first-day email.",
+		rejected: ["A Windows-recovery-only story"],
+		reasoning: "If the job is mis-specified, the org will optimize the wrong function.",
+		assumptions: ["Employees will read the email as permission", "Azure can be a default"],
+		risksAccepted: ["Alienating Windows loyalists", "Being seen as merely rhetorical"],
+		risksRejected: ["Pretending the phone war was still winnable on 2000s terms"],
+		resources: "CEO attention; Microsoft balance sheet.",
+		constraints: "A huge installed base.",
+		timePressure: "First-day symbolism.",
+		peopleInvolved: ["Satya Nadella", "Microsoft employees"],
+		communication: "Short, leak-aware, non-theatrical.",
+		execution: "Later M&A (LinkedIn, GitHub) and cloud spend — not all caused by one email.",
+		shortTerm: "A frame.",
+		longTerm: "Microsoft's market value and cloud mix changed. Causal identification is incomplete.",
+		whatWorked: "Permission to partner with former enemies.",
+		whatFailed: "The email did not, by itself, build Azure.",
+		whatChanged: "Official strategy language.",
+		outcome: "positive",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "Reasonable diagnosis. Outcome rode a secular cloud wave. Do not award the entire Azure era to a paragraph.",
+		evidence: "direct_quote",
+		confidence: "high",
+		sourceIds: ["nadella-2014-email", "nadella-hit-refresh"],
+		lessons: ["lesson-incumbent-learning"]
+	},
+	{
+		id: "musk-falcon1-continue",
+		slug: "musk-falcon1-continue",
+		personId: "elon-musk",
+		title: "Continue Falcon 1 to a fourth flight after three failures",
+		year: 2008,
+		date: "2008-09-28",
+		categories: [
+			"technical",
+			"risk-management",
+			"financial"
+		],
+		styles: ["experiment-driven"],
+		reversibility: "irreversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "fast",
+		context: "Falcon 1 failed in 2006, 2007, and August 2008. Tesla was also in crisis. Musk later said Flight 4 was the last money for Falcon 1. That cash claim is first-person, 2017.",
+		problem: "A private orbital program with a short remaining runway.",
+		availableInformation: "Failure investigations; remaining hardware and cash (as later described); NASA commercial cargo as a possible future.",
+		unknownInformation: "Whether Flight 4 would work; whether 'last money' is exactly true.",
+		goal: "Orbit, or the company as a launch firm ends.",
+		options: [opt$1("stop", "Stop the program", false), opt$1("f4", "Fly a fourth time", true, "documented_decision")],
+		chosen: "Flight 4, 28 September 2008, Omelek Island. Success with a mass simulator.",
+		rejected: ["Winding up SpaceX after August 2008"],
+		reasoning: "Hardware programs learn from flights. If the remaining failure modes were understood enough to try once more, the expected value could still be positive — or it was a desperate last chip. We cannot see the internal EV calculation.",
+		assumptions: ["The third failure's cause was understood", "Cash lasts through one more campaign"],
+		risksAccepted: ["Bankruptcy of SpaceX", "Total loss of remaining capital"],
+		risksRejected: ["A controlled shutdown with remaining cash"],
+		resources: "PayPal-era wealth plus investors; a small launch team.",
+		constraints: "Physics, range, money.",
+		timePressure: "Extreme, if the 2017 recollection is right.",
+		peopleInvolved: ["Elon Musk", "SpaceX launch team"],
+		communication: "Later IAC speech as memoir of the moment.",
+		execution: "A successful two-stage flight to LEO.",
+		shortTerm: "Orbit. A going concern.",
+		longTerm: "NASA COTS, Falcon 9, reuse. All downstream of survival.",
+		whatWorked: "The fourth vehicle.",
+		whatFailed: "The first three — which were also data.",
+		whatChanged: "Private orbital launch as a real industry.",
+		outcome: "positive",
+		decisionQuality: "lucky",
+		qualityVsOutcome: "Continuing was not crazy if failure modes were addressed. The outcome is binary and huge. Musk himself frames it as last money. That is close to a coin flip with a company on the coin. Classify as high-variance, not as a general 'never give up' law. If Flight 4 fails, the same process looks reckless.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["falcon1-wiki-primary-note", "musk-iac-2017"],
+		lessons: ["lesson-expensive-iteration", "lesson-survivorship-dotcom"],
+		relatedFailureIds: ["musk-falcon1-three"],
+		relatedExperimentIds: ["falcon1-flights"]
+	},
+	{
+		id: "huang-cuda",
+		slug: "huang-cuda",
+		personId: "jensen-huang",
+		title: "Release CUDA and treat the GPU as a programmable parallel computer",
+		year: 2006,
+		categories: [
+			"technical",
+			"strategic",
+			"product"
+		],
+		styles: ["principle-driven", "experiment-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "slow",
+		context: "NVIDIA sells graphics chips. GPGPU is a research niche. CUDA 2006 is a dated public release.",
+		problem: "A GPU that is only a rasterizer is a cyclical game-cycle business.",
+		availableInformation: "Programmable shaders; HPC customers as a small market; cost of a software stack.",
+		unknownInformation: "That deep learning would explode after 2012.",
+		goal: "A platform, not only a part.",
+		options: [opt$1("graphics", "Stay a graphics company", false), opt$1("cuda", "Ship a general programming model", true, "documented_decision")],
+		chosen: "CUDA.",
+		rejected: ["Treating non-graphics compute as a side demo"],
+		reasoning: "Software lock-in around parallel compute could outlast a single GPU generation — if anyone needed it.",
+		assumptions: ["Developers will learn a proprietary model", "Workloads exist or will"],
+		risksAccepted: ["Years of cost without a mass market", "Competing open models"],
+		risksRejected: ["Pure graphics cyclicality as destiny"],
+		resources: "NVIDIA's GPU franchise funding the stack.",
+		constraints: "Developer time; competing ISAs.",
+		timePressure: "Low in 2006 relative to 2020s AI demand.",
+		peopleInvolved: ["Jensen Huang", "NVIDIA architecture and developer tools"],
+		communication: "Docs, GTC later. Sequoia interview is first-person memory.",
+		execution: "A long trough, then ML.",
+		shortTerm: "A niche HPC/graphics-adjacent tool.",
+		longTerm: "A chokepoint in AI infrastructure.",
+		whatWorked: "Platform patience.",
+		whatFailed: "Not a failure. Concentration and export-control politics are later consequences, not 2006 intent.",
+		whatChanged: "Who can train large models quickly.",
+		outcome: "positive",
+		decisionQuality: "incorrect-model-that-worked",
+		qualityVsOutcome: "The 2006 model was 'GPU as parallel computer for whoever shows up' — not 'we foresee transformers.' Deep learning was a later workload that fit. That is closer to a platform lottery than prophecy. Still a real, expensive bet, not an accident of a single chip.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["nvidia-cuda-2006", "sequoia-nvidia-cuda"],
+		lessons: ["lesson-platform-trough"]
+	},
+	{
+		id: "blakely-bootstrap-patent",
+		slug: "blakely-bootstrap-patent",
+		personId: "sara-blakely",
+		title: "Self-fund a hosiery product and (as reported) draft the patent without early VC",
+		year: 2e3,
+		categories: ["financial", "product"],
+		styles: ["experience-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "medium",
+		tempo: "slow",
+		context: "Founder-reported $5,000 savings, textbook patent, no outside capital until 2021. Independent contemporaneous accounting is thin.",
+		problem: "A product idea in a category VCs were not crowding.",
+		availableInformation: "Sales skill; a prototype made by cutting pantyhose; quoted lawyer fees she says she avoided.",
+		unknownInformation: "Whether department stores would buy; whether the patent would matter.",
+		goal: "A sellable garment and control of the firm.",
+		options: [opt$1("vc", "Raise and advertise like a startup", false, "reported"), opt$1("boot", "Bootstrap and file", true, "reported")],
+		chosen: "The founder-reported path: savings, self-drafted patent, retail.",
+		rejected: ["Early dilution"],
+		reasoning: "If the reports hold, ownership was the strategy. Mark evidence as reported.",
+		assumptions: ["Retail buyers can be sold in person", "The idea is copyable enough to want a patent"],
+		risksAccepted: [
+			"Slow growth",
+			"Personal financial loss",
+			"Weak patent if amateur-drafted"
+		],
+		risksRejected: ["Investor control"],
+		resources: "$5,000 as reported; sales background.",
+		constraints: "Not a software story; manufacturing partners needed.",
+		timePressure: "Low.",
+		peopleInvolved: ["Sara Blakely"],
+		communication: "Later magazine interviews. Treat as memoir.",
+		execution: "A brand that later took Blackstone capital in 2021.",
+		shortTerm: "A product in stores, as reported.",
+		longTerm: "A privately controlled brand for two decades, then a recap.",
+		whatWorked: "If true: matching capital structure to a cash-generative consumer product.",
+		whatFailed: "Unknown. The archive does not have a failure ledger for early Spanx.",
+		whatChanged: "A case used (sometimes sloppily) in entrepreneurship folklore.",
+		outcome: "positive",
+		decisionQuality: "unknown",
+		qualityVsOutcome: "Outcome looks good. Decision quality cannot be scored at the same confidence as Bezos's letter because the primary paper trail is thinner. Teach the source problem, not only the fable.",
+		evidence: "reported",
+		confidence: "medium",
+		sourceIds: ["blakely-fortune-2024"],
+		lessons: ["lesson-founder-story-as-source"]
+	},
+	{
+		id: "hastings-qwikster",
+		slug: "hastings-qwikster",
+		personId: "reed-hastings",
+		title: "Split DVD and streaming into two brands (then reverse the split)",
+		year: 2011,
+		categories: [
+			"product",
+			"communication",
+			"strategic"
+		],
+		styles: ["mixed"],
+		reversibility: "reversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "fast",
+		context: "Netflix streaming is growing; DVD is the cash cow in decline. A price restructuring plus Qwikster brand is announced. Customers revolt. Qwikster is killed in October 2011; price changes largely remain.",
+		problem: "How to let streaming escape a DVD identity without stranding DVD customers.",
+		availableInformation: "Internal metrics; a strategic story about two businesses; insufficient reading of customer reaction before launch.",
+		unknownInformation: "Elasticity of goodwill; how ugly the two-login experience would feel.",
+		goal: "Separate the dying and growing businesses.",
+		options: [opt$1("one", "Keep one brand, change mix slowly", false), opt$1("split", "Qwikster + Netflix", true, "documented_decision")],
+		chosen: "Announce the split, then reverse the brand split after the test fails in public.",
+		rejected: ["Indefinite single-brand DVD identity"],
+		reasoning: "Strategically coherent, operationally clumsy. The reversal is the second decision and is part of the quality.",
+		assumptions: ["Customers will accept two sites/brands", "The price change is the main economic act"],
+		risksAccepted: [
+			"Churn",
+			"Stock crash",
+			"Humiliation"
+		],
+		risksRejected: ["Hiding DVD in the same UX forever"],
+		resources: "A public-company CEO blog.",
+		constraints: "Public markets; social media already fast in 2011.",
+		timePressure: "Self-imposed announcement calendar.",
+		peopleInvolved: [
+			"Reed Hastings",
+			"Netflix executives",
+			"customers"
+		],
+		communication: "Blog posts: justification, then apology. Price hike not fully walked back.",
+		execution: "Launch, measure, reverse brand. Weeks, not years.",
+		shortTerm: "Lost subscribers, lost market cap, then a rebound over subsequent years.",
+		longTerm: "Streaming and originals. Qwikster is the teaching scar.",
+		whatWorked: "Speed of reversal; the underlying streaming bet.",
+		whatFailed: "Packaging, pricing communication, underestimating identity switching costs.",
+		whatChanged: "A canonical case of 'right strategy, wrong door speed/packaging.'",
+		outcome: "mixed",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "The split, as executed, was a poor product decision. Reversing quickly was a good second decision. Long-run Netflix success does not retroactively make Qwikster wise. It makes the scar affordable.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["hastings-qwikster-blog", "npr-qwikster-2011"],
+		lessons: ["lesson-reverse-in-public", "lesson-reversibility"],
+		relatedFailureIds: ["qwikster"]
+	},
+	{
+		id: "walker-agent-network",
+		slug: "walker-agent-network",
+		personId: "madam-cj-walker",
+		title: "Build a trained agent network instead of relying on white-owned retail",
+		year: 1910,
+		categories: ["market", "strategic"],
+		styles: ["experience-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Jim Crow. Department stores and white capital are largely closed. Walker has a hair-care line and a growing set of Black women who can sell and teach.",
+		problem: "Distribution under exclusion.",
+		availableInformation: "Door-to-door and church/community networks; product that customers wanted.",
+		unknownInformation: "How far a factory-plus-agents model could scale nationally.",
+		goal: "Sell, train, and employ.",
+		options: [opt$1("retail", "Depend on existing white retail", false), opt$1("agents", "Train agents in a Walker system", true, "documented_decision")],
+		chosen: "Manufacturing plus a trained sales force, Indianapolis factory era.",
+		rejected: ["Waiting for shelf space that would not come"],
+		reasoning: "If the channel does not exist, the channel is the product.",
+		assumptions: ["Women will join as agents", "Training creates quality and loyalty"],
+		risksAccepted: ["Managing a dispersed labor force", "Copycats"],
+		risksRejected: ["A formula without a route to market"],
+		resources: "Community trust; reinvested earnings.",
+		constraints: "Law, violence, credit exclusion.",
+		timePressure: "A short life; she dies in 1919.",
+		peopleInvolved: ["Madam C.J. Walker", "Walker agents"],
+		communication: "Demonstrations, conventions, beauty training — not a modern ad account.",
+		execution: "Factory and system.",
+		shortTerm: "A national Black business.",
+		longTerm: "A museum object and a lineage of Black beauty industry.",
+		whatWorked: "Distribution as organization.",
+		whatFailed: "Not a documented operational failure of the model in this file.",
+		whatChanged: "Who could be in the beauty trade.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The constraint diagnosis was correct. Wealth myths should stay caveated; the system is the fact.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: [
+			"walker-nmaahc",
+			"bundles-walker",
+			"walker-official"
+		],
+		lessons: ["lesson-distribution-is-the-product"]
+	},
+	{
+		id: "maathai-greenbelt",
+		slug: "maathai-greenbelt",
+		personId: "wangari-maathai",
+		title: "Make tree planting a civic technology, not only an agronomic one",
+		year: 1977,
+		categories: ["strategic", "ethical"],
+		styles: ["principle-driven", "experiment-driven"],
+		reversibility: "reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "slow",
+		context: "Kenyan rural women facing deforestation, firewood scarcity, and a tightening state. Maathai has scientific standing and a women's-council platform.",
+		problem: "Environmental harm that is also a governance and gender problem.",
+		availableInformation: "Local ecological knowledge; university training; NCWK.",
+		unknownInformation: "How the Moi state would respond to organized planting as dissent.",
+		goal: "Trees in the ground and a public that can claim space.",
+		options: [opt$1("ngo", "A quiet nursery program only", false), opt$1("move", "A movement that plants and confronts land power", true, "documented_decision")],
+		chosen: "Green Belt Movement.",
+		rejected: ["Apathetic expert advice without organizing"],
+		reasoning: "A countable tree can carry an uncountable right.",
+		assumptions: ["Women's groups can operate at village scale", "Visibility is a feature"],
+		risksAccepted: [
+			"State violence",
+			"Ridicule",
+			"Jail"
+		],
+		risksRejected: ["Safety of remaining only a professor"],
+		resources: "Small payments for planting; international later support; scientific credibility.",
+		constraints: "Authoritarian politics; gendered attack.",
+		timePressure: "Ecological and political, both slow-burning.",
+		peopleInvolved: [
+			"Wangari Maathai",
+			"Green Belt women",
+			"Kenyan state"
+		],
+		communication: "Local organizing plus later global memoir and Nobel lecture.",
+		execution: "Decades of nurseries and protests (Uhuru Park as a landmark fight).",
+		shortTerm: "Trees and enemies.",
+		longTerm: "2004 Peace Prize; a model others cite, sometimes too sweetly.",
+		whatWorked: "Metric plus movement.",
+		whatFailed: "Not a failure of the bet. Personal cost was high.",
+		whatChanged: "The idea of environmentalism as democracy in Kenya's story.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The model matched the problem. Outcome includes both trees and a Nobel — the latter is not the proof. Village practice is.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: [
+			"greenbelt-maathai",
+			"maathai-nobel-2004",
+			"maathai-unbowed"
+		],
+		lessons: ["lesson-metric-as-politics"]
+	},
+	{
+		id: "holmes-secrecy",
+		slug: "holmes-secrecy",
+		personId: "elizabeth-holmes",
+		title: "Use secrecy, prestige, and aggressive legal posture instead of open analytical validation",
+		year: 2013,
+		categories: [
+			"ethical",
+			"communication",
+			"product"
+		],
+		styles: ["mixed"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Theranos claims many tests from a fingerstick. Independent methods sections are not the culture. Walgreens partnership. Board of famous names.",
+		problem: "The device does not perform as the pitch.",
+		availableInformation: "Internal failure of the analyzer, as later shown at trial and in WSJ reporting; investor hunger; NDAs.",
+		unknownInformation: "Whether a future version could have worked — legally irrelevant to fraud about present capability.",
+		goal: "As executed: keep capital and partners. As pitched: revolutionize blood testing.",
+		options: [opt$1("publish", "Validate in the open, slow down claims", false, "inference"), opt$1("secret", "Secrecy + prestige + threat", true, "documented_decision")],
+		chosen: "The second, as documented by reporting and the criminal case.",
+		rejected: ["A normal medical-device evidence path"],
+		reasoning: "This is not a clever trade secret strategy that happened to fail. The legal finding is deception of investors about what the technology could do.",
+		assumptions: ["Secrecy will be read as IP rather than as absence of data", "Famous names substitute for methods"],
+		risksAccepted: ["Criminal exposure", "Patient risk (the jury's split on patient counts is a legal fact)"],
+		risksRejected: ["Losing the unicorn story"],
+		resources: "Capital, lawyers, board prestige.",
+		constraints: "Reality of the instrument.",
+		timePressure: "Partnership and valuation clocks.",
+		peopleInvolved: [
+			"Elizabeth Holmes",
+			"Sunny Balwani",
+			"investors",
+			"Walgreens"
+		],
+		communication: "Costume, aphorism, NDAs, attacks on the press.",
+		execution: "Retail sites and a pitch deck ahead of the chemistry.",
+		shortTerm: "Billions of valuation.",
+		longTerm: "Conviction, 135-month sentence, a control case.",
+		whatWorked: "Fundraising. That is not a compliment.",
+		whatFailed: "The science, the ethics, the law.",
+		whatChanged: "Slightly more skepticism toward medical unicorns — maybe.",
+		outcome: "negative",
+		decisionQuality: "unknown",
+		qualityVsOutcome: "Do not call this 'a bold bet that failed.' The court found fraud. Decision quality language from entrepreneurship (reversible experiments) does not apply to lying about a medical device. Outcome is not unlucky; it is the legal system arriving.",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: [
+			"holmes-verdict-2022",
+			"wsj-theranos-2015",
+			"carreyrou-bad-blood"
+		],
+		lessons: ["lesson-secrecy-is-not-a-method"],
+		relatedFailureIds: ["theranos"]
+	},
+	{
+		id: "oprah-own-the-show",
+		slug: "oprah-own-the-show",
+		personId: "oprah-winfrey",
+		title: "Take production control of her own show via Harpo",
+		year: 1988,
+		categories: ["strategic", "financial"],
+		styles: ["principle-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "deliberate",
+		context: "National syndication. Talent usually remains talent. Harpo exists (1986). In 1988 she takes production control.",
+		problem: "Who owns the communication apparatus?",
+		availableInformation: "Ratings; the usual talent contract; her leverage.",
+		unknownInformation: "How long the show would last; how ownership would compound.",
+		goal: "Control, not only salary.",
+		options: [opt$1("talent", "Remain hired talent", false), opt$1("own", "Produce through Harpo", true, "documented_decision")],
+		chosen: "Ownership of production.",
+		rejected: ["A richer but dependent on-air deal without the company"],
+		reasoning: "The voice is the product. The company is how the voice is not rented forever.",
+		assumptions: ["She can run a production company", "Syndication will continue"],
+		risksAccepted: ["Operational burden", "Downside of ownership"],
+		risksRejected: ["Perpetual talent dependency"],
+		resources: "Leverage from ratings.",
+		constraints: "1980s TV business.",
+		timePressure: "Contract windows.",
+		peopleInvolved: [
+			"Oprah Winfrey",
+			"Harpo",
+			"distributors"
+		],
+		communication: "Not a manifesto; a corporate act.",
+		execution: "Harpo as the owner-producer.",
+		shortTerm: "Control of the show.",
+		longTerm: "A media company and unusual personal leverage.",
+		whatWorked: "Matching legal form to the real asset.",
+		whatFailed: "Not a documented failure of this decision.",
+		whatChanged: "A template for talent who can actually force ownership — a small set.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "Correct about where the rents were. Not portable to people without her ratings leverage.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["oprah-harpo"],
+		lessons: ["lesson-own-the-channel"]
+	},
+	{
+		id: "ma-taobao",
+		slug: "ma-taobao",
+		personId: "jack-ma",
+		title: "Launch Taobao as a local C2C against eBay in China",
+		year: 2003,
+		categories: [
+			"market",
+			"product",
+			"strategic"
+		],
+		styles: ["experiment-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "fast",
+		context: "Alibaba is B2B. eBay has bought EachNet. Chinese consumer e-commerce lacks U.S. credit-card trust rails.",
+		problem: "A global incumbent entering the home consumer market.",
+		availableInformation: "eBay's playbook; local payment and trust gaps; Alibaba's SME relationships.",
+		unknownInformation: "Whether free listings and Alipay would flip share.",
+		goal: "A Chinese consumer marketplace that fits local constraints.",
+		options: [opt$1("avoid", "Stay B2B only", false), opt$1("tao", "Taobao, localized, with a trust/payment layer", true, "documented_decision")],
+		chosen: "Taobao (2003) and the Alipay trust architecture as described in the F-1.",
+		rejected: ["Ceding C2C to eBay"],
+		reasoning: "Copy the category, not the American UX. Payments and dispute trust were the constraint.",
+		assumptions: ["eBay will be slow to localize", "Consumers will transact if escrow/trust exists"],
+		risksAccepted: ["A costly war", "State attention later"],
+		risksRejected: ["A permanent B2B ceiling"],
+		resources: "Alibaba people and cash; home-market knowledge.",
+		constraints: "PRC internet rules even then; payments regulation later.",
+		timePressure: "eBay was already there.",
+		peopleInvolved: ["Jack Ma", "Alibaba/Taobao team"],
+		communication: "Showman founder plus a very local product.",
+		execution: "Free listings, features eBay did not match quickly, Alipay.",
+		shortTerm: "Share fight.",
+		longTerm: "eBay exits China; Alibaba IPO 2014; later Ant/state clash.",
+		whatWorked: "Localization of trust.",
+		whatFailed: "Not this competitive campaign. The 2020 political collision is a different chapter.",
+		whatChanged: "Chinese consumer internet.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The constraint model (trust/payments) was right. Home-field and policy environment also mattered. Not a general 'startup beats eBay' law.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["jack-ma-alibaba-ipo"],
+		lessons: ["lesson-localize-the-constraint"]
+	},
+	{
+		id: "buffett-float",
+		slug: "buffett-float",
+		personId: "warren-buffett",
+		title: "Use insurance float as permanent-ish capital for allocation",
+		year: 1967,
+		categories: ["financial", "strategic"],
+		styles: ["principle-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Berkshire is a textile company Buffett later calls a mistake as a business. Insurance (National Indemnity era) brings float: premiums held before claims.",
+		problem: "How to fund purchases without being a leveraged speculator in the ordinary sense.",
+		availableInformation: "Graham-and-Dodd training; insurance accounting; the textile vehicle.",
+		unknownInformation: "How large and cheap float could become if underwriting is decent.",
+		goal: "Capital to allocate when others are forced to sell.",
+		options: [opt$1("textile", "Try to win at textiles", false), opt$1("float", "Become an allocator funded by float and retained earnings", true, "documented_decision")],
+		chosen: "Insurance as a funding technology, explained for decades in the letters.",
+		rejected: ["Identity as a mill"],
+		reasoning: "The edge is not a stock tip. It is the right to hold cash and wait, funded by a business that pays you to hold it if underwriting works.",
+		assumptions: ["Underwriting can avoid stupid catastrophe", "Shareholders will tolerate cash"],
+		risksAccepted: ["Insurance blow-ups", "Looking inactive"],
+		risksRejected: ["Textile operational heroics"],
+		resources: "Control of Berkshire; later reputation.",
+		constraints: "Regulation of insurance; tax.",
+		timePressure: "Low — that is the point.",
+		peopleInvolved: [
+			"Warren Buffett",
+			"later Charlie Munger",
+			"insurance managers"
+		],
+		communication: "The letters teach the accounting so shareholders will not panic.",
+		execution: "Decades of allocation, including errors he publishes.",
+		shortTerm: "A different firm than a mill.",
+		longTerm: "A famous compounding machine. Not a promise to imitators without float.",
+		whatWorked: "Matching liabilities, cash, and temperament.",
+		whatFailed: "Textiles; other named mistakes in the letters.",
+		whatChanged: "A public curriculum of capital allocation.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "Correct structural model. Outcome also includes a long U.S. equity bullish window and Buffett's skill. Structure is not sufficient.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["buffett-letters"],
+		lessons: ["lesson-write-the-rule"],
+		relatedFailureIds: ["buffett-textiles"]
+	},
+	{
+		id: "ford-five-dollar",
+		slug: "ford-five-dollar",
+		personId: "henry-ford",
+		title: "Announce the $5 day with behavioral conditions",
+		year: 1914,
+		date: "1914-01-05",
+		categories: [
+			"operational",
+			"financial",
+			"ethical"
+		],
+		styles: ["mixed"],
+		reversibility: "reversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "fast",
+		context: "Highland Park turnover is extreme. Model T volume needs a stable workforce. On 5 January 1914 Ford announces roughly a doubling for many workers, with a Sociological Department policing home life as a condition of the full amount.",
+		problem: "Labor turnover destroying flow production.",
+		availableInformation: "Turnover data; assembly-line wages elsewhere; Ford's paternalist ideology.",
+		unknownInformation: "Whether $5 would stick through downturns; political uses of the headline.",
+		goal: "Stabilize labor and, in Ford rhetoric, make workers into customers.",
+		options: [opt$1("market", "Pay the going rate and live with churn", false), opt$1("five", "A headline wage with moral conditions", true, "documented_decision")],
+		chosen: "The $5 day as wage-plus-profit-sharing with conditions.",
+		rejected: ["Pure market wage", "Unconditional doubling"],
+		reasoning: "Flow production makes turnover expensive. The Sociological Department shows this is control as well as pay.",
+		assumptions: ["Workers will accept surveillance for cash", "Volume will fund the wage"],
+		risksAccepted: [
+			"Cost shock",
+			"Copycats",
+			"Later labor conflict anyway"
+		],
+		risksRejected: ["A line that cannot keep people"],
+		resources: "Model T margins.",
+		constraints: "1914 labor markets; immigrant workforce.",
+		timePressure: "Operational crisis of churn.",
+		peopleInvolved: [
+			"Henry Ford",
+			"Ford managers",
+			"workers",
+			"Sociological Department"
+		],
+		communication: "A press event. Easy to misread as generosity.",
+		execution: "Pay plus inspection of private life.",
+		shortTerm: "Applications flood; turnover drops in the standard economic history.",
+		longTerm: "A myth of Fordist high wages. Also Ford's antisemitic publishing, which this wage does not redeem.",
+		whatWorked: "Paying for stability of a paced line.",
+		whatFailed: "As a moral autobiography of Ford.",
+		whatChanged: "Wage expectations in manufacturing talk forever.",
+		outcome: "mixed",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "As operations, plausible and widely judged effective on turnover. As ethics, the conditions and Ford's later politics are the rest of the file. Do not teach $5 as kindness.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["ford-five-dollar-day"],
+		lessons: ["lesson-wage-as-system", "lesson-do-not-sanitize"]
+	}
+];
+function opt(id, label, chosen, evidence = "inference") {
+	return {
+		id,
+		label,
+		chosen,
+		evidence
+	};
+}
+var decisions = [
+	{
+		id: "curie-thesis-problem",
+		slug: "curie-thesis-problem",
+		personId: "marie-curie",
+		title: "Treat Becquerel's uranium rays as a measurement problem",
+		year: 1896,
+		categories: ["scientific", "research"],
+		styles: ["experiment-driven", "data-driven"],
+		reversibility: "reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Henri Becquerel had observed rays from uranium. X-rays were the fashionable problem. Curie needed a doctoral thesis subject in a Paris laboratory with limited prestige and space.",
+		problem: "Were the rays unique to uranium, and were they an atomic property or a chemical curiosity?",
+		availableInformation: "Becquerel's observations; Pierre Curie's piezoelectric electrometer; known uranium chemistry.",
+		unknownInformation: "Whether other elements were active; whether activity would survive chemical change; biological risk of the materials.",
+		goal: "A thesis that could be measured, not only speculated.",
+		options: [opt("xrays", "Join the crowded X-ray field", false, "inference"), opt("measure", "Quantify activity across materials and chemical states", true, "documented_decision")],
+		chosen: "Quantify activity across materials, then chase the anomaly that pitchblende was too active for its uranium content.",
+		rejected: ["A purely qualitative follow-up of Becquerel", "A safer fashionable X-ray topic"],
+		reasoning: "The electrometer made comparison possible. Once pitchblende exceeded uranium, the problem became chemical isolation of unknown elements.",
+		assumptions: ["Activity is an atomic property that chemistry can concentrate", "The instruments are measuring a real physical quantity"],
+		risksAccepted: ["Years in a poor shed", "Unknown toxicity"],
+		risksRejected: ["Competing in X-rays without a new angle"],
+		resources: "Pierre's instruments; industrial pitchblende residue later; little money.",
+		constraints: "Gendered access to labs; a doctoral clock; a shared marriage-lab.",
+		timePressure: "Thesis timeline, not a wartime crash program.",
+		peopleInvolved: [
+			"Marie Curie",
+			"Pierre Curie",
+			"Henri Becquerel"
+		],
+		communication: "Results went to the Académie via notes; later the thesis of 1903.",
+		execution: "Systematic activity tables, then fractionation of pitchblende.",
+		shortTerm: "Anomalous activity found; polonium and radium announced in 1898.",
+		longTerm: "A field (radioactivity), two Nobels, and a delayed reckoning with dose.",
+		whatWorked: "Measurement before naming; following the numerical surplus.",
+		whatFailed: "Risk model for the experimenters' bodies.",
+		whatChanged: "Chemistry of radioactive elements; later radiation protection — too late for her.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The scientific decision was sound given the instruments. The health outcome was not priced into the 1896 choice because the biological model was wrong. Do not score the thesis choice as a health success.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["curie-thesis-1903", "curie-britannica"],
+		lessons: ["lesson-measure-the-anomaly"],
+		relatedExperimentIds: ["curie-pitchblende-activity"],
+		relatedFailureIds: ["curie-radiation-risk"]
+	},
+	{
+		id: "curie-no-patent",
+		slug: "curie-no-patent",
+		personId: "marie-curie",
+		title: "Do not patent the radium isolation process",
+		year: 1903,
+		categories: ["ethical", "strategic"],
+		styles: ["principle-driven"],
+		reversibility: "irreversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Radium had medical and commercial interest. Isolation was laborious. Patenting was an available European/US strategy.",
+		problem: "Who should control the process knowledge?",
+		availableInformation: "The isolation method; rising industrial interest; the Curies' financial thinness.",
+		unknownInformation: "How large the radium industry would become; later health uses and harms.",
+		goal: "Scientific diffusion, as they stated it.",
+		options: [opt("patent", "Patent and license", false, "inference"), opt("open", "Publish and do not patent", true, "documented_decision")],
+		chosen: "Leave the process unpatented.",
+		rejected: ["Private capture of isolation"],
+		reasoning: "They treated radioactivity as a scientific commons. Later retellings sometimes moralize this as saintliness; it is also a lost claim on industrial rents.",
+		assumptions: ["Open publication is the right norm for this class of result", "Credit will track discovery"],
+		risksAccepted: ["Others profit from the process", "Less personal control of quality"],
+		risksRejected: ["Being seen as commercializing a discovery they framed as pure science"],
+		resources: "Reputation, not a legal monopoly.",
+		constraints: "Academic identity; Pierre's and Marie's stated views on science.",
+		timePressure: "Low legally; high scientifically.",
+		peopleInvolved: ["Marie Curie", "Pierre Curie"],
+		communication: "Later interviews and biographies report the choice; treat popular saintly versions carefully.",
+		execution: "No patent filing on the isolation process.",
+		shortTerm: "Faster uptake by other labs and firms.",
+		longTerm: "A radium industry the Curies did not own; mixed medical consequences.",
+		whatWorked: "Diffusion of method.",
+		whatFailed: "Private leverage; also, open science did not prevent quack radium products.",
+		whatChanged: "A 20th-century argument about patents on fundamental techniques.",
+		outcome: "mixed",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "Reasonable as a scientific-norm choice. Outcome includes both faster research and weaker control of dangerous commerce. Not a simple virtue win.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["curie-britannica"],
+		lessons: ["lesson-open-science-tradeoff"]
+	},
+	{
+		id: "turing-imitation-game",
+		slug: "turing-imitation-game",
+		personId: "alan-turing",
+		title: "Replace 'Can machines think?' with an imitation game",
+		year: 1950,
+		categories: ["scientific", "communication"],
+		styles: ["principle-driven"],
+		reversibility: "reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Digital computers existed. Philosophical talk about machine thought was loose. Lovelace's 1843 limit-claim was still a live objection.",
+		problem: "The question 'Can machines think?' is not operational.",
+		availableInformation: "Stored-program machines; his 1936 computability paper; objections from theology, consciousness, Lovelace.",
+		unknownInformation: "Whether any machine would pass a serious imitation game; whether passing would settle 'thought.'",
+		goal: "A question that can be tested, argued, and failed.",
+		options: [opt("meta", "Keep the metaphysical question", false), opt("game", "Propose a behavioral game", true, "documented_decision")],
+		chosen: "The imitation game, published in Mind.",
+		rejected: ["Defining thought first", "Declaring machines incapable by definition"],
+		reasoning: "If indistinguishability in a controlled conversation is the criterion, many objections become empirical or dissolve.",
+		assumptions: ["Behavior can be a stand-in for the question people actually want to ask", "The test is hard enough to be interesting"],
+		risksAccepted: ["Being accused of dodging consciousness", "Future hype that treats a chatbot as the test"],
+		risksRejected: ["A definitional stalemate"],
+		resources: "A journal article; no lab of conversational machines.",
+		constraints: "1950 hardware could not pass the test. It is a future-facing proposal.",
+		timePressure: "None operational.",
+		peopleInvolved: ["Alan Turing"],
+		communication: "Playful, objection-and-reply structure; names Lovelace.",
+		execution: "Publication, not an implemented annual contest (that comes decades later).",
+		shortTerm: "A paper in a philosophy journal.",
+		longTerm: "A namesake test, often vulgarized.",
+		whatWorked: "Operationalizing a foggy question.",
+		whatFailed: "Later popular culture treating passing a chat as 'thinking.'",
+		whatChanged: "AI's public criterion, for better and worse.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "As a methodological move, it is clean. As a later cultural object, it was overloaded. Turing is not responsible for every 21st-century demo.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["turing-1950", "lovelace-note-g"],
+		lessons: ["lesson-operationalize-the-question"]
+	},
+	{
+		id: "turing-hormone",
+		slug: "turing-hormone",
+		personId: "alan-turing",
+		title: "Accept organotherapy rather than prison (1952)",
+		year: 1952,
+		categories: ["crisis-response", "ethical"],
+		styles: ["mixed"],
+		reversibility: "irreversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "fast",
+		context: "Prosecuted for homosexual acts. British law offered prison or hormonal treatment as probation conditions. Security clearance and work were at stake.",
+		problem: "A coerced choice under an unjust statute.",
+		availableInformation: "The legal menu; likely effects of treatment were only partly known to him as a defendant.",
+		unknownInformation: "Long-run physiological and psychological effects; how institutions would treat him afterward.",
+		goal: "Remain out of prison and continue work, as far as the file allows us to say.",
+		options: [opt("prison", "Prison", false, "fact"), opt("hormone", "Organotherapy as probation", true, "fact")],
+		chosen: "Hormone treatment.",
+		rejected: ["Prison"],
+		reasoning: "This is not a free strategic decision. Recording it as a 'decision' is itself a caution: some nodes in a life are forced.",
+		assumptions: ["Probation is survivable"],
+		risksAccepted: ["Medical harm", "Surveillance"],
+		risksRejected: ["Incarceration"],
+		resources: "Almost none legally.",
+		constraints: "Criminal law; security state.",
+		timePressure: "Court calendar.",
+		peopleInvolved: [
+			"Alan Turing",
+			"British courts",
+			"physicians"
+		],
+		communication: "Not a public argument he was free to win.",
+		execution: "Court-ordered treatment.",
+		shortTerm: "Probation rather than prison.",
+		longTerm: "A 2013 pardon of the conviction; death in 1954 with a suicide verdict that some later writers contest.",
+		whatWorked: "Nothing about the state's menu 'worked' ethically.",
+		whatFailed: "The law.",
+		whatChanged: "Later British legal memory, not 1952 science policy.",
+		outcome: "negative",
+		decisionQuality: "externally-caused",
+		qualityVsOutcome: "Do not grade Turing's 'decision quality' here. Grade the institution.",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["hodges-turing"],
+		lessons: ["lesson-state-violence-and-credit"]
+	},
+	{
+		id: "franklin-leave-kings",
+		slug: "franklin-leave-kings",
+		personId: "rosalind-franklin",
+		title: "Leave King's College London for Birkbeck (1953)",
+		year: 1953,
+		categories: ["strategic", "research"],
+		styles: ["experience-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Conflict with Wilkins over who directed DNA work. Franklin had Photograph 51 and quantitative B-form parameters. She arranged to move to Birkbeck to work on viruses.",
+		problem: "A broken managerial structure around the DNA fibres.",
+		availableInformation: "Her data; the hostility of the King's environment; an offer/plan to move.",
+		unknownInformation: "That Wilkins would show Photo 51 to Watson; how close the MRC report and her own modelling were to base-pairing.",
+		goal: "Continue structural work in a viable lab.",
+		options: [opt("stay", "Stay and fight for DNA at King's", false, "inference"), opt("leave", "Leave for Birkbeck", true, "documented_decision")],
+		chosen: "Move. DNA papers still appear in Nature in April 1953.",
+		rejected: ["Indefinite continuation of the King's conflict"],
+		reasoning: "A reasonable career decision under conflict. It is not the cause of Watson and Crick's model, and it is not a confession of failure to see the helix.",
+		assumptions: ["Virus work is a real scientific future", "Her DNA data would still be published"],
+		risksAccepted: ["Losing the DNA race as later narrated"],
+		risksRejected: ["Remaining in a hostile chain of command"],
+		resources: "Reputation, Gosling collaboration, Birkbeck post.",
+		constraints: "Gendered lab culture; Randall's management.",
+		timePressure: "Move timed with the 1953 modelling sprint of others.",
+		peopleInvolved: [
+			"Rosalind Franklin",
+			"Maurice Wilkins",
+			"Raymond Gosling",
+			"John Randall"
+		],
+		communication: "Not a press event. The Nature paper is the public residue.",
+		execution: "Transfer of work; DNA paper submitted.",
+		shortTerm: "Watson sees Photo 51; three Nature papers appear.",
+		longTerm: "Virus structure work; death in 1958; Nobel to Watson, Crick, Wilkins in 1962.",
+		whatWorked: "Escape from a bad structure; independent publication.",
+		whatFailed: "Control of how her data moved.",
+		whatChanged: "Later ethics of unpublished data sharing.",
+		outcome: "mixed",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "Leaving was reasonable. The credit failure is mostly others' decisions about data. Do not rewrite her move as the mistake that 'lost' DNA.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: [
+			"kcl-photo-51",
+			"franklin-gosling-1953",
+			"maddox-franklin"
+		],
+		lessons: ["lesson-data-governance"],
+		relatedFailureIds: ["franklin-credit-failure"]
+	},
+	{
+		id: "johnson-verify-7090",
+		slug: "johnson-verify-7090",
+		personId: "katherine-johnson",
+		title: "Hand-check the IBM 7090 trajectory before Friendship 7",
+		year: 1962,
+		date: "1962-02",
+		categories: ["technical", "risk-management"],
+		styles: ["data-driven", "experience-driven"],
+		reversibility: "reversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "fast",
+		context: "John Glenn's orbital flight. Electronic computers were new in the operational loop. Glenn asked that Johnson recheck the machine's numbers.",
+		problem: "Trust in a new computer for a human orbital flight.",
+		availableInformation: "Her prior trajectory work (including TN D-233); IBM 7090 output; mission constraints.",
+		unknownInformation: "Whether a specific machine error existed (the check is insurance, not a known bug hunt).",
+		goal: "An independent audit Glenn would accept.",
+		options: [opt("trust", "Accept machine output", false, "inference"), opt("audit", "Recompute", true, "reported")],
+		chosen: "Recompute. NASA and later accounts say the numbers matched.",
+		rejected: ["Unaudited reliance on the 7090 for this flight"],
+		reasoning: "High cost of error, a trusted human computer, a new machine. Glenn's request is documented in later official histories; wording is reported.",
+		assumptions: ["Her methods and the machine should agree if both are right", "Time exists to check"],
+		risksAccepted: ["Delay", "Human arithmetic error"],
+		risksRejected: ["Unexamined machine error on a crewed orbital flight"],
+		resources: "Johnson's time; the same input data.",
+		constraints: "Launch schedule; segregated then desegregating workplace.",
+		timePressure: "Days around the February 1962 flight.",
+		peopleInvolved: [
+			"Katherine Johnson",
+			"John Glenn",
+			"NASA trajectory staff"
+		],
+		communication: "An operational request, later a public story — then a film that compresses it.",
+		execution: "Hand calculation versus printout.",
+		shortTerm: "Glenn flies. The check is remembered.",
+		longTerm: "A parable about verifying new tools. The film adds scenes the archive does not treat as fact.",
+		whatWorked: "Independent recomputation as a social and technical control.",
+		whatFailed: "Nothing documented about the arithmetic. Public memory later mixed with fiction.",
+		whatChanged: "A template for 'who do we trust when the tool is new.'",
+		outcome: "positive",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "Reasonable risk management. We do not know that a machine error would have occurred without her. Insurance that is not claimed still had a rationale.",
+		evidence: "reported",
+		confidence: "high",
+		sourceIds: [
+			"nasa-katherine-johnson",
+			"nasm-glenn-johnson",
+			"skopinski-johnson-1960"
+		],
+		lessons: ["lesson-verify-the-new-machine"]
+	},
+	{
+		id: "lovelace-notes",
+		slug: "lovelace-notes",
+		personId: "ada-lovelace",
+		title: "Publish expanded notes, including a limit on machine originality",
+		year: 1843,
+		categories: ["scientific", "communication"],
+		styles: ["principle-driven"],
+		reversibility: "irreversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Babbage's Analytical Engine is unbuilt. Menabrea's paper needs an English translation. Lovelace adds notes longer than the paper.",
+		problem: "How to explain a general-purpose unbuilt machine without claiming it thinks.",
+		availableInformation: "Babbage's designs and conversations; Menabrea's text; her mathematics.",
+		unknownInformation: "Whether the Engine would ever be built; how later computers would be used.",
+		goal: "A public, precise account — including Note G's algorithm and the originality limit.",
+		options: [opt("thin", "Translate only", false), opt("notes", "Translate and add notes signed A.A.L.", true, "documented_decision")],
+		chosen: "The notes, including Bernoulli numbers and the 'no pretensions to originate' sentence.",
+		rejected: ["A short anonymous translation"],
+		reasoning: "The notes are the intellectual act: expand possible uses (symbols, music) and deny originality.",
+		assumptions: ["The Engine is a faithful idea even unbuilt", "Readers will accept a woman's initials on mathematics"],
+		risksAccepted: ["Being unread", "Later credit fights"],
+		risksRejected: ["Silence"],
+		resources: "Aristocratic scientific network; time.",
+		constraints: "Gendered publication norms; Babbage's personality.",
+		timePressure: "Publication schedule of Taylor's Scientific Memoirs.",
+		peopleInvolved: [
+			"Ada Lovelace",
+			"Charles Babbage",
+			"Luigi Menabrea"
+		],
+		communication: "Formal Victorian scientific prose; initials, not full name.",
+		execution: "Print.",
+		shortTerm: "A specialist text.",
+		longTerm: "A founding document of computing talk, including Turing's named objection.",
+		whatWorked: "A dual claim: general manipulation, no origination.",
+		whatFailed: "The Engine itself was not built.",
+		whatChanged: "Later arguments about what computers can be said to do.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "As a conceptual publication, strong. As a machine program, untestable in 1843. Prophecy status is retrospective.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["lovelace-note-g"],
+		lessons: ["lesson-specify-the-limit"]
+	},
+	{
+		id: "tu-ether-extraction",
+		slug: "tu-ether-extraction",
+		personId: "tu-youyou",
+		title: "Change extraction temperature and solvent after hot extracts fail",
+		year: 1971,
+		categories: ["scientific", "research"],
+		styles: ["experiment-driven"],
+		reversibility: "reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Project 523, a classified antimalarial program. Qinghao (Artemisia annua) was in the traditional list. Hot extraction was giving weak or null results.",
+		problem: "A candidate plant is not yielding a stable active extract.",
+		availableInformation: "Screening data; Ge Hong's fourth-century emergency recipes (Tu's later account of the cue); chemistry of heat-sensitive compounds.",
+		unknownInformation: "The structure of the active molecule; whether animal clearance would translate to humans.",
+		goal: "A stable extract with high antiparasitic activity.",
+		options: [opt("drop", "Drop qinghao", false), opt("process", "Change process variables (ether, lower temperature)", true, "research_finding")],
+		chosen: "Ether extraction at lower temperature. Sample 191, 4 October 1971, 100% activity in the reported rodent assay.",
+		rejected: ["Abandoning the plant after hot-extract failure"],
+		reasoning: "If heat destroys the active principle, the plant was never the error. Tu later cites Ge Hong's cold steep as a prompt. That causal story is her account.",
+		assumptions: ["The traditional candidate contains a real molecule", "Assay is informative"],
+		risksAccepted: ["Toxicity of extracts (later self/colleague testing is reported in the 523 literature)", "Wasted effort if still null"],
+		risksRejected: ["Declaring qinghao empty"],
+		resources: "523 labs; plant material; animal models.",
+		constraints: "Classification; Cultural Revolution-era science; wartime need.",
+		timePressure: "High: Vietnam War malaria and chloroquine resistance.",
+		peopleInvolved: [
+			"Tu Youyou",
+			"Institute of Chinese Materia Medica team",
+			"other 523 institutes"
+		],
+		communication: "March 1972 method sharing inside 523 — not a Western journal first.",
+		execution: "Process change, assay, then crystal work by a consortium.",
+		shortTerm: "Sample 191.",
+		longTerm: "Artemisinin as a global antimalarial; 2015 Nobel; credit disputes.",
+		whatWorked: "Process revision instead of candidate discard.",
+		whatFailed: "Hot extraction as a method for this molecule.",
+		whatChanged: "A drug class. Also a template for reading traditional texts as process hints, not magic.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The chemical model (heat-labile active) was right. Collective crystallization and later clinical development were not a solo act. Outcome is joint.",
+		evidence: "research_finding",
+		confidence: "high",
+		sourceIds: ["su-tu-2015", "tu-nobel-lecture"],
+		lessons: ["lesson-failed-extraction", "lesson-collective-discovery"],
+		relatedFailureIds: ["tu-hot-extraction"],
+		relatedExperimentIds: ["tu-sample-191"]
+	},
+	{
+		id: "shannon-ignore-meaning",
+		slug: "shannon-ignore-meaning",
+		personId: "claude-shannon",
+		title: "Define communication without semantics",
+		year: 1948,
+		categories: ["scientific"],
+		styles: ["principle-driven"],
+		reversibility: "reversible",
+		uncertainty: "medium",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Bell System problems of noisy channels. Prior quantitative work by Nyquist and Hartley. Wartime crypto.",
+		problem: "How to make a general theory that covers many media.",
+		availableInformation: "Switching thesis; crypto; channel engineering practice.",
+		unknownInformation: "How far a meaning-free theory would travel into computing and biology.",
+		goal: "Theorems about bits and capacity.",
+		options: [opt("semantic", "Start with meaning", false), opt("select", "Treat a message as a selection from a set", true, "documented_decision")],
+		chosen: "The 1948 model: source, channel, noise, destination — meaning out of scope.",
+		rejected: ["A theory of understanding"],
+		reasoning: "Portability requires a thin object (the bit). Semantics would have trapped the theory in one medium.",
+		assumptions: ["Reproduction of a chosen message is the engineering problem"],
+		risksAccepted: ["Philosophers calling it empty", "Later misuse of 'information' in other fields"],
+		risksRejected: ["A parochial telephone theory"],
+		resources: "Bell Labs.",
+		constraints: "Journal form; classified crypto in the background.",
+		timePressure: "Low.",
+		peopleInvolved: ["Claude Shannon"],
+		communication: "BSTJ paper; later Weaver introduction.",
+		execution: "Definitions and theorems.",
+		shortTerm: "A journal article.",
+		longTerm: "The bit as default unit.",
+		whatWorked: "A portable model.",
+		whatFailed: "Not a failure — a scoped theory. Scope is not a bug.",
+		whatChanged: "Digital communications and a vocabulary others stretched.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "Correct for the problem he posed. Not a theory of knowledge.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["shannon-1948"],
+		lessons: ["lesson-define-the-unit"]
+	},
+	{
+		id: "hopper-english-code",
+		slug: "hopper-english-code",
+		personId: "grace-hopper",
+		title: "Push English-like automatic coding for data processing",
+		year: 1952,
+		categories: ["technical", "product"],
+		styles: ["principle-driven"],
+		reversibility: "reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Machine-code bottleneck. Business customers on UNIVAC. Hopper's 1952 ACM paper argues the machine should accept a more convenient language.",
+		problem: "Who can instruct the computer?",
+		availableInformation: "Mark I/UNIVAC practice; business data-processing needs.",
+		unknownInformation: "Whether English keywords would compile reliably enough for payroll.",
+		goal: "Automatic programming as a research and product program.",
+		options: [opt("asm", "Keep coding as a specialist craft", false), opt("auto", "Compile from a higher-level, English-ish specification", true, "documented_decision")],
+		chosen: "FLOW-MATIC, then influence on COBOL.",
+		rejected: ["Machine code as the only serious interface"],
+		reasoning: "Labor scale. If more people can specify procedures, the machine's economic range grows.",
+		assumptions: ["Business logic can be written in constrained English", "Compilation is cheaper than specialist scarcity"],
+		risksAccepted: ["Inefficient code", "Language-committee politics"],
+		risksRejected: ["A permanent priesthood of machine-code authors"],
+		resources: "UNIVAC organization; Navy later.",
+		constraints: "1950s compilers; committee design of COBOL.",
+		timePressure: "Customer demand, not a single deadline.",
+		peopleInvolved: [
+			"Grace Hopper",
+			"UNIVAC colleagues",
+			"CODASYL"
+		],
+		communication: "Papers, later famous lectures. COBOL is a committee, not a solo language.",
+		execution: "FLOW-MATIC then standards politics.",
+		shortTerm: "A working business language lineage.",
+		longTerm: "COBOL's long life — including later lock-in complaints.",
+		whatWorked: "Raising the notation.",
+		whatFailed: "Not failure so much as committee design tradeoffs.",
+		whatChanged: "Who could be a programmer in data processing.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The bottleneck diagnosis was right. COBOL's later rigidity is a separate institutional story.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["hopper-compiler", "hopper-cobol"],
+		lessons: ["lesson-change-the-notation"]
+	},
+	{
+		id: "mcclintock-keep-maize",
+		slug: "mcclintock-keep-maize",
+		personId: "barbara-mcclintock",
+		title: "Keep a maize cytogenetics program when the field's fashion moved",
+		year: 1950,
+		categories: ["scientific", "research"],
+		styles: ["data-driven", "principle-driven"],
+		reversibility: "reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "slow",
+		context: "After the 1950 PNAS paper, molecular genetics organized around DNA and the code. Maize spotting patterns were not the center.",
+		problem: "Whether to abandon a program the wider field was not absorbing.",
+		availableInformation: "Her chromosomal observations; limited uptake.",
+		unknownInformation: "Whether transposition would become a general genomic fact.",
+		goal: "Follow the kernels and chromosomes.",
+		options: [opt("switch", "Switch to a more fashionable system", false), opt("keep", "Continue maize at Cold Spring Harbor", true, "documented_decision")],
+		chosen: "Continue.",
+		rejected: ["Rebranding into the molecular mainstream on others' terms immediately"],
+		reasoning: "The anomalies were still unexplained. Fashion is not a disproof.",
+		assumptions: ["The observations are real", "A small lab can wait"],
+		risksAccepted: [
+			"Isolation",
+			"Fewer students",
+			"Being unread"
+		],
+		risksRejected: ["Dropping a live puzzle"],
+		resources: "CSHL appointment; maize stocks.",
+		constraints: "Gendered scientific labor markets; a small community.",
+		timePressure: "Low externally; a lifetime internally.",
+		peopleInvolved: ["Barbara McClintock"],
+		communication: "Papers and talks that some found difficult.",
+		execution: "Decades of continuation.",
+		shortTerm: "Limited citations relative to later fame.",
+		longTerm: "1983 Nobel; transposition as a core fact.",
+		whatWorked: "Staying with the anomaly.",
+		whatFailed: "Short-run persuasion.",
+		whatChanged: "Genome theory.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "The biology was right. The delay means we cannot treat 'ignore fashion' as a general grant-winning strategy. Most ignored programs stay ignored.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["mcclintock-pnas", "mcclintock-nobel-1983"],
+		lessons: ["lesson-delayed-recognition"],
+		relatedFailureIds: ["mcclintock-delayed-reception"]
+	},
+	{
+		id: "berners-lee-public-domain",
+		slug: "berners-lee-public-domain",
+		personId: "tim-berners-lee",
+		title: "CERN releases WWW software into the public domain",
+		year: 1993,
+		date: "1993-04-30",
+		categories: [
+			"strategic",
+			"ethical",
+			"technical"
+		],
+		styles: ["principle-driven"],
+		reversibility: "irreversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Working Web at CERN. Gopher and other systems compete. A royalty-bearing lab tool would have stayed small.",
+		problem: "How to let the system spread beyond CERN.",
+		availableInformation: "A working stack; legal ability of CERN to set terms; competing information systems.",
+		unknownInformation: "Whether a company would have built a better proprietary hypertext; Mosaic's later effect.",
+		goal: "Universal use.",
+		options: [opt("license", "Keep control / charge royalties", false, "inference"), opt("pd", "Public domain / royalty-free", true, "documented_decision")],
+		chosen: "30 April 1993 CERN statement putting the software in the public domain; later an open licence.",
+		rejected: ["A CERN product business", "A proprietary standard"],
+		reasoning: "A universal document system with a toll at the protocol layer fights itself.",
+		assumptions: ["Implementers will exist if legal friction is near zero", "CERN's mission is not software rents"],
+		risksAccepted: ["No CERN software fortune", "Forking and later platform capture at other layers"],
+		risksRejected: ["A small, licensed Web"],
+		resources: "CERN as rights holder; Berners-Lee as implementer-advocate.",
+		constraints: "International lab politics; existing internet.",
+		timePressure: "Competitors (Gopher) were live.",
+		peopleInvolved: [
+			"Tim Berners-Lee",
+			"Robert Cailliau",
+			"CERN management"
+		],
+		communication: "A legal statement, not a keynote.",
+		execution: "Release.",
+		shortTerm: "Server count rises through 1993.",
+		longTerm: "The Web as default. Capture moved up the stack (browsers, then platforms).",
+		whatWorked: "Royalty-free spread.",
+		whatFailed: "Openness at layer 7 did not prevent later enclosure at applications.",
+		whatChanged: "How information is published.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "Correct for universality. Not a complete political theory of later platforms. Outcome also needed Mosaic, ISPs, and luck.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["cern-web-history", "berners-lee-1989"],
+		lessons: ["lesson-open-science-tradeoff", "lesson-ship-the-simple-system"]
+	},
+	{
+		id: "julian-industrial-route",
+		slug: "julian-industrial-route",
+		personId: "percy-julian",
+		title: "Take industrial soy chemistry when academic doors stayed shut",
+		year: 1936,
+		categories: ["strategic", "scientific"],
+		styles: ["experience-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "After the 1935 physostigmine synthesis, U.S. academic chemistry still blocked a Black scientist from many chairs. Glidden offered an industrial lab.",
+		problem: "Where can the chemistry be done at scale?",
+		availableInformation: "His synthetic skill; Glidden's soy operation; the pattern of refusals.",
+		unknownInformation: "Whether industrial constraints would still allow first-rate chemistry.",
+		goal: "A lab that could actually run.",
+		options: [opt("wait", "Wait for a university chair", false), opt("glidden", "Go to Glidden", true, "documented_decision")],
+		chosen: "Industrial research, later his own firm.",
+		rejected: ["Indefinite waiting on academic racism"],
+		reasoning: "A lab with boilers can be a better instrument than a title without one.",
+		assumptions: ["Soy sterols are a real starting-material problem", "Industry will let him direct"],
+		risksAccepted: ["Being typed as 'industrial' not 'pure'", "Corporate control"],
+		risksRejected: ["A career of blocked applications"],
+		resources: "Glidden's plant; then Julian Laboratories capital.",
+		constraints: "American racial structure, 1930s–50s.",
+		timePressure: "Livelihood and a live research program.",
+		peopleInvolved: ["Percy Julian", "Glidden management"],
+		communication: "Papers and patents, not protest as the main channel — though the life is political.",
+		execution: "Process chemistry; later entrepreneurship.",
+		shortTerm: "A functioning research directorship.",
+		longTerm: "Cheaper intermediates; a company; a teaching case about institutions.",
+		whatWorked: "Finding a place where reactions could run.",
+		whatFailed: "The universities that refused him.",
+		whatChanged: "Who could be a research director in American chemistry, slightly.",
+		outcome: "positive",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "Reasonable under constraint. Success does not justify the constraint.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["julian-sciencehistory", "julian-physostigmine-1935"],
+		lessons: ["lesson-institutions-gatekeep"]
+	},
+	{
+		id: "lamarr-file-patent",
+		slug: "lamarr-file-patent",
+		personId: "hedy-lamarr",
+		title: "File a secret-communication patent with George Antheil",
+		year: 1942,
+		categories: ["technical"],
+		styles: ["mixed"],
+		reversibility: "irreversible",
+		uncertainty: "high",
+		impact: "medium",
+		tempo: "deliberate",
+		context: "Wartime radio-controlled weapons and jamming. Lamarr and Antheil invent a hopping scheme.",
+		problem: "How to make a radio command link harder to jam.",
+		availableInformation: "The idea of coordinated hops; patent system; Navy as a possible user.",
+		unknownInformation: "Whether the Navy would implement piano-roll-like synchronization in torpedoes.",
+		goal: "A protected, usable method.",
+		options: [opt("secret", "Keep it informal", false), opt("patent", "Patent 2,292,387", true, "documented_decision")],
+		chosen: "File and receive the patent.",
+		rejected: ["No filing"],
+		reasoning: "A patent is a communication to the state and to later engineers. It is not deployment.",
+		assumptions: ["The Navy might want it", "The claims are workable"],
+		risksAccepted: ["Non-adoption", "Later myth"],
+		risksRejected: ["Leaving no legal trace"],
+		resources: "Antheil; patent counsel; wartime patriotism as motive in standard tellings.",
+		constraints: "They were not a defense contractor.",
+		timePressure: "War.",
+		peopleInvolved: ["Hedy Lamarr", "George Antheil"],
+		communication: "The patent text.",
+		execution: "Grant, 11 August 1942. Not a fielded WWII standard as patented.",
+		shortTerm: "A paper right.",
+		longTerm: "A famous ancestor in spread-spectrum lore, often over-claimed.",
+		whatWorked: "A clear claim in the record.",
+		whatFailed: "Path to a wartime product.",
+		whatChanged: "Later credit debates, more than 1940s battlefields.",
+		outcome: "mixed",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "Filing was reasonable. Outcome (non-adoption) does not make filing foolish. Later Wi-Fi myths are a third thing.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["lamarr-patent-1942"],
+		lessons: ["lesson-patent-is-not-deployment"],
+		relatedFailureIds: ["lamarr-non-adoption"]
+	},
+	{
+		id: "einstein-light-principle",
+		slug: "einstein-light-principle",
+		personId: "albert-einstein",
+		title: "Take the invariance of light speed as a principle and rebuild kinematics",
+		year: 1905,
+		categories: ["scientific"],
+		styles: ["principle-driven"],
+		reversibility: "reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Electrodynamics of moving bodies was ugly. Lorentz and Poincaré were nearby. Einstein is a patent clerk publishing in Annalen.",
+		problem: "Asymmetries in Maxwell-plus-mechanics when observers move.",
+		availableInformation: "Maxwell; Lorentz transformations as formulas; the failure of ether-wind experiments as background (how much he used Michelson–Morley is a specialist debate).",
+		unknownInformation: "How far the principle would extend (it does not, by itself, give GR).",
+		goal: "A consistent electrodynamics of moving bodies.",
+		options: [opt("ether", "Keep a preferred frame / ether patches", false), opt("principle", "Postulate c invariant and relativity, derive the rest", true, "documented_decision")],
+		chosen: "The 1905 paper's two postulates.",
+		rejected: ["More elaborate ether mechanics"],
+		reasoning: "If the ugly asymmetry is a clue, change the kinematics.",
+		assumptions: ["The postulates are empirical enough to force the math"],
+		risksAccepted: ["Looking like a philosopher to some physicists", "Priority fights"],
+		risksRejected: ["Living with the asymmetry"],
+		resources: "Time after office hours; Besso as sounding board.",
+		constraints: "No lab of his own.",
+		timePressure: "None external.",
+		peopleInvolved: ["Albert Einstein", "Michele Besso"],
+		communication: "Few citations; thought experiments; spare prose.",
+		execution: "Publication.",
+		shortTerm: "A paper among several in 1905.",
+		longTerm: "Special relativity as a foundation. Fame after 1919 is a different event.",
+		whatWorked: "Principle elevation.",
+		whatFailed: "Not this decision — later, the same taste misfires on quantum completeness.",
+		whatChanged: "Physics.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "Correct. Nearby mathematicians were close; Einstein's framing is the documented act.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["einstein-1905-relativity"],
+		lessons: ["lesson-principles-can-fail"]
+	},
+	{
+		id: "feynman-challenger-demo",
+		slug: "feynman-challenger-demo",
+		personId: "richard-feynman",
+		title: "Show O-ring stiffness in ice water on television",
+		year: 1986,
+		categories: ["communication", "technical"],
+		styles: ["experiment-driven"],
+		reversibility: "reversible",
+		uncertainty: "low",
+		impact: "high",
+		tempo: "fast",
+		context: "Rogers Commission. NASA and contractor politics. Cold launch. Engineers had warned about joints.",
+		problem: "A public inquiry risked becoming fog. The physical mechanism (rubber at low temperature) could be shown.",
+		availableInformation: "Launch temperature; O-ring material behavior; closed-door engineering.",
+		unknownInformation: "How much a demo would move commissioners versus already-known engineering.",
+		goal: "Make the mechanism un-evadable in public.",
+		options: [opt("memo", "Write only an appendix", false), opt("demo", "Demo on camera", true, "documented_decision")],
+		chosen: "Ice water, a piece of the material, a clamp — televised.",
+		rejected: ["Leaving the point in prose only"],
+		reasoning: "A mixed audience believes a simple physical demonstration more than a nested org chart.",
+		assumptions: ["The material's cold behavior is the relevant mechanism", "Television is a legitimate scientific instrument here"],
+		risksAccepted: ["Being accused of showboating", "Oversimplifying a systems accident"],
+		risksRejected: ["A buried appendix nobody reads"],
+		resources: "Commissioner status; a glass of water.",
+		constraints: "Politics of NASA testimony.",
+		timePressure: "Hearing schedule.",
+		peopleInvolved: [
+			"Richard Feynman",
+			"Rogers Commission",
+			"NASA",
+			"Thiokol engineers"
+		],
+		communication: "Theater in the service of a physical claim. The appendix still matters.",
+		execution: "Live demo.",
+		shortTerm: "A famous clip.",
+		longTerm: "A teaching case in technical communication — and in how systems accidents get reduced to one rubber ring.",
+		whatWorked: "Clarity about temperature and resilience.",
+		whatFailed: "If viewers think one ring 'is' Challenger, the socio-technical failure is under-taught.",
+		whatChanged: "Public memory of the accident.",
+		outcome: "positive",
+		decisionQuality: "reasonable-given-information",
+		qualityVsOutcome: "Good communication under political fog. Not a substitute for the full causal tree. Both can be true.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["feynman-cargo-cult"],
+		lessons: ["lesson-show-the-disconfirming-test"]
+	},
+	{
+		id: "tesla-westinghouse-license",
+		slug: "tesla-westinghouse-license",
+		personId: "nikola-tesla",
+		title: "License polyphase AC to Westinghouse rather than build a utility alone",
+		year: 1888,
+		categories: ["partnership", "financial"],
+		styles: ["mixed"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Tesla has AC motor/power patents. He is not a capital market. Westinghouse is fighting Edison on systems.",
+		problem: "How to turn patents into installed machinery.",
+		availableInformation: "The patents; Westinghouse as a builder; Edison's DC camp.",
+		unknownInformation: "Later royalty fights and Tesla's personal finances.",
+		goal: "Get AC into the world.",
+		options: [opt("alone", "Try to manufacture a system himself", false), opt("license", "License to Westinghouse", true, "documented_decision")],
+		chosen: "License. Westinghouse builds.",
+		rejected: ["A Tesla utility"],
+		reasoning: "Systems require factories, cable, and city contracts. Patents without a firm are paper.",
+		assumptions: ["Westinghouse can win enough cities", "The contract will sustain Tesla"],
+		risksAccepted: ["Loss of control", "Later royalty renegotiation (a known later bitterness in biographies)"],
+		risksRejected: ["Dying with unbuilt motors"],
+		resources: "Patents.",
+		constraints: "Capital.",
+		timePressure: "The current war is on.",
+		peopleInvolved: ["Nikola Tesla", "George Westinghouse"],
+		communication: "Contracts and demonstrations, including the 1893 fair as a Westinghouse event.",
+		execution: "Licensing.",
+		shortTerm: "AC has a champion with factories.",
+		longTerm: "AC transmission wins. Tesla's later Wardenclyffe, without a comparable industrial partner for that vision, fails.",
+		whatWorked: "Pairing invention with a systems firm.",
+		whatFailed: "Tesla's later capital strategy.",
+		whatChanged: "The electrical standard.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "Correct about needing Westinghouse. Later poverty narratives should not erase this successful pairing.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["tesla-ac-patents", "jonnes-empires-of-light"],
+		lessons: ["lesson-patent-is-not-deployment"]
+	},
+	{
+		id: "edison-system-not-bulb",
+		slug: "edison-system-not-bulb",
+		personId: "thomas-edison",
+		title: "Build a lighting utility, not only a lamp",
+		year: 1882,
+		categories: [
+			"strategic",
+			"technical",
+			"product"
+		],
+		styles: ["experiment-driven", "experience-driven"],
+		reversibility: "partially-reversible",
+		uncertainty: "high",
+		impact: "high",
+		tempo: "deliberate",
+		context: "Others had incandescent lamps. Cities had gas. Edison organizes generation, distribution, meters, and a high-resistance lamp for parallel circuits.",
+		problem: "A lamp without a network is a demo.",
+		availableInformation: "Gas-lighting as the incumbent system; dynamo technology; Menlo Park staff.",
+		unknownInformation: "Whether Pearl Street would pay; AC's later transmission advantage.",
+		goal: "A sellable electric light service.",
+		options: [opt("lamp", "Sell lamps into someone else's network", false), opt("utility", "Pearl Street as a central station", true, "documented_decision")],
+		chosen: "The system. 1882 Manhattan station.",
+		rejected: ["Component-only business"],
+		reasoning: "Parallel circuits need high-resistance lamps; customers need meters; investors need a utility story.",
+		assumptions: ["DC central stations can cover districts", "Incandescent can beat gas on convenience"],
+		risksAccepted: ["Huge capital", "Fire, failure, ridicule"],
+		risksRejected: ["Being a mere lamp merchant"],
+		resources: "Investors; Menlo Park; legal patents.",
+		constraints: "Urban franchises; copper; insulation.",
+		timePressure: "Competitive inventors.",
+		peopleInvolved: [
+			"Thomas Edison",
+			"Menlo Park staff",
+			"financiers"
+		],
+		communication: "Demonstrations and press; later, uglier current-war PR.",
+		execution: "Pearl Street runs.",
+		shortTerm: "A working district.",
+		longTerm: "Electric utilities. Then AC beats DC for distance — a later wrong bet on the same systems mind.",
+		whatWorked: "System invention.",
+		whatFailed: "DC as the long-distance standard.",
+		whatChanged: "Cities at night.",
+		outcome: "positive",
+		decisionQuality: "correct-model",
+		qualityVsOutcome: "Correct as a 1880s lighting strategy. The later DC insistence is a separate decision with a worse technical model for transmission.",
+		evidence: "documented_decision",
+		confidence: "high",
+		sourceIds: ["edison-patents", "jonnes-empires-of-light"],
+		lessons: ["lesson-invent-the-system", "lesson-wrong-standard"],
+		relatedFailureIds: ["edison-dc-bet"]
+	}
+];
+var failures = [
+	{
+		id: "curie-radiation-risk",
+		slug: "curie-radiation-risk",
+		personId: "marie-curie",
+		title: "Underestimating biological risk of radioactive materials",
+		year: 1934,
+		whatHappened: "Years of handling radioactive substances with protection far below later standards. Curie dies in 1934 of aplastic anemia, consistent with long exposure.",
+		why: "The scientific model of radioactivity as an atomic property ran ahead of a model of cumulative dose. Success in chemistry did not imply a correct health model.",
+		knownBefore: "Burns and some acute effects were observed in the field. Systematic epidemiology was not in place.",
+		misunderstood: "That industrial and laboratory handling could be treated like ordinary chemistry.",
+		decisionId: "curie-thesis-problem",
+		externalFactors: "No mature radiation-protection profession in 1898–1910s. Medical fashion later promoted radium as tonic — a wider social failure.",
+		learned: "Later institutions built dose limits. That learning is collective and late.",
+		changedAfter: "Radiation protection standards over the 20th century. Too late for the Curies.",
+		repeated: "partially",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["curie-britannica", "institut-curie-legacy"]
+	},
+	{
+		id: "turing-ace-delay",
+		slug: "turing-ace-delay",
+		personId: "alan-turing",
+		title: "ACE computer delayed into a missed window",
+		year: 1948,
+		whatHappened: "Turing's ACE design at NPL moved slowly. He left for Manchester. Others built stored-program machines in the same years.",
+		why: "Organizational and engineering follow-through, not a failed theory of computation.",
+		knownBefore: "The logical design was ambitious. Implementation capacity at NPL was not matched to it.",
+		misunderstood: "That a paper design plus a government lab would automatically become the first useful ACE as imagined.",
+		externalFactors: "Postwar bureaucracy; competing labs (Manchester, Cambridge, US).",
+		learned: "Architecture without a shop floor is a proposal.",
+		changedAfter: "Manchester work; ACE descendants later. Turing's fame is not this machine.",
+		repeated: "unknown",
+		evidence: "reported",
+		confidence: "medium",
+		sourceIds: ["hodges-turing"]
+	},
+	{
+		id: "franklin-credit-failure",
+		slug: "franklin-credit-failure",
+		personId: "rosalind-franklin",
+		title: "Unconsented use of Photograph 51 and a lasting credit distortion",
+		year: 1953,
+		whatHappened: "Wilkins showed Photograph 51 to Watson without Franklin's knowledge. Watson and Crick published the model; Franklin and Gosling published data in the same Nature issue. Later popular memory often reduces her to a footnote or a martyr cartoon.",
+		why: "Broken lab management plus a culture in which unpublished data could move through men who knew each other.",
+		knownBefore: "The King's conflict was already bad. The specific showing was not known to her.",
+		misunderstood: "Watson memoir later caricatured her as anti-helical. Historians have complicated that.",
+		decisionId: "franklin-leave-kings",
+		externalFactors: "Nobel not awarded posthumously (she died 1958; prize 1962). That rule is not a conspiracy, but it froze a male trio.",
+		learned: "Data governance is part of scientific method, not etiquette.",
+		changedAfter: "Later ethics talk; the actual 1953 papers remain the primary record.",
+		repeated: "partially",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: [
+			"kcl-photo-51",
+			"franklin-gosling-1953",
+			"watson-crick-1953",
+			"maddox-franklin"
+		]
+	},
+	{
+		id: "tu-hot-extraction",
+		slug: "tu-hot-extraction",
+		personId: "tu-youyou",
+		title: "Hot extraction of qinghao destroyed the active principle",
+		year: 1971,
+		whatHappened: "Early extracts of Artemisia annua were weak or null. The plant was a traditional candidate; the process was wrong.",
+		why: "Heat-labile molecule. A failed assay was being read as a failed candidate.",
+		knownBefore: "Traditional recipes; screening list. The specific chemistry of artemisinin was unknown.",
+		misunderstood: "That a plant either 'works' or does not, independent of solvent and temperature.",
+		decisionId: "tu-ether-extraction",
+		externalFactors: "Crash program pressure could have caused a premature drop. It did not, in this case.",
+		learned: "Change process variables before discarding the candidate.",
+		changedAfter: "Ether, lower temperature, sample 191.",
+		repeated: "no",
+		evidence: "research_finding",
+		confidence: "high",
+		sourceIds: ["su-tu-2015", "tu-nobel-lecture"]
+	},
+	{
+		id: "mcclintock-delayed-reception",
+		slug: "mcclintock-delayed-reception",
+		personId: "barbara-mcclintock",
+		title: "A correct cytogenetic argument waited decades for a field",
+		year: 1950,
+		whatHappened: "The 1950 PNAS paper did not reorganize genetics on contact. Transposition became central much later. 1983 Nobel is the lag made official.",
+		why: "Molecular genetics had other organizing problems; maize cytogenetics was a small language community; her talks were hard.",
+		knownBefore: "She had the observations. She could not know the later molecular vocabulary.",
+		misunderstood: "By others: mutable loci as a curiosity. By later myth: total freeze-out (overstated).",
+		externalFactors: "The DNA-code research program was simply louder.",
+		learned: "Being right early can look like being unclear.",
+		changedAfter: "Mobile elements as a standard genomic fact.",
+		repeated: "unknown",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["mcclintock-pnas", "mcclintock-nobel-1983"]
+	},
+	{
+		id: "lamarr-non-adoption",
+		slug: "lamarr-non-adoption",
+		personId: "hedy-lamarr",
+		title: "Frequency-hopping patent not fielded as a WWII Navy standard",
+		year: 1942,
+		whatHappened: "Patent issued. The Navy did not deploy the patented system as specified during the war.",
+		why: "Implementation, institutional, and perhaps technical-fit reasons — not fully reconstructed here. A patent is not a procurement.",
+		knownBefore: "They knew they were outsiders to the Navy's contractors.",
+		misunderstood: "Later culture misunderstands non-adoption as theft of Wi-Fi.",
+		decisionId: "lamarr-file-patent",
+		externalFactors: "Military procurement, existing radio practice.",
+		learned: "Filing and fielding are different machines.",
+		changedAfter: "Later spread-spectrum work with a long, multi-inventor history.",
+		repeated: "unknown",
+		evidence: "fact",
+		confidence: "medium",
+		sourceIds: ["lamarr-patent-1942"]
+	},
+	{
+		id: "einstein-quantum-completeness",
+		slug: "einstein-quantum-completeness",
+		personId: "albert-einstein",
+		title: "EPR completeness argument did not become the later consensus",
+		year: 1935,
+		whatHappened: "Einstein, Podolsky, and Rosen argued quantum mechanics was incomplete. Later Bell theorems and experiments went against the local hidden-variable hope as originally imagined.",
+		why: "A principle taste that worked in 1905 (elevate a constraint) did not pick the winning side of this debate.",
+		knownBefore: "Quantum formalism's statistical character. He disliked it.",
+		misunderstood: "That incompleteness was the only way to save locality and realism as he wanted them.",
+		decisionId: "einstein-light-principle",
+		externalFactors: "The theory and experiments developed after 1935.",
+		learned: "The same cognitive style can win and lose. Style is not a guarantee.",
+		changedAfter: "Foundations of quantum mechanics became an experimental subject decades later.",
+		repeated: "yes",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["einstein-1905-relativity"]
+	},
+	{
+		id: "tesla-wardenclyffe",
+		slug: "tesla-wardenclyffe",
+		personId: "nikola-tesla",
+		title: "Wardenclyffe wireless-power station uncompleted",
+		year: 1901,
+		whatHappened: "Construction on Long Island with Morgan backing. Funding stops. The tower is later demolished. The promised service is not delivered.",
+		why: "Capital withdrawal plus a vision of wireless power that did not become a business. Demonstration had outrun a deployable service.",
+		knownBefore: "He could draw and spark. He did not have Westinghouse-scale backing for this project.",
+		misunderstood: "That a spectacular high-frequency show implied a utility.",
+		decisionId: "tesla-westinghouse-license",
+		externalFactors: "Marconi's radio as a competing, more modest service; Morgan's interests.",
+		learned: "The AC success had a systems firm. Wardenclyffe did not.",
+		changedAfter: "Tesla's later years are invention-plus-myth. The tower is the control case.",
+		repeated: "partially",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["jonnes-empires-of-light"]
+	},
+	{
+		id: "edison-dc-bet",
+		slug: "edison-dc-bet",
+		personId: "thomas-edison",
+		title: "DC distribution loses the long-distance standard to AC",
+		year: 1893,
+		whatHappened: "Despite Pearl Street's success, AC systems win transmission economics. The current war includes ugly Edison-camp tactics.",
+		why: "Transformers make AC voltage change cheap. DC of that era did not scale distance the same way.",
+		knownBefore: "DC stations worked in dense districts. Distance was the open problem.",
+		misunderstood: "That the lighting-system win implied a generation-and-transmission win forever.",
+		decisionId: "edison-system-not-bulb",
+		externalFactors: "Westinghouse capital; Tesla patents; urban geography.",
+		learned: "A correct systems bet can still pick the wrong standard in the next layer.",
+		changedAfter: "GE and the industry move. Edison's name remains on the earlier layer.",
+		repeated: "no",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["jonnes-empires-of-light"]
+	},
+	{
+		id: "jobs-1985-ouster",
+		slug: "jobs-1985-ouster",
+		personId: "steve-jobs",
+		title: "Loses Apple in a board fight, 1985",
+		year: 1985,
+		whatHappened: "Jobs is stripped of operational power and leaves. Not a mystical exile — a failed internal political campaign against Sculley and the board.",
+		why: "Macintosh sales disappointment, management conflict, board choice.",
+		knownBefore: "He knew he did not control the board. He fought anyway.",
+		misunderstood: "That product authorship implied organizational control.",
+		externalFactors: "A professional CEO structure he had helped hire.",
+		learned: "He later returns via a company Apple needs (NeXT). That is not the 1985 lesson; it is 1997 luck plus a remaining software asset.",
+		changedAfter: "NeXT, Pixar, then return.",
+		repeated: "no",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["isaacson-jobs"]
+	},
+	{
+		id: "jobs-next-hardware",
+		slug: "jobs-next-hardware",
+		personId: "steve-jobs",
+		title: "NeXT as a workstation business fails; the software layer survives",
+		year: 1993,
+		whatHappened: "NeXT hardware does not win the market. The company pivots toward software. Apple buys NeXT in 1996–97. NeXTSTEP lineage becomes Mac OS X.",
+		why: "Price, market timing, competition (Sun, etc.), and a product that was loved in niches.",
+		knownBefore: "Workstations were a real market. Winning it was not guaranteed by taste.",
+		misunderstood: "That the same Apple magic would transfer on command.",
+		externalFactors: "Apple's later desperation made the acquisition possible — a buyer-side event.",
+		learned: "A failed company can still ship a surviving layer. That is not a reason to seek failure.",
+		changedAfter: "OS X, then iOS as distant descendants of that layer.",
+		repeated: "no",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["isaacson-jobs"]
+	},
+	{
+		id: "musk-falcon1-three",
+		slug: "musk-falcon1-three",
+		personId: "elon-musk",
+		title: "Falcon 1 Flights 1–3 fail to orbit",
+		year: 2008,
+		whatHappened: "Three consecutive failures (2006, 2007, August 2008) before Flight 4.",
+		why: "Different technical causes by flight (fuel leaks, stage-separation timing, etc. — see contemporaneous reporting). The program-level fact is an expensive learning loop.",
+		knownBefore: "Orbital rocketry is hard; they knew that in the abstract.",
+		misunderstood: "That a software-founder playbook transfers cheaply to launch vehicles.",
+		decisionId: "musk-falcon1-continue",
+		externalFactors: "Kwajalein range, supply chain of a startup launcher.",
+		learned: "Each failure was data if the company survived to use it.",
+		changedAfter: "Flight 4; later Falcon 9 design culture of test-and-fail more publicly.",
+		repeated: "partially",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["falcon1-wiki-primary-note", "musk-iac-2017"]
+	},
+	{
+		id: "nvidia-nv1",
+		slug: "nvidia-nv1",
+		personId: "jensen-huang",
+		title: "Early NVIDIA product era nearly kills the firm",
+		year: 1995,
+		whatHappened: "NVIDIA's early NV1-era strategy (including unusual graphics approaches and game partnerships) is widely described as a near-death before later 3D wins. Details in this archive are founder-interview grade, not a full product postmortem.",
+		why: "Wrong product/market fit in a brutal PC graphics cycle.",
+		knownBefore: "PC 3D was going to exist. The winning architecture was not obvious.",
+		misunderstood: "Early architectural bets.",
+		externalFactors: "Competitors; OEM cycles.",
+		learned: "The later CUDA patience sits on a company that had already almost died once — selection again.",
+		changedAfter: "A more conventional, then dominant, GPU path.",
+		repeated: "no",
+		evidence: "reported",
+		confidence: "medium",
+		sourceIds: ["sequoia-nvidia-cuda"]
+	},
+	{
+		id: "qwikster",
+		slug: "qwikster",
+		personId: "reed-hastings",
+		title: "Qwikster brand split, 2011",
+		year: 2011,
+		whatHappened: "Netflix announces a DVD brand split and a price restructuring. Customers and markets revolt. Qwikster is cancelled within weeks.",
+		why: "A strategically defensible unbundling executed as a hostile UX and price shock.",
+		knownBefore: "DVD was declining; streaming was the future they wanted. They underweighted switching costs and goodwill.",
+		misunderstood: "How much the Netflix identity was a single login, not two businesses.",
+		decisionId: "hastings-qwikster",
+		externalFactors: "Social media amplification, 2011.",
+		learned: "Reverse the packaging fast; the price change largely stayed.",
+		changedAfter: "A scar used in every later strategy-offsite.",
+		repeated: "no",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["hastings-qwikster-blog", "npr-qwikster-2011"]
+	},
+	{
+		id: "theranos",
+		slug: "theranos",
+		personId: "elizabeth-holmes",
+		title: "Theranos: claimed device, missing capability, criminal fraud",
+		year: 2015,
+		whatHappened: "WSJ reporting, collapse of partnerships, 2022 conviction on four investor-fraud counts, 135-month sentence.",
+		why: "The analyzer did not do what the pitch said. Secrecy and prestige were used to delay that fact.",
+		knownBefore: "Insiders knew the gap. Investors were not told the truth as found by the jury.",
+		misunderstood: "By boosters: that stealth plus a famous board is due diligence.",
+		decisionId: "holmes-secrecy",
+		externalFactors: "2010s unicorn culture; weak independent validation of medical claims.",
+		learned: "For the industry, incompletely. For the legal system, a verdict.",
+		changedAfter: "Holmes incarcerated (surrender 2023). The device class did not arrive as promised.",
+		repeated: "unknown",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: [
+			"holmes-verdict-2022",
+			"wsj-theranos-2015",
+			"carreyrou-bad-blood"
+		]
+	},
+	{
+		id: "buffett-textiles",
+		slug: "buffett-textiles",
+		personId: "warren-buffett",
+		title: "Berkshire the mill was a bad business; he says so",
+		year: 1965,
+		whatHappened: "Buffett takes control of a New England textile firm. The mill is not a compounding machine. He later uses the corporate shell for insurance and allocation and criticizes the original business in letters.",
+		why: "Textiles in that place and time were a poor economic franchise. Cheap control of a shell is not cheap control of a good business.",
+		knownBefore: "Grahamite cheapness. He weighted price over franchise more than he later would.",
+		misunderstood: "That a cheap cigar-butt is a place to stay.",
+		decisionId: "buffett-float",
+		externalFactors: "Global textile competition.",
+		learned: "He teaches this as a named mistake: better to buy a wonderful company at a fair price (Munger's influence in the later formulation).",
+		changedAfter: "The letters' doctrine. The name 'Berkshire Hathaway' remains a joke at his own expense.",
+		repeated: "no",
+		evidence: "fact",
+		confidence: "high",
+		sourceIds: ["buffett-letters"]
+	}
+];
+var experiments = [
+	{
+		id: "curie-pitchblende-activity",
+		personId: "marie-curie",
+		title: "Activity of pitchblende versus uranium content",
+		year: 1898,
+		question: "Is the radioactivity of pitchblende fully accounted for by its uranium?",
+		hypothesis: "If activity is just uranium, chemically estimated uranium should predict the electrometer reading.",
+		method: "Compare activity of materials and fractions with a piezoelectric electrometer.",
+		observation: "Pitchblende is more active than its uranium content predicts.",
+		result: "A surplus that implies unknown active substances — leading to polonium and radium announcements.",
+		outcome: "success",
+		evidence: "research_finding",
+		sourceIds: ["curie-thesis-1903"]
+	},
+	{
+		id: "photo-51",
+		personId: "rosalind-franklin",
+		title: "Photograph 51 — B-form DNA diffraction",
+		year: 1952,
+		question: "What is the diffraction signature of DNA fibres in the B form?",
+		method: "X-ray fibre diffraction; ~62 hours exposure with Raymond Gosling, May 1952.",
+		observation: "An X-pattern consistent with a helical structure and measurable parameters.",
+		result: "An image that, shown to Watson, informed the 1953 model. Franklin and Gosling also publish independently.",
+		outcome: "success",
+		evidence: "fact",
+		sourceIds: ["kcl-photo-51", "franklin-gosling-1953"]
+	},
+	{
+		id: "tu-sample-191",
+		personId: "tu-youyou",
+		title: "Sample 191 ether extract",
+		year: 1971,
+		question: "Can a non-destructive extraction of Artemisia annua clear parasites in the 523 assay?",
+		hypothesis: "A lower-temperature ether extract will preserve a heat-labile active.",
+		method: "Ether extraction; rodent malaria assay. Reported 100% activity on 4 October 1971.",
+		observation: "Complete clearance in the reported animal test.",
+		result: "A working extract that the consortium then crystallized and developed.",
+		revision: "Hot ethanol-style extraction had been the failing process.",
+		outcome: "success",
+		evidence: "research_finding",
+		sourceIds: ["su-tu-2015"]
+	},
+	{
+		id: "mcclintock-kernel-patterns",
+		personId: "barbara-mcclintock",
+		title: "Maize kernel variegation as chromosomal behavior",
+		year: 1950,
+		question: "What chromosomal events explain mutable loci and spotting patterns?",
+		method: "Cytogenetics of maize; tracking breakage, dissociation, and activator elements in her vocabulary.",
+		observation: "Patterns that a static gene-order model does not eat.",
+		result: "The transposition argument, later renamed in molecular language.",
+		outcome: "success",
+		evidence: "research_finding",
+		sourceIds: ["mcclintock-pnas"]
+	},
+	{
+		id: "edison-filament-search",
+		personId: "thomas-edison",
+		title: "Search for a high-resistance, long-lived filament",
+		year: 1879,
+		question: "What filament survives in vacuum at a resistance useful for parallel distribution?",
+		method: "Systematic material trials in an industrial lab — many hands, many samples.",
+		observation: "Carbonized filaments in vacuum can last long enough to be sold as a system component.",
+		result: "A lamp that fits the utility architecture. Not the first incandescent.",
+		outcome: "success",
+		evidence: "fact",
+		sourceIds: ["edison-patents"]
+	},
+	{
+		id: "falcon1-flights",
+		personId: "elon-musk",
+		title: "Falcon 1 flight test campaign",
+		year: 2008,
+		question: "Can a privately developed liquid two-stage vehicle reach orbit?",
+		hypothesis: "Iterate through flight failures until the remaining modes are closed.",
+		method: "Four orbital attempts from Omelek Island, 2006–2008.",
+		observation: "Three failures with distinct causes; Flight 4, 28 September 2008, reaches LEO with a mass simulator.",
+		result: "First privately developed fully liquid-fueled orbital success, as reported.",
+		outcome: "mixed",
+		evidence: "fact",
+		sourceIds: ["falcon1-wiki-primary-note"]
+	}
+];
+var breakthroughs = [
+	{
+		id: "curie-radioactivity-field",
+		slug: "curie-radioactivity-field",
+		personId: "marie-curie",
+		title: "Radioactivity as a measurable atomic field",
+		year: 1898,
+		kind: "scientific",
+		summary: "Activity compared across materials and chemical states, then new elements named.",
+		priorWork: "Becquerel's uranium rays.",
+		whatWasNew: "Quantification plus chemical isolation of new emitters.",
+		impact: "A field, medical uses, and hazards.",
+		evidence: "fact",
+		sourceIds: ["curie-thesis-1903"]
+	},
+	{
+		id: "curie-radium",
+		slug: "curie-radium",
+		personId: "marie-curie",
+		title: "Radium isolated as a chemical fact",
+		year: 1898,
+		kind: "scientific",
+		summary: "Announced 1898; weighable isolation takes years.",
+		priorWork: "Pitchblende surplus activity.",
+		whatWasNew: "A new element with enormous activity.",
+		impact: "Chemistry, medicine, industry.",
+		evidence: "fact",
+		sourceIds: ["curie-nobel-chemistry-1911"]
+	},
+	{
+		id: "turing-machine",
+		slug: "turing-machine",
+		personId: "alan-turing",
+		title: "Computable numbers / Turing machine",
+		year: 1936,
+		kind: "scientific",
+		summary: "An abstract machine that defines computability and shows the Entscheidungsproblem unsolvable.",
+		priorWork: "Hilbert's problem; Church's parallel work.",
+		whatWasNew: "A machine-model of procedure.",
+		impact: "Theoretical computer science.",
+		evidence: "fact",
+		sourceIds: ["turing-1936"]
+	},
+	{
+		id: "dna-b-form",
+		slug: "dna-b-form",
+		personId: "rosalind-franklin",
+		title: "B-form DNA diffraction data",
+		year: 1952,
+		kind: "scientific",
+		summary: "Photograph 51 and quantitative parameters.",
+		priorWork: "Astbury, Wilkins, others on nucleic-acid fibres.",
+		whatWasNew: "A sharp B-form image and measurements.",
+		impact: "Informed the 1953 model; stands as independent data.",
+		evidence: "fact",
+		sourceIds: ["kcl-photo-51"]
+	},
+	{
+		id: "johnson-orbital-analysis",
+		slug: "johnson-orbital-analysis",
+		personId: "katherine-johnson",
+		title: "Burnout azimuth for a selected Earth position",
+		year: 1960,
+		kind: "technical",
+		summary: "NASA TN D-233 with Ted Skopinski.",
+		priorWork: "Orbital mechanics and human computers at Langley.",
+		whatWasNew: "A usable method for recovery-zone planning.",
+		impact: "Mercury-era operations; later public story over-compresses it.",
+		evidence: "fact",
+		sourceIds: ["skopinski-johnson-1960"]
+	},
+	{
+		id: "lovelace-note-g",
+		slug: "lovelace-note-g",
+		personId: "ada-lovelace",
+		title: "Note G on the Analytical Engine",
+		year: 1843,
+		kind: "scientific",
+		summary: "Bernoulli numbers plan plus the originality limit.",
+		priorWork: "Babbage; Menabrea.",
+		whatWasNew: "Published interpretive expansion, including a hard limit.",
+		impact: "Later computing discourse, including Turing 1950.",
+		evidence: "fact",
+		sourceIds: ["lovelace-note-g"]
+	},
+	{
+		id: "artemisinin",
+		slug: "artemisinin",
+		personId: "tu-youyou",
+		title: "Qinghaosu / artemisinin as an antimalarial",
+		year: 1971,
+		kind: "scientific",
+		summary: "Working extract then a drug class from Project 523.",
+		priorWork: "Traditional qinghao; 523 screening.",
+		whatWasNew: "A process that preserved the active and a molecule the world could make.",
+		impact: "Malaria treatment; 2015 Nobel; credit fights.",
+		evidence: "research_finding",
+		sourceIds: ["su-tu-2015"]
+	},
+	{
+		id: "information-theory",
+		slug: "information-theory",
+		personId: "claude-shannon",
+		title: "A mathematical theory of communication",
+		year: 1948,
+		kind: "scientific",
+		summary: "Bits, entropy, noisy-channel coding.",
+		priorWork: "Nyquist, Hartley, crypto.",
+		whatWasNew: "A general quantitative theory.",
+		impact: "Digital communications.",
+		evidence: "fact",
+		sourceIds: ["shannon-1948"]
+	},
+	{
+		id: "hopper-compiler-idea",
+		slug: "hopper-compiler-idea",
+		personId: "grace-hopper",
+		title: "Automatic programming as a program of work",
+		year: 1952,
+		kind: "technical",
+		summary: "The Education of a Computer plus FLOW-MATIC.",
+		priorWork: "Machine coding; early assemblers.",
+		whatWasNew: "A sustained argument that the machine should accept a more human language.",
+		impact: "COBOL lineage.",
+		evidence: "fact",
+		sourceIds: ["hopper-compiler"]
+	},
+	{
+		id: "transposition",
+		slug: "transposition",
+		personId: "barbara-mcclintock",
+		title: "Mobile genetic elements",
+		year: 1950,
+		kind: "scientific",
+		summary: "Mutable loci as chromosomal movers.",
+		priorWork: "Maize genetics; cytogenetics.",
+		whatWasNew: "Genes that move.",
+		impact: "Genome theory, decades later.",
+		evidence: "fact",
+		sourceIds: ["mcclintock-pnas"]
+	},
+	{
+		id: "world-wide-web",
+		slug: "world-wide-web",
+		personId: "tim-berners-lee",
+		title: "The World Wide Web",
+		year: 1990,
+		kind: "technical",
+		summary: "HTTP, HTML, URLs, a browser, then a royalty-free release.",
+		priorWork: "Hypertext, Internet, markup.",
+		whatWasNew: "A shipped, simple, linkable stack plus legal openness.",
+		impact: "Default publishing layer.",
+		evidence: "fact",
+		sourceIds: ["cern-web-history"]
+	},
+	{
+		id: "physostigmine-synthesis",
+		slug: "physostigmine-synthesis",
+		personId: "percy-julian",
+		title: "Complete synthesis of physostigmine",
+		year: 1935,
+		kind: "scientific",
+		summary: "JACS with Josef Pikl.",
+		priorWork: "Alkaloid chemistry.",
+		whatWasNew: "A completed synthetic route to eserine.",
+		impact: "A landmark in organic synthesis; his industrial career follows.",
+		evidence: "fact",
+		sourceIds: ["julian-physostigmine-1935"]
+	},
+	{
+		id: "frequency-hopping-patent",
+		slug: "frequency-hopping-patent",
+		personId: "hedy-lamarr",
+		title: "Secret Communication System patent",
+		year: 1942,
+		kind: "technical",
+		summary: "Coordinated frequency hops with Antheil.",
+		priorWork: "Radio and jamming.",
+		whatWasNew: "A patented hopping scheme. Not Wi-Fi.",
+		impact: "Later lore; mediated influence on spread spectrum.",
+		evidence: "fact",
+		sourceIds: ["lamarr-patent-1942"]
+	},
+	{
+		id: "special-relativity",
+		slug: "special-relativity",
+		personId: "albert-einstein",
+		title: "Electrodynamics of moving bodies",
+		year: 1905,
+		kind: "scientific",
+		summary: "Two postulates, new kinematics.",
+		priorWork: "Maxwell, Lorentz, Poincaré.",
+		whatWasNew: "Principle-first reconstruction.",
+		impact: "Physics.",
+		evidence: "fact",
+		sourceIds: ["einstein-1905-relativity"]
+	},
+	{
+		id: "qed-methods",
+		slug: "qed-methods",
+		personId: "richard-feynman",
+		title: "QED calculational methods",
+		year: 1948,
+		kind: "scientific",
+		summary: "Path integrals and diagrams; shared Nobel 1965.",
+		priorWork: "Dirac, the infinities problem.",
+		whatWasNew: "A way to compute that kept processes visible.",
+		impact: "Particle physics practice.",
+		evidence: "fact",
+		sourceIds: ["feynman-cargo-cult"]
+	},
+	{
+		id: "polyphase-ac",
+		slug: "polyphase-ac",
+		personId: "nikola-tesla",
+		title: "Polyphase AC system patents",
+		year: 1888,
+		kind: "technical",
+		summary: "Motors and transmission licensed into Westinghouse.",
+		priorWork: "AC experiments by others; Edison DC systems.",
+		whatWasNew: "A practical polyphase approach that a firm could build.",
+		impact: "The winning long-distance standard.",
+		evidence: "fact",
+		sourceIds: ["tesla-ac-patents"]
+	},
+	{
+		id: "pearl-street",
+		slug: "pearl-street",
+		personId: "thomas-edison",
+		title: "Pearl Street Station",
+		year: 1882,
+		kind: "technical",
+		summary: "A commercial central station, not a bulb.",
+		priorWork: "Gas lighting; dynamos; prior lamps.",
+		whatWasNew: "A utility architecture.",
+		impact: "Electric cities, then a DC/AC fight.",
+		evidence: "fact",
+		sourceIds: ["jonnes-empires-of-light"]
+	},
+	{
+		id: "aws-product",
+		slug: "aws-product",
+		personId: "jeff-bezos",
+		title: "AWS as a public product",
+		year: 2006,
+		kind: "business",
+		summary: "Internal infrastructure sold as a service. Origin stories vary.",
+		priorWork: "Amazon.com's own scaling problems.",
+		whatWasNew: "Rented compute as a default business.",
+		impact: "Cloud industry.",
+		evidence: "fact",
+		sourceIds: ["bezos-2016-letter"]
+	},
+	{
+		id: "iphone",
+		slug: "iphone",
+		personId: "steve-jobs",
+		title: "iPhone",
+		year: 2007,
+		kind: "technical",
+		summary: "Multi-touch computer as a phone. Team effort; Jobs as the public frame.",
+		priorWork: "iPod, iTunes, smartphones with keyboards.",
+		whatWasNew: "Full-surface multi-touch as the phone.",
+		impact: "The default personal computer.",
+		evidence: "fact",
+		sourceIds: ["jobs-macworld-2007"]
+	},
+	{
+		id: "msft-culture-shift",
+		slug: "msft-culture-shift",
+		personId: "satya-nadella",
+		title: "Microsoft's stated cloud-and-learn shift",
+		year: 2014,
+		kind: "business",
+		summary: "First-day email plus later M&A and Azure scale. Attribution incomplete.",
+		priorWork: "Ballmer-era cloud investment.",
+		whatWasNew: "Official identity change.",
+		impact: "A different Microsoft, riding a secular wave.",
+		evidence: "reported",
+		sourceIds: ["nadella-2014-email"]
+	},
+	{
+		id: "falcon1-orbit",
+		slug: "falcon1-orbit",
+		personId: "elon-musk",
+		title: "Falcon 1 reaches orbit",
+		year: 2008,
+		kind: "technical",
+		summary: "Flight 4, 28 September 2008.",
+		priorWork: "Three failures; decades of government launchers.",
+		whatWasNew: "A private fully liquid orbital success.",
+		impact: "SpaceX survives to build Falcon 9.",
+		evidence: "fact",
+		sourceIds: ["falcon1-wiki-primary-note"]
+	},
+	{
+		id: "cuda-platform",
+		slug: "cuda-platform",
+		personId: "jensen-huang",
+		title: "CUDA",
+		year: 2006,
+		kind: "technical",
+		summary: "GPU as programmable parallel computer.",
+		priorWork: "Shaders; GPGPU hacks.",
+		whatWasNew: "A supported programming model.",
+		impact: "Later AI infrastructure chokepoint.",
+		evidence: "fact",
+		sourceIds: ["nvidia-cuda-2006"]
+	},
+	{
+		id: "spanx-retail",
+		slug: "spanx-retail",
+		personId: "sara-blakely",
+		title: "Spanx as a bootstrapped retail brand",
+		year: 2e3,
+		kind: "business",
+		summary: "Founder-reported origin; 2021 recap is solid.",
+		priorWork: "Hosiery industry.",
+		whatWasNew: "A control-heavy consumer-product path, if the reports hold.",
+		impact: "A category brand.",
+		evidence: "reported",
+		sourceIds: ["blakely-fortune-2024"]
+	},
+	{
+		id: "netflix-streaming",
+		slug: "netflix-streaming",
+		personId: "reed-hastings",
+		title: "Netflix streaming",
+		year: 2007,
+		kind: "business",
+		summary: "Watch Instantly, then a long fight with bandwidth and content.",
+		priorWork: "DVD-by-mail.",
+		whatWasNew: "A mail firm becoming a video network.",
+		impact: "The streaming default, after many corpses.",
+		evidence: "fact",
+		sourceIds: ["npr-qwikster-2011"]
+	},
+	{
+		id: "walker-system",
+		slug: "walker-system",
+		personId: "madam-cj-walker",
+		title: "Walker agent-and-factory system",
+		year: 1910,
+		kind: "business",
+		summary: "Product plus trained agents plus manufacturing.",
+		priorWork: "Black beauty entrepreneurs of the era.",
+		whatWasNew: "Scale under Jim Crow via a network, not white retail.",
+		impact: "A documented industrial and employment system.",
+		evidence: "fact",
+		sourceIds: ["walker-nmaahc"]
+	},
+	{
+		id: "green-belt-movement",
+		slug: "green-belt-movement",
+		personId: "wangari-maathai",
+		title: "Green Belt Movement",
+		year: 1977,
+		kind: "social",
+		summary: "Trees as civic practice.",
+		priorWork: "Women's groups; Kenyan environmental stress.",
+		whatWasNew: "A countable act yoked to land and dissent.",
+		impact: "Local trees; 2004 Peace Prize.",
+		evidence: "fact",
+		sourceIds: ["greenbelt-maathai"]
+	},
+	{
+		id: "harpo-control",
+		slug: "harpo-control",
+		personId: "oprah-winfrey",
+		title: "Harpo takes the show",
+		year: 1988,
+		kind: "business",
+		summary: "Ownership of the communication apparatus.",
+		priorWork: "Talent-for-hire TV.",
+		whatWasNew: "The presenter as producer-owner at that scale.",
+		impact: "A media company.",
+		evidence: "fact",
+		sourceIds: ["oprah-harpo"]
+	},
+	{
+		id: "taobao-local",
+		slug: "taobao-local",
+		personId: "jack-ma",
+		title: "Taobao localization against eBay",
+		year: 2003,
+		kind: "business",
+		summary: "C2C plus trust/payment layer.",
+		priorWork: "eBay EachNet; Alibaba B2B.",
+		whatWasNew: "A marketplace that fit Chinese payments reality.",
+		impact: "eBay's China failure; Alibaba scale.",
+		evidence: "fact",
+		sourceIds: ["jack-ma-alibaba-ipo"]
+	},
+	{
+		id: "berkshire-float",
+		slug: "berkshire-float",
+		personId: "warren-buffett",
+		title: "Berkshire as float-funded allocator",
+		year: 1967,
+		kind: "business",
+		summary: "Insurance as a capital technology.",
+		priorWork: "Graham; a textile shell.",
+		whatWasNew: "A public curriculum of allocation.",
+		impact: "A compounding vehicle and a teaching genre.",
+		evidence: "fact",
+		sourceIds: ["buffett-letters"]
+	},
+	{
+		id: "highland-park-flow",
+		slug: "highland-park-flow",
+		personId: "henry-ford",
+		title: "Highland Park moving assembly",
+		year: 1913,
+		kind: "technical",
+		summary: "Flow production of a frozen design.",
+		priorWork: "Interchangeable parts; other assembly experiments.",
+		whatWasNew: "A paced line at automobile volume.",
+		impact: "Mass production talk — and later rigidity versus GM.",
+		evidence: "fact",
+		sourceIds: ["ford-five-dollar-day"]
+	}
+];
+var technologies = [
+	{
+		id: "radium-isolation",
+		slug: "radium-isolation",
+		name: "Radium isolation process",
+		year: 1902,
+		personIds: ["marie-curie"],
+		problem: "Weighable radium from ore residue.",
+		constraint: "Tiny concentrations; crude facilities.",
+		existing: "Ordinary inorganic fractionation.",
+		novelIdea: "Follow activity with the electrometer through chemistry.",
+		tradeoffs: "Labor, hazard, no patent.",
+		impact: "A usable element and a dangerous industry.",
+		sourceIds: ["curie-nobel-chemistry-1911"]
+	},
+	{
+		id: "turing-bombe",
+		slug: "turing-bombe",
+		name: "Bombe (cryptanalytic search machine)",
+		year: 1940,
+		personIds: ["alan-turing"],
+		problem: "Search Enigma settings faster than people.",
+		constraint: "Wartime secrecy; electromechanical limits.",
+		existing: "Polish bomba; hand methods.",
+		novelIdea: "An electromechanical search exploiting crib/structure — with others, notably Welchman.",
+		architecture: "Not a stored-program computer.",
+		tradeoffs: "Special-purpose, classified.",
+		deployment: "Bletchley Park.",
+		impact: "Wartime intelligence. Credit is organizational.",
+		sourceIds: ["hodges-turing"]
+	},
+	{
+		id: "analytical-engine-notes",
+		slug: "analytical-engine-notes",
+		name: "Analytical Engine as described in the notes",
+		year: 1843,
+		personIds: ["ada-lovelace"],
+		problem: "Explain an unbuilt general machine.",
+		constraint: "No hardware.",
+		existing: "Difference Engine; mill-and-store idea of Babbage.",
+		novelIdea: "Published algorithms and a limit on originality.",
+		tradeoffs: "All claims theoretical.",
+		impact: "Conceptual, not operational.",
+		sourceIds: ["lovelace-note-g"]
+	},
+	{
+		id: "qinghaosu-extraction",
+		slug: "qinghaosu-extraction",
+		name: "Low-temperature ether extraction of qinghao",
+		year: 1971,
+		personIds: ["tu-youyou"],
+		problem: "Preserve a heat-labile antimalarial.",
+		constraint: "Classified 523 labs; plant chemistry unknown.",
+		existing: "Hot extracts; traditional decoctions.",
+		novelIdea: "Change solvent and temperature.",
+		tradeoffs: "Ether hazards; still a crude extract until crystallization.",
+		impact: "Path to artemisinin.",
+		sourceIds: ["su-tu-2015"]
+	},
+	{
+		id: "bit-channel-model",
+		slug: "bit-channel-model",
+		name: "Bit / noisy-channel model",
+		year: 1948,
+		personIds: ["claude-shannon"],
+		problem: "Reproduce a chosen message over noise.",
+		constraint: "Meaning excluded by design.",
+		existing: "Hartley, Nyquist.",
+		novelIdea: "Information as selectable surprise; capacity theorems.",
+		tradeoffs: "No semantics.",
+		impact: "Digital communications.",
+		sourceIds: ["shannon-1948"]
+	},
+	{
+		id: "flow-matic",
+		slug: "flow-matic",
+		name: "FLOW-MATIC",
+		year: 1955,
+		personIds: ["grace-hopper"],
+		problem: "Business procedures specified by non-machine-code authors.",
+		constraint: "UNIVAC; 1950s compilers.",
+		existing: "Machine code, assemblers.",
+		novelIdea: "English keywords for data processing.",
+		tradeoffs: "Verbosity; committee descendants.",
+		deployment: "UNIVAC business customers.",
+		impact: "COBOL ancestor.",
+		sourceIds: ["hopper-cobol"]
+	},
+	{
+		id: "www-stack",
+		slug: "www-stack",
+		name: "WWW stack (URL, HTTP, HTML)",
+		year: 1990,
+		personIds: ["tim-berners-lee"],
+		problem: "Link CERN's documents across machines.",
+		constraint: "Must be simple enough to implement.",
+		existing: "Hypertext, Internet, SGML-like markup.",
+		novelIdea: "One naming scheme, one transfer protocol, one document format — then no royalty.",
+		architecture: "Client-server, stateless HTTP.",
+		tradeoffs: "Simplicity invited later enclosure at other layers.",
+		deployment: "CERN, then the internet after 1993 release.",
+		adoption: "Explosive after Mosaic.",
+		impact: "Default publishing.",
+		sourceIds: ["cern-web-history", "berners-lee-1989"]
+	},
+	{
+		id: "soy-sterol-process",
+		slug: "soy-sterol-process",
+		name: "Industrial soy sterol chemistry",
+		year: 1940,
+		personIds: ["percy-julian"],
+		problem: "Cheap intermediates for hormones and related compounds.",
+		constraint: "Plant starting materials; factory, not only flask.",
+		existing: "Costly animal or scarce sources.",
+		novelIdea: "Industrial routes from soy (and related plant sterols in the broader story).",
+		tradeoffs: "Corporate control; later his own firm.",
+		impact: "Cheaper chemistry under a racist labor market.",
+		sourceIds: ["julian-sciencehistory"]
+	},
+	{
+		id: "secret-communication-system",
+		slug: "secret-communication-system",
+		name: "Secret Communication System (US 2,292,387)",
+		year: 1942,
+		personIds: ["hedy-lamarr"],
+		problem: "Jam-resistant radio command.",
+		constraint: "Synchronization of hops.",
+		existing: "Fixed-frequency radio.",
+		novelIdea: "Coordinated hopping, with Antheil.",
+		tradeoffs: "Not procured as patented in WWII.",
+		impact: "A document in spread-spectrum ancestry — not Wi-Fi.",
+		sourceIds: ["lamarr-patent-1942"]
+	},
+	{
+		id: "feynman-diagrams",
+		slug: "feynman-diagrams",
+		name: "Feynman diagrams",
+		year: 1948,
+		personIds: ["richard-feynman"],
+		problem: "Compute QED processes without drowning.",
+		constraint: "Infinities; bookkeeping.",
+		existing: "Schwinger's and others' methods.",
+		novelIdea: "Pictures that are also terms.",
+		tradeoffs: "Easy to misuse as cartoons.",
+		impact: "Standard particle-physics language.",
+		sourceIds: ["feynman-cargo-cult"]
+	},
+	{
+		id: "induction-motor",
+		slug: "induction-motor",
+		name: "AC induction motor (Tesla patents)",
+		year: 1888,
+		personIds: ["nikola-tesla"],
+		problem: "A practical AC motor.",
+		constraint: "Must fit a polyphase system a firm can sell.",
+		existing: "DC motors; others' AC work.",
+		novelIdea: "Rotating magnetic field machines in a patentable system.",
+		tradeoffs: "Licensed away; control lost.",
+		deployment: "Westinghouse orbit.",
+		impact: "Industrial AC.",
+		sourceIds: ["tesla-ac-patents"]
+	},
+	{
+		id: "edison-lighting-system",
+		slug: "edison-lighting-system",
+		name: "Edison lighting system",
+		year: 1882,
+		personIds: ["thomas-edison"],
+		problem: "Sell light as a service against gas.",
+		constraint: "Parallel circuits, meters, generation, filament life.",
+		existing: "Gas; prior lamps.",
+		novelIdea: "High-resistance lamp plus district station.",
+		tradeoffs: "DC distance limits.",
+		deployment: "Pearl Street.",
+		impact: "The utility as product.",
+		sourceIds: ["edison-patents"]
+	},
+	{
+		id: "amazon-platform",
+		slug: "amazon-platform",
+		name: "Amazon commerce + AWS platform",
+		year: 2006,
+		personIds: ["jeff-bezos"],
+		problem: "Scale retail and then sell the scaling.",
+		constraint: "Public-market patience; logistics physics.",
+		existing: "Bookstores; on-prem compute.",
+		novelIdea: "Long-term reinvestment, then infrastructure as a product.",
+		tradeoffs: "Labor, market power.",
+		impact: "Default cloud and a default store.",
+		sourceIds: ["bezos-1997-letter", "bezos-2016-letter"]
+	},
+	{
+		id: "nextstep-osx",
+		slug: "nextstep-osx",
+		name: "NeXTSTEP → Mac OS X lineage",
+		year: 1997,
+		personIds: ["steve-jobs"],
+		problem: "Apple's OS was aging; NeXT hardware had failed.",
+		constraint: "Need a modern OS without writing one from zero in time.",
+		existing: "Classic Mac OS; NeXTSTEP.",
+		novelIdea: "Buy the failed company's surviving layer.",
+		tradeoffs: "A painful transition for Apple.",
+		deployment: "Mac OS X, then iOS distant cousins.",
+		impact: "The software under later Apple.",
+		sourceIds: ["isaacson-jobs"]
+	},
+	{
+		id: "falcon1",
+		slug: "falcon1",
+		name: "Falcon 1",
+		year: 2008,
+		personIds: ["elon-musk"],
+		problem: "Cheap-enough orbital access for a startup.",
+		constraint: "Money, physics, a Pacific range.",
+		existing: "Government and legacy contractors.",
+		novelIdea: "A two-stage liquid vehicle iterated in public failures.",
+		tradeoffs: "Near-death. Flight 4 was a mass simulator, not a rich payload business yet.",
+		deployment: "Omelek Island.",
+		impact: "Survival, then Falcon 9.",
+		sourceIds: ["falcon1-wiki-primary-note"]
+	},
+	{
+		id: "cuda",
+		slug: "cuda",
+		name: "CUDA",
+		year: 2006,
+		personIds: ["jensen-huang"],
+		problem: "Program GPUs for non-graphics work.",
+		constraint: "Proprietary model; developer adoption.",
+		existing: "Graphics pipelines; CPU HPC.",
+		novelIdea: "A parallel computing platform on the GPU.",
+		tradeoffs: "Lock-in versus years of investment.",
+		deployment: "HPC then ML.",
+		adoption: "Dominant in 2010s–20s AI training.",
+		impact: "A chokepoint.",
+		sourceIds: ["nvidia-cuda-2006"]
+	},
+	{
+		id: "alipay",
+		slug: "alipay",
+		name: "Alipay as marketplace trust infrastructure",
+		year: 2004,
+		personIds: ["jack-ma"],
+		problem: "Strangers transacting without U.S.-style cards.",
+		constraint: "Chinese payments reality.",
+		existing: "eBay/PayPal playbook.",
+		novelIdea: "Escrow-like trust as the product under the marketplace.",
+		tradeoffs: "Later a giant financial affiliate and a state clash.",
+		impact: "Taobao could exist.",
+		sourceIds: ["jack-ma-alibaba-ipo"]
+	},
+	{
+		id: "model-t-system",
+		slug: "model-t-system",
+		name: "Model T + Highland Park system",
+		year: 1913,
+		personIds: ["henry-ford"],
+		problem: "A car cheap enough for volume.",
+		constraint: "Labor, parts, a frozen design.",
+		existing: "Craft auto making.",
+		novelIdea: "Standardize the object, pace the line, pay for low turnover.",
+		tradeoffs: "Inflexibility; paternalist control; later GM's annual-model advantage.",
+		deployment: "Highland Park, then River Rouge.",
+		impact: "Mass production as a world language.",
+		sourceIds: ["ford-five-dollar-day"]
+	}
+];
+var discoveries = [
+	{
+		id: "polonium",
+		slug: "polonium",
+		personId: "marie-curie",
+		title: "Polonium",
+		year: 1898,
+		question: "What is the surplus activity in pitchblende?",
+		existingKnowledge: "Uranium rays.",
+		unknown: "Other emitters.",
+		method: "Chemical fractionation + electrometry.",
+		result: "A new active substance named for Poland.",
+		publication: "1898 notes.",
+		impact: "A new element; a nationalist scientific name.",
+		sourceIds: ["curie-nobel-chemistry-1911"]
+	},
+	{
+		id: "radium",
+		slug: "radium",
+		personId: "marie-curie",
+		title: "Radium",
+		year: 1898,
+		question: "Is there a still more active substance in the residue?",
+		existingKnowledge: "Polonium work.",
+		unknown: "Identity of the second body.",
+		method: "Further fractionation; later isolation of weighable radium.",
+		result: "Radium.",
+		publication: "1898; chemistry Nobel 1911 for isolation and study.",
+		impact: "Medicine and hazard.",
+		sourceIds: ["curie-nobel-chemistry-1911"]
+	},
+	{
+		id: "computable-numbers",
+		slug: "computable-numbers",
+		personId: "alan-turing",
+		title: "Unsolvability of the Entscheidungsproblem via computable numbers",
+		year: 1936,
+		question: "Is there a mechanical procedure that decides provability for every mathematical statement?",
+		existingKnowledge: "Hilbert; Gödel; Church.",
+		unknown: "A machine-shaped answer.",
+		method: "Define computable numbers; diagonal / halting-style argument.",
+		result: "No such general decision procedure.",
+		publication: "Proceedings of the LMS.",
+		competingHypotheses: "Church's λ-calculus route, independent.",
+		impact: "Limits of mechanism.",
+		sourceIds: ["turing-1936"]
+	},
+	{
+		id: "dna-diffraction-parameters",
+		slug: "dna-diffraction-parameters",
+		personId: "rosalind-franklin",
+		title: "Quantitative B-form DNA parameters",
+		year: 1953,
+		question: "What helical parameters fit the fibre diagrams?",
+		existingKnowledge: "Nucleic-acid chemistry; prior fibre work.",
+		unknown: "The full base-paired model (others publish that).",
+		method: "Diffraction, measurement, cautious helical language.",
+		result: "Data paper in Nature, 25 April 1953.",
+		peerCriticism: "Later memoir politics, not a 1953 refutation of the data.",
+		publication: "Franklin & Gosling, Nature.",
+		impact: "Independent evidence beside the model paper.",
+		sourceIds: ["franklin-gosling-1953"]
+	},
+	{
+		id: "artemisinin-discovery",
+		slug: "artemisinin-discovery",
+		personId: "tu-youyou",
+		title: "Artemisinin (qinghaosu)",
+		year: 1972,
+		question: "What molecule in qinghao kills malaria parasites?",
+		existingKnowledge: "Traditional recipes; failed hot extracts.",
+		unknown: "Structure and process.",
+		hypothesis: "A heat-labile active exists.",
+		method: "Process change, assay, then consortium crystallization.",
+		result: "A sesquiterpene lactone drug class.",
+		publication: "Chinese 523 literature; later global papers; 2015 Nobel lecture.",
+		replication: "Worldwide manufacturing and clinical use.",
+		impact: "First-line antimalarial combinations.",
+		sourceIds: ["tu-nobel-lecture", "su-tu-2015"]
+	},
+	{
+		id: "channel-capacity",
+		slug: "channel-capacity",
+		personId: "claude-shannon",
+		title: "Noisy-channel capacity",
+		year: 1948,
+		question: "How much can be sent reliably through noise?",
+		existingKnowledge: "Telegraph engineering.",
+		unknown: "A general theorem.",
+		method: "Probabilistic model; coding existence arguments.",
+		result: "Capacity as a number; reliable communication below it.",
+		publication: "BSTJ 1948.",
+		impact: "The budget of digital links.",
+		sourceIds: ["shannon-1948"]
+	},
+	{
+		id: "transposable-elements",
+		slug: "transposable-elements",
+		personId: "barbara-mcclintock",
+		title: "Transposable elements in maize",
+		year: 1950,
+		question: "Why do loci mutate in patterned ways tied to chromosomal events?",
+		existingKnowledge: "Classical genes as beads on a string, roughly.",
+		unknown: "Mobility.",
+		method: "Maize cytology and genetics.",
+		result: "Controlling/mobile elements.",
+		publication: "PNAS 1950; Nobel 1983.",
+		peerCriticism: "Slow uptake, not a formal refutation.",
+		impact: "Genomes as more restless than the 1950s consensus.",
+		sourceIds: ["mcclintock-pnas"]
+	},
+	{
+		id: "light-quantum-1905",
+		slug: "light-quantum-1905",
+		personId: "albert-einstein",
+		title: "Light quantum paper (1905)",
+		year: 1905,
+		question: "How to account for photoelectric-type facts if light is only a wave?",
+		existingKnowledge: "Maxwell; Planck's law as a calculation device.",
+		unknown: "Whether light itself is quantized.",
+		method: "Heuristic light-quantum argument — separate from the relativity paper.",
+		result: "A paper that later looks like the photon, and was controversial longer than relativity.",
+		publication: "Annalen der Physik.",
+		impact: "Quantum theory; Nobel 1921 is tied to the photoelectric work, not relativity.",
+		sourceIds: ["einstein-1905-relativity"]
+	}
+];
+var builderPeople = [
+	{
+		id: "jeff-bezos",
+		slug: "jeff-bezos",
+		name: "Jeffrey Preston Bezos",
+		sortName: "Bezos, Jeff",
+		birth: {
+			year: 1964,
+			date: "1964-01-12",
+			place: "Albuquerque, New Mexico, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: [
+			"software",
+			"retail",
+			"space"
+		],
+		roles: [
+			"entrepreneur",
+			"manager",
+			"investor"
+		],
+		knownFor: "Amazon; shareholder letters on long-termism and reversible decisions; later Blue Origin",
+		summary: "Bezos left a New York fund in 1994 to sell books online, then used the 1997 shareholder letter to tell public-market investors that Amazon would optimize for long-term market leadership rather than near-term profit. Later letters introduce a decision taxonomy (one-way versus two-way doors) and a high-velocity 'disagree and commit' rule. Those texts are primary sources. They are also self-presentation by a CEO. Warehouse labor, market power, and tax controversies are part of the same firm and are not cancelled by the quality of the letters.",
+		thinking: "The documented method is to classify decisions by reversibility and to accept short-term P&L damage if a long-term customer and infrastructure bet requires it. Whether that method is 'customer obsession' or platform enclosure depends on which Amazon business you look at. Keep the letters and the external record both in view.",
+		initials: "JB",
+		era: "1964–",
+		countries: ["United States"],
+		mode: ["entrepreneur"],
+		research: {
+			sourceCount: 3,
+			primarySourceCount: 3,
+			secondarySourceCount: 0,
+			completeness: 68,
+			confidence: "high",
+			gaps: [
+				"Internal 1994–1997 decision memos are not public.",
+				"Blue Origin is only a pointer here.",
+				"Labor and antitrust records are not fully ingested."
+			]
+		},
+		education: [{
+			institution: "Princeton University",
+			years: "1982–1986",
+			focus: "Electrical engineering and computer science",
+			evidence: "fact",
+			sourceIds: ["bezos-1997-letter"]
+		}],
+		career: [
+			{
+				org: "D. E. Shaw",
+				role: "Vice president",
+				years: "early 1990s"
+			},
+			{
+				org: "Amazon.com",
+				role: "Founder and CEO (later executive chair)",
+				years: "1994–"
+			},
+			{
+				org: "Blue Origin",
+				role: "Founder",
+				years: "2000–"
+			}
+		],
+		timeline: [
+			{
+				id: "jb-1994",
+				year: 1994,
+				title: "Leaves finance for an online bookstore",
+				stage: "first-major-decision",
+				kind: "company",
+				summary: "Incorporates Cadabra/Amazon. The 'internet growing 2300% a year' story is founder-reported.",
+				evidence: "reported",
+				confidence: "high",
+				sourceIds: ["bezos-1997-letter"]
+			},
+			{
+				id: "jb-1997",
+				year: 1997,
+				title: "IPO and first shareholder letter",
+				stage: "building",
+				kind: "communication",
+				summary: "Public company. Letter commits to long-term market leadership over short-term Wall Street reaction.",
+				evidence: "direct_quote",
+				confidence: "high",
+				sourceIds: ["bezos-1997-letter"]
+			},
+			{
+				id: "jb-2006",
+				year: 2006,
+				title: "AWS as a public service",
+				stage: "breakthrough",
+				kind: "technology",
+				summary: "Internal infrastructure becomes a product. Exact internal origin stories vary; the public launch is dated.",
+				evidence: "fact",
+				confidence: "medium",
+				sourceIds: ["bezos-2016-letter"]
+			},
+			{
+				id: "jb-2015",
+				year: 2015,
+				title: "One-way door letter",
+				stage: "later-work",
+				kind: "communication",
+				summary: "Type 1 vs Type 2 decisions published to shareholders.",
+				evidence: "direct_quote",
+				confidence: "high",
+				sourceIds: ["bezos-2015-letter"]
+			}
+		],
+		decisionIds: ["bezos-long-term-1997", "bezos-two-way-doors"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["aws-product"],
+		technologyIds: ["amazon-platform"],
+		discoveryIds: [],
+		quoteIds: ["bezos-day-1", "bezos-one-way-doors"],
+		principles: [{
+			id: "jb-p-doors",
+			personId: "jeff-bezos",
+			title: "Classify by reversibility before you classify by importance",
+			statement: "Consequential irreversible decisions deserve slow consultation. Reversible ones deserve speed. Most decisions, he claims, are reversible.",
+			evidence: "direct_quote",
+			sourceIds: ["bezos-2015-letter"]
+		}],
+		communications: [{
+			id: "jb-comm-1997",
+			personId: "jeff-bezos",
+			title: "1997 letter to shareholders",
+			year: 1998,
+			audience: "Public shareholders after IPO",
+			objective: "Reset evaluation criteria away from quarterly profit.",
+			framing: "Day 1; long-term cash flows; customer experience as the independent variable.",
+			technique: "Repeats the letter as an appendix in later years — a ritual of consistency.",
+			tone: "Calm, didactic, investor-facing",
+			excerpt: "We will continue to make investment decisions in light of long-term market leadership considerations rather than short-term profitability considerations or short-term Wall Street reactions.",
+			evidence: "direct_quote",
+			sourceIds: ["bezos-1997-letter"]
+		}],
+		controversies: [{
+			id: "jb-power",
+			personId: "jeff-bezos",
+			title: "Market power, labor, and the letters",
+			facts: "Amazon became a dominant retailer and cloud provider. Critics document warehouse injury rates, seller dependence, and antitrust scrutiny.",
+			criticisms: "Long-termism for shareholders can be short-termism for workers and suppliers.",
+			counterarguments: "The company cites customer prices, selection, and AWS as surplus. Those claims are testable, not self-certifying.",
+			uncertainty: "Causal attribution of injury rates and market shares is empirical and contested.",
+			historicalContext: "U.S. antitrust after the consumer-welfare standard; e-commerce scale.",
+			sourceIds: ["bezos-1997-letter"]
+		}],
+		successFactors: [
+			{
+				factor: "timing",
+				role: "Web commerce before logistics incumbents fully responded.",
+				evidence: "fact",
+				sourceIds: ["bezos-1997-letter"]
+			},
+			{
+				factor: "capital",
+				role: "Public markets funded years of losses.",
+				evidence: "fact",
+				sourceIds: ["bezos-1997-letter"]
+			},
+			{
+				factor: "execution",
+				role: "Fulfillment and later AWS operations.",
+				evidence: "reported",
+				sourceIds: ["bezos-2016-letter"]
+			}
+		],
+		antiSurvivorship: "1990s e-commerce is a graveyard (Webvan, Pets.com). Amazon's survival through 2000–2002 is a selection event. The letters read wiser after survival.",
+		collaborators: [{
+			name: "MacKenzie Scott",
+			relation: "early operator and then-spouse; later independent philanthropist"
+		}],
+		companies: ["Amazon", "Blue Origin"],
+		lessonIds: ["lesson-reversibility", "lesson-survivorship-dotcom"]
+	},
+	{
+		id: "steve-jobs",
+		slug: "steve-jobs",
+		name: "Steven Paul Jobs",
+		sortName: "Jobs, Steve",
+		birth: {
+			year: 1955,
+			date: "1955-02-24",
+			place: "San Francisco, California, United States"
+		},
+		death: {
+			year: 2011,
+			date: "2011-10-05",
+			place: "Palo Alto, California, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: [
+			"hardware",
+			"software",
+			"entertainment"
+		],
+		roles: [
+			"entrepreneur",
+			"manager",
+			"communicator"
+		],
+		knownFor: "Apple (co-founder); NeXT; Pixar; return to Apple; iPhone introduction as a communication event",
+		summary: "Jobs co-founded Apple, was pushed out in 1985, built NeXT (a workstation company that failed as a computer business and succeeded as the software kernel of later Mac OS X), bought into Pixar, and returned to Apple in 1997. The 2007 iPhone keynote is a primary communication object: three products that are one. Isaacson's authorized biography is a high-quality secondary source with the usual authorized-biography distortions. Jobs's management included documented verbal cruelty. Product taste is not a moral solvent.",
+		thinking: "A recurring move is subtraction plus theatrical framing: decide what the product is not, then stage the remainder as inevitable. The 2005 Stanford address offers a retrospective narrative ('connecting dots') that is psychologically useful and historically dangerous — it is a speech, not a decision log.",
+		initials: "SJ",
+		era: "1955–2011",
+		countries: ["United States"],
+		mode: ["entrepreneur", "inventor"],
+		research: {
+			sourceCount: 3,
+			primarySourceCount: 2,
+			secondarySourceCount: 1,
+			completeness: 66,
+			confidence: "high",
+			gaps: ["Board minutes around 1985 and 1997 are not in this file.", "Engineering credit inside Apple is systematically under-attributed in founder stories."]
+		},
+		education: [{
+			institution: "Reed College (dropped out; audited)",
+			years: "1972–",
+			focus: "Calligraphy among other courses",
+			evidence: "reported",
+			sourceIds: ["jobs-stanford-2005"]
+		}],
+		career: [
+			{
+				org: "Apple",
+				role: "Co-founder",
+				years: "1976–1985"
+			},
+			{
+				org: "NeXT",
+				role: "Founder",
+				years: "1985–1997"
+			},
+			{
+				org: "Pixar",
+				role: "Major owner / CEO period",
+				years: "1986–2006"
+			},
+			{
+				org: "Apple",
+				role: "CEO",
+				years: "1997–2011"
+			}
+		],
+		timeline: [
+			{
+				id: "sj-1976",
+				year: 1976,
+				title: "Apple founded",
+				stage: "early-career",
+				kind: "company",
+				summary: "With Steve Wozniak and Ronald Wayne. Wozniak's engineering is the Apple I/II core.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["isaacson-jobs"]
+			},
+			{
+				id: "sj-1985",
+				year: 1985,
+				title: "Leaves Apple after board fight",
+				stage: "major-crisis",
+				kind: "crisis",
+				summary: "Loses the organizational battle with John Sculley and the board. Not a mystical exile; a power failure.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["isaacson-jobs"]
+			},
+			{
+				id: "sj-1997",
+				year: 1997,
+				title: "Returns via NeXT acquisition",
+				stage: "adaptation",
+				kind: "company",
+				summary: "Apple buys NeXT. Jobs becomes iCEO then CEO. NeXTSTEP lineage becomes Mac OS X.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["isaacson-jobs"]
+			},
+			{
+				id: "sj-2005",
+				year: 2005,
+				title: "Stanford commencement",
+				stage: "later-work",
+				kind: "communication",
+				summary: "Three stories: dots, love and loss, death. Primary text.",
+				evidence: "direct_quote",
+				confidence: "high",
+				sourceIds: ["jobs-stanford-2005"]
+			},
+			{
+				id: "sj-2007",
+				year: 2007,
+				title: "iPhone introduction",
+				stage: "breakthrough",
+				kind: "technology",
+				summary: "Macworld keynote. Multi-touch phone as a computer in the pocket. Engineering is a large team.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["jobs-macworld-2007"]
+			}
+		],
+		decisionIds: ["jobs-iphone-2007"],
+		failureIds: ["jobs-1985-ouster", "jobs-next-hardware"],
+		experimentIds: [],
+		breakthroughIds: ["iphone"],
+		technologyIds: ["nextstep-osx"],
+		discoveryIds: [],
+		quoteIds: ["jobs-dots"],
+		principles: [{
+			id: "sj-p-subtract",
+			personId: "steve-jobs",
+			title: "Decide what it is by saying what it is not",
+			statement: "The iPhone keynote names three categories then collapses them. Framing is part of the product decision.",
+			evidence: "interpretation",
+			sourceIds: ["jobs-macworld-2007"]
+		}],
+		communications: [{
+			id: "sj-comm-2007",
+			personId: "steve-jobs",
+			title: "Macworld 2007 iPhone keynote",
+			year: 2007,
+			audience: "Press, developers, customers, Apple employees",
+			objective: "Redefine the phone category before the object is widely held.",
+			framing: "iPod, phone, internet communicator — then 'one device.'",
+			technique: "Demo as proof; ridicule of physical keyboards; controlled surprise.",
+			tone: "Casual, rehearsed, contemptuous of incumbents",
+			evidence: "fact",
+			sourceIds: ["jobs-macworld-2007"]
+		}],
+		controversies: [{
+			id: "sj-management",
+			personId: "steve-jobs",
+			title: "Management cruelty and the reality-distortion frame",
+			facts: "Multiple biographies document humiliation of employees and taking credit. 'Reality distortion field' is a colleague nickname, not a measured construct.",
+			criticisms: "Abuse is sometimes excused as the price of product quality.",
+			counterarguments: "Product quality has other causes (design culture, supply chain, Wozniak, Ive, engineering teams).",
+			uncertainty: "Private conversations are reconstructed.",
+			historicalContext: "Founder-as-auteur culture in personal computing.",
+			sourceIds: ["isaacson-jobs"]
+		}],
+		successFactors: [
+			{
+				factor: "timing",
+				role: "Microprocessors, then later capacitive multi-touch and broadband.",
+				evidence: "fact",
+				sourceIds: ["isaacson-jobs"]
+			},
+			{
+				factor: "team",
+				role: "Wozniak; later Ive, Forstall, and large engineering orgs.",
+				evidence: "fact",
+				sourceIds: ["isaacson-jobs"]
+			},
+			{
+				factor: "communication",
+				role: "Keynotes as market-making.",
+				evidence: "fact",
+				sourceIds: ["jobs-macworld-2007"]
+			}
+		],
+		antiSurvivorship: "NeXT hardware failed. The Lisa failed. Apple nearly failed in 1997. The iPhone story is what remains after those filters.",
+		collaborators: [{
+			name: "Steve Wozniak",
+			relation: "co-founder; Apple I/II engineering"
+		}, {
+			name: "Jony Ive",
+			relation: "industrial design leadership"
+		}],
+		companies: [
+			"Apple",
+			"NeXT",
+			"Pixar"
+		],
+		lessonIds: ["lesson-failed-company-surviving-layer", "lesson-framing-is-a-decision"]
+	},
+	{
+		id: "satya-nadella",
+		slug: "satya-nadella",
+		name: "Satya Nadella",
+		sortName: "Nadella, Satya",
+		birth: {
+			year: 1967,
+			date: "1967-08-19",
+			place: "Hyderabad, India"
+		},
+		nationality: ["Indian", "American"],
+		gender: "man",
+		fields: ["software"],
+		roles: ["manager", "entrepreneur"],
+		knownFor: "Microsoft CEO from 2014; cloud-and-culture repositioning; first-day email as a primary text",
+		summary: "Nadella became Microsoft CEO on 4 February 2014 after a career inside the company (including cloud). His first-day email states the job as thriving in a 'mobile and cloud-first world' — an admission that the prior Windows-first posture had missed a shift. Hit Refresh is a first-person book, useful and biased. Documented moves include cultural language ('learn-it-all'), GitHub and LinkedIn acquisitions, and a friendlier stance toward open source and rival platforms. Attribution of Microsoft's cloud growth to one person is a journalistic habit, not a measurement.",
+		thinking: "The explicit method is cultural: change what the company is allowed to learn and partner with, then fund Azure. Communication is the first operational act (the email), not a later victory lap.",
+		initials: "SN",
+		era: "1967–",
+		countries: ["India", "United States"],
+		mode: ["entrepreneur"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 2,
+			secondarySourceCount: 0,
+			completeness: 58,
+			confidence: "medium",
+			gaps: ["Board selection process in 2013–14 is not public in full.", "Cloud financials are company-reported."]
+		},
+		education: [{
+			institution: "Manipal Institute of Technology",
+			years: "1980s",
+			focus: "Electrical engineering",
+			evidence: "reported",
+			sourceIds: ["nadella-hit-refresh"]
+		}, {
+			institution: "University of Wisconsin–Milwaukee / Chicago Booth",
+			years: "1990s",
+			focus: "MS computer science; MBA",
+			evidence: "reported",
+			sourceIds: ["nadella-hit-refresh"]
+		}],
+		career: [{
+			org: "Microsoft",
+			role: "Engineer then executive, including cloud",
+			years: "1992–2014"
+		}, {
+			org: "Microsoft",
+			role: "CEO",
+			years: "2014–"
+		}],
+		timeline: [
+			{
+				id: "sn-2014",
+				year: 2014,
+				date: "2014-02-04",
+				title: "First-day CEO email",
+				stage: "transformation",
+				kind: "communication",
+				summary: "Public internal email: mobile and cloud-first. Primary source.",
+				evidence: "direct_quote",
+				confidence: "high",
+				sourceIds: ["nadella-2014-email"]
+			},
+			{
+				id: "sn-2016",
+				year: 2016,
+				title: "LinkedIn acquisition",
+				stage: "building",
+				kind: "company",
+				summary: "Large acquisition. Strategic reading is Nadella's; alternatives existed.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["nadella-hit-refresh"]
+			},
+			{
+				id: "sn-2018",
+				year: 2018,
+				title: "GitHub acquisition",
+				stage: "building",
+				kind: "company",
+				summary: "Signals a changed stance toward open-source developers after years of Microsoft hostility.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["nadella-hit-refresh"]
+			}
+		],
+		decisionIds: ["nadella-cloud-first"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["msft-culture-shift"],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: ["nadella-cloud-first-quote"],
+		principles: [{
+			id: "sn-p-learn",
+			personId: "satya-nadella",
+			title: "Change the learning rule before the product map",
+			statement: "The first-day text is about the environment Microsoft must thrive in, not a feature list.",
+			evidence: "interpretation",
+			sourceIds: ["nadella-2014-email"]
+		}],
+		communications: [{
+			id: "sn-comm-email",
+			personId: "satya-nadella",
+			title: "First-day email, 4 February 2014",
+			year: 2014,
+			audience: "Microsoft employees (also the press)",
+			objective: "Name the strategic environment and invite a culture that can operate in it.",
+			framing: "Mission as empowerment; job as mobile and cloud-first.",
+			technique: "Short, non-theatrical, internally addressed but written knowing it would leak/publish.",
+			tone: "Earnest, managerial",
+			excerpt: "Our job is to ensure that Microsoft thrives in a mobile and cloud-first world.",
+			evidence: "direct_quote",
+			sourceIds: ["nadella-2014-email"]
+		}],
+		controversies: [{
+			id: "sn-credit",
+			personId: "satya-nadella",
+			title: "How much of Azure is a CEO story?",
+			facts: "Azure predated the CEO role. Ballmer-era cloud investment exists.",
+			criticisms: "Media 'turnaround genius' frames erase continuity.",
+			counterarguments: "Capital allocation, M&A, and tone from the top did change in documented ways.",
+			uncertainty: "Causal share of culture versus secular cloud demand is not identified.",
+			historicalContext: "Enterprise software shifting to rented compute.",
+			sourceIds: ["nadella-2014-email", "nadella-hit-refresh"]
+		}],
+		successFactors: [
+			{
+				factor: "timing",
+				role: "Cloud demand was already compounding.",
+				evidence: "fact",
+				sourceIds: ["nadella-2014-email"]
+			},
+			{
+				factor: "capital",
+				role: "Microsoft could fund Azure losses and acquisitions.",
+				evidence: "fact",
+				sourceIds: ["nadella-hit-refresh"]
+			},
+			{
+				factor: "strategy",
+				role: "Willingness to partner with former enemies (open source, mobile OS rivals).",
+				evidence: "reported",
+				sourceIds: ["nadella-hit-refresh"]
+			}
+		],
+		antiSurvivorship: "Other 2010s tech CEOs also said 'culture.' Most did not sit on a cash-rich incumbent with an enterprise sales force. The method is not portable without the balance sheet.",
+		collaborators: [{
+			name: "Scott Guthrie",
+			relation: "cloud engineering leadership"
+		}],
+		companies: [
+			"Microsoft",
+			"LinkedIn",
+			"GitHub"
+		],
+		lessonIds: ["lesson-incumbent-learning"]
+	},
+	{
+		id: "elon-musk",
+		slug: "elon-musk",
+		name: "Elon Reeve Musk",
+		sortName: "Musk, Elon",
+		birth: {
+			year: 1971,
+			date: "1971-06-28",
+			place: "Pretoria, South Africa"
+		},
+		nationality: [
+			"South African",
+			"Canadian",
+			"American"
+		],
+		gender: "man",
+		fields: [
+			"space",
+			"energy",
+			"software",
+			"engineering"
+		],
+		roles: [
+			"entrepreneur",
+			"engineer",
+			"manager"
+		],
+		knownFor: "PayPal (as part of X.com/Confinity); SpaceX; Tesla; later X/Twitter — high-variance operator with a large controversy file",
+		summary: "Musk co-founded Zip2, then X.com which merged into what became PayPal, then founded SpaceX (2002) and led Tesla after an early investment (chairman 2004, CEO 2008). Falcon 1 reached orbit on 28 September 2008 on the fourth attempt; Musk later said that was the last money for Falcon 1. Tesla survived 2008 as a near-death event. These are documented. Later years include reusable rockets, EV scale, a 2022 Twitter acquisition, labor and securities controversies, and a public communication style that mixes engineering detail with unverified claims. This archive does not flatten him into either savior or cartoon.",
+		thinking: "A documented pattern is to take a capital-intensive physics problem (orbit, EV manufacturing) and iterate with public, expensive tests. That is not the same as 'first principles' as a slogan. Where claims outrun telemetry or filings, mark them reported or disputed.",
+		initials: "EM",
+		era: "1971–",
+		countries: [
+			"South Africa",
+			"Canada",
+			"United States"
+		],
+		mode: ["entrepreneur", "inventor"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 55,
+			confidence: "medium",
+			gaps: [
+				"Internal 2008 cash position is described by Musk after the fact.",
+				"Tesla production history is larger than this file.",
+				"X/Twitter era is only flagged, not fully processed."
+			]
+		},
+		education: [{
+			institution: "Queen's University; University of Pennsylvania",
+			years: "1990s",
+			focus: "Physics and economics (Penn)",
+			evidence: "reported",
+			sourceIds: ["musk-iac-2017"]
+		}],
+		career: [
+			{
+				org: "Zip2",
+				role: "Co-founder",
+				years: "1995–1999"
+			},
+			{
+				org: "X.com / PayPal",
+				role: "Co-founder / executive",
+				years: "1999–2002"
+			},
+			{
+				org: "SpaceX",
+				role: "Founder, CEO, chief engineer (title varies by year)",
+				years: "2002–"
+			},
+			{
+				org: "Tesla",
+				role: "Chairman then CEO",
+				years: "2004–"
+			}
+		],
+		timeline: [
+			{
+				id: "em-2002",
+				year: 2002,
+				title: "SpaceX founded",
+				stage: "first-major-decision",
+				kind: "company",
+				summary: "After PayPal liquidity. Goal stated as reducing cost of access to space / Mars as a long horizon.",
+				evidence: "reported",
+				confidence: "high",
+				sourceIds: ["musk-iac-2017"]
+			},
+			{
+				id: "em-2006-08",
+				year: 2006,
+				title: "Falcon 1 failures",
+				stage: "failure-setback",
+				kind: "failure",
+				summary: "Three failed orbital attempts (2006, 2007, August 2008).",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["falcon1-wiki-primary-note"]
+			},
+			{
+				id: "em-2008",
+				year: 2008,
+				date: "2008-09-28",
+				title: "Falcon 1 Flight 4 reaches orbit",
+				stage: "breakthrough",
+				kind: "technology",
+				summary: "First privately developed fully liquid-fueled vehicle to reach orbit. Payload: mass simulator.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["falcon1-wiki-primary-note", "musk-iac-2017"]
+			},
+			{
+				id: "em-2008-t",
+				year: 2008,
+				title: "Tesla near-death / becomes CEO",
+				stage: "major-crisis",
+				kind: "crisis",
+				summary: "2008 financial crisis plus production trouble. Musk becomes Tesla CEO. Details of financing are a specialist literature.",
+				evidence: "reported",
+				confidence: "medium",
+				sourceIds: ["musk-iac-2017"]
+			}
+		],
+		decisionIds: ["musk-falcon1-continue"],
+		failureIds: ["musk-falcon1-three"],
+		experimentIds: ["falcon1-flights"],
+		breakthroughIds: ["falcon1-orbit"],
+		technologyIds: ["falcon1"],
+		discoveryIds: [],
+		quoteIds: ["musk-last-money"],
+		principles: [{
+			id: "em-p-test",
+			personId: "elon-musk",
+			title: "Hardware programs learn from flights, including failed ones",
+			statement: "Three failures preceded the 2008 success. That is an expensive experimental loop, not a proverb about grit.",
+			evidence: "fact",
+			sourceIds: ["falcon1-wiki-primary-note", "musk-iac-2017"]
+		}],
+		communications: [{
+			id: "em-comm-iac",
+			personId: "elon-musk",
+			title: "IAC 2017 — Making Life Multiplanetary",
+			year: 2017,
+			audience: "Space industry / public internet",
+			objective: "Argue for a multiplanetary species and show hardware progress.",
+			framing: "Existential risk plus engineering roadmap. Mixes data and aspiration.",
+			technique: "Slides, vehicle images, personal cash anecdote about Falcon 1.",
+			tone: "Informal, absolute",
+			excerpt: "The first three launches failed. Fortunately the fourth launch — that was the last money that we had for Falcon 1 — the fourth launch worked, or that would have been it for SpaceX.",
+			evidence: "direct_quote",
+			sourceIds: ["musk-iac-2017"]
+		}],
+		controversies: [{
+			id: "em-claims",
+			personId: "elon-musk",
+			title: "Public claims, securities law, labor, and platform politics",
+			facts: "SEC settled a 2018 tweet case about taking Tesla private. NHTSA and other bodies have investigated Autopilot/FSDs marketing. Twitter/X acquisition (2022) produced content-moderation and advertiser conflicts. Labor practices at Tesla are litigated and reported.",
+			criticisms: "Pattern of over-promising timelines; political amplification; workplace complaints.",
+			counterarguments: "SpaceX launch cadence and Tesla's role in EV cost curves are also empirical. Both can be true.",
+			legal: "Public settlements and ongoing cases exist; this file does not retry them.",
+			uncertainty: "Many tweets are not engineering documents. Do not treat them as such.",
+			historicalContext: "Founder communication moved onto social platforms with no editor.",
+			sourceIds: ["musk-iac-2017"]
+		}],
+		successFactors: [
+			{
+				factor: "capital",
+				role: "PayPal proceeds plus later investors and NASA COTS.",
+				evidence: "fact",
+				sourceIds: ["musk-iac-2017"]
+			},
+			{
+				factor: "risk",
+				role: "Willingness to continue after three Falcon 1 failures.",
+				evidence: "fact",
+				sourceIds: ["falcon1-wiki-primary-note"]
+			},
+			{
+				factor: "luck",
+				role: "Flight 4 working before cash exhaustion — Musk's own framing.",
+				evidence: "reported",
+				sourceIds: ["musk-iac-2017"]
+			},
+			{
+				factor: "external-environment",
+				role: "NASA commercial cargo policy after Columbia.",
+				evidence: "inference",
+				sourceIds: ["falcon1-wiki-primary-note"]
+			}
+		],
+		antiSurvivorship: "If Flight 4 fails, this file is a bankruptcy case. The method (iterate rockets) is visible because the fourth flight worked. That is the definition of survivorship.",
+		collaborators: [{
+			name: "Gwynne Shotwell",
+			relation: "SpaceX president/COO; customer and operations leadership"
+		}, {
+			name: "JB Straubel",
+			relation: "early Tesla engineering"
+		}],
+		companies: [
+			"Zip2",
+			"PayPal",
+			"SpaceX",
+			"Tesla",
+			"X"
+		],
+		lessonIds: ["lesson-expensive-iteration", "lesson-survivorship-dotcom"]
+	},
+	{
+		id: "jensen-huang",
+		slug: "jensen-huang",
+		name: "Jensen Huang",
+		sortName: "Huang, Jensen",
+		honorific: "黃仁勳",
+		birth: {
+			year: 1963,
+			date: "1963-02-17",
+			place: "Tainan, Taiwan"
+		},
+		nationality: ["Taiwanese", "American"],
+		gender: "man",
+		fields: ["hardware", "computer-science"],
+		roles: [
+			"entrepreneur",
+			"engineer",
+			"manager"
+		],
+		knownFor: "NVIDIA co-founder and CEO; CUDA as a multi-year bet on programmable GPUs",
+		summary: "Huang co-founded NVIDIA in 1993 to build graphics chips. CUDA, publicly released in 2006, is a platform bet: treat the GPU as a programmable parallel computer, not only a game rasterizer. For years the bet looked expensive relative to the graphics market. Later machine-learning workloads made the same software stack a chokepoint. That is not prophecy neatly fulfilled; it is a platform that found a new dominant workload. Interviews (including Sequoia's Crucible Moments) are first-person and should be triangulated with the 2006 release record.",
+		thinking: "The decision is to invest in a programming model ahead of the paying market for general-purpose GPU compute. That is a classic irreversible platform bet with a long, visible trough.",
+		initials: "JH",
+		era: "1963–",
+		countries: ["Taiwan", "United States"],
+		mode: ["entrepreneur", "inventor"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 54,
+			confidence: "medium",
+			gaps: ["Internal CUDA P&L by year is not public.", "Co-founder roles of Chris Malachowsky and Curtis Priem are under-specified here."]
+		},
+		education: [{
+			institution: "Oregon State University",
+			years: "1980s",
+			focus: "Electrical engineering",
+			evidence: "reported",
+			sourceIds: ["sequoia-nvidia-cuda"]
+		}, {
+			institution: "Stanford University",
+			years: "1990s",
+			focus: "Master's, electrical engineering",
+			evidence: "reported",
+			sourceIds: ["sequoia-nvidia-cuda"]
+		}],
+		career: [{
+			org: "LSI Logic / AMD",
+			role: "Engineer / manager",
+			years: "1980s–1993"
+		}, {
+			org: "NVIDIA",
+			role: "Co-founder and CEO",
+			years: "1993–"
+		}],
+		timeline: [
+			{
+				id: "jh-1993",
+				year: 1993,
+				title: "NVIDIA founded",
+				stage: "early-career",
+				kind: "company",
+				summary: "Graphics chips. Early products include a failed NV1 era; the firm nearly died before winning PC 3D.",
+				evidence: "reported",
+				confidence: "medium",
+				sourceIds: ["sequoia-nvidia-cuda"]
+			},
+			{
+				id: "jh-2006",
+				year: 2006,
+				title: "CUDA released",
+				stage: "first-major-decision",
+				kind: "technology",
+				summary: "GPGPU programming platform. Public, dated. Market for non-graphics GPU compute is still small.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["nvidia-cuda-2006"]
+			},
+			{
+				id: "jh-2012+",
+				year: 2012,
+				title: "AlexNet era demand",
+				stage: "breakthrough",
+				kind: "technology",
+				summary: "Deep learning papers using GPUs (AlexNet 2012 is a landmark in that literature) pull CUDA into a new center. NVIDIA did not publish AlexNet.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["sequoia-nvidia-cuda"]
+			}
+		],
+		decisionIds: ["huang-cuda"],
+		failureIds: ["nvidia-nv1"],
+		experimentIds: [],
+		breakthroughIds: ["cuda-platform"],
+		technologyIds: ["cuda"],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "jh-p-platform",
+			personId: "jensen-huang",
+			title: "Sell a programming model, not only a chip",
+			statement: "CUDA made NVIDIA a software company attached to silicon. That is slower than a one-generation GPU win and harder to copy quickly.",
+			evidence: "interpretation",
+			sourceIds: ["nvidia-cuda-2006", "sequoia-nvidia-cuda"]
+		}],
+		communications: [{
+			id: "jh-comm-keynotes",
+			personId: "jensen-huang",
+			title: "GTC keynotes",
+			year: 2009,
+			audience: "Developers, investors, later the general tech public",
+			objective: "Define GPU computing as a category and NVIDIA as its center.",
+			framing: "Leather jacket as costume; architecture roadmaps as narrative.",
+			technique: "Demo, named architectures, developer counts.",
+			tone: "Showman-engineer",
+			evidence: "reported",
+			sourceIds: ["sequoia-nvidia-cuda"]
+		}],
+		controversies: [{
+			id: "jh-concentration",
+			personId: "jensen-huang",
+			title: "CUDA lock-in and AI infrastructure concentration",
+			facts: "CUDA is proprietary. Competitors argue it is a moat that slows portability. Data-center GPU scarcity and export controls are geopolitical facts of the 2020s.",
+			criticisms: "A research tool became a chokepoint.",
+			counterarguments: "NVIDIA funded the stack when others did not. Open alternatives exist and lag.",
+			uncertainty: "How much of the moat is software versus supply chain versus talent is disputed.",
+			historicalContext: "AI boom after 2012, then 2022 large-language-model demand.",
+			sourceIds: ["nvidia-cuda-2006"]
+		}],
+		successFactors: [
+			{
+				factor: "technology",
+				role: "Programmable GPU plus CUDA.",
+				evidence: "fact",
+				sourceIds: ["nvidia-cuda-2006"]
+			},
+			{
+				factor: "timing",
+				role: "Deep learning's need for dense linear algebra arrived after the bet.",
+				evidence: "fact",
+				sourceIds: ["sequoia-nvidia-cuda"]
+			},
+			{
+				factor: "persistence",
+				role: "Years of CUDA without a consumer-AI market.",
+				evidence: "reported",
+				sourceIds: ["sequoia-nvidia-cuda"]
+			}
+		],
+		antiSurvivorship: "Other GPGPU and HPC efforts (including AMD and academic languages) did not become the default. CUDA's later dominance makes 2006 look obvious. It was not priced as obvious.",
+		collaborators: [{
+			name: "Chris Malachowsky",
+			relation: "co-founder"
+		}, {
+			name: "Curtis Priem",
+			relation: "co-founder"
+		}],
+		companies: ["NVIDIA"],
+		lessonIds: ["lesson-platform-trough"]
+	},
+	{
+		id: "sara-blakely",
+		slug: "sara-blakely",
+		name: "Sara Blakely",
+		sortName: "Blakely, Sara",
+		birth: {
+			year: 1971,
+			date: "1971-02-08",
+			place: "Clearwater, Florida, United States"
+		},
+		nationality: ["American"],
+		gender: "woman",
+		fields: ["consumer-goods"],
+		roles: ["entrepreneur"],
+		knownFor: "Spanx; bootstrapped hosiery product; founder-reported $5,000 start and self-drafted patent",
+		summary: "Blakely founded Spanx around 2000 after cutting the feet off pantyhose to wear under white trousers. She has repeatedly said she used about $5,000 of savings from selling fax machines, wrote a patent application with a textbook, and avoided outside capital for two decades until a 2021 Blackstone majority stake. Those origin details are founder-reported and widely retold; treat them as reported, not as audited accounting. The documented business fact is a privately held shapewear brand that scaled through department-store placement (including a well-known Oprah mention in the public story) without a classic venture path.",
+		thinking: "The interesting decisions, if the reports hold, are: keep equity, learn enough patent procedure to file, and sell through existing retail rather than a technology narrative. That is a different experimental loop than a VC-funded software firm.",
+		initials: "SB",
+		era: "1971–",
+		countries: ["United States"],
+		mode: ["entrepreneur"],
+		research: {
+			sourceCount: 1,
+			primarySourceCount: 0,
+			secondarySourceCount: 1,
+			completeness: 42,
+			confidence: "medium",
+			gaps: [
+				"Patent file wrapper not attached.",
+				"Early wholesale terms are not public.",
+				"Founder story has few independent contemporaneous sources in this archive."
+			]
+		},
+		education: [{
+			institution: "Florida State University",
+			years: "1990s",
+			focus: "Communications",
+			evidence: "reported",
+			sourceIds: ["blakely-fortune-2024"]
+		}],
+		career: [{
+			org: "Danka / door-to-door fax sales",
+			role: "Sales",
+			years: "1990s"
+		}, {
+			org: "Spanx",
+			role: "Founder",
+			years: "2000–"
+		}],
+		timeline: [
+			{
+				id: "sb-1998",
+				year: 1998,
+				title: "Footless pantyhose idea",
+				stage: "opportunity-recognition",
+				kind: "life",
+				summary: "Founder-reported origin under white pants. Date sometimes given as 1998; product launch 2000.",
+				evidence: "reported",
+				confidence: "medium",
+				sourceIds: ["blakely-fortune-2024"]
+			},
+			{
+				id: "sb-2000",
+				year: 2e3,
+				title: "Spanx launched",
+				stage: "building",
+				kind: "company",
+				summary: "Product in market. Capital structure is founder-reported as self-funded.",
+				evidence: "reported",
+				confidence: "medium",
+				sourceIds: ["blakely-fortune-2024"]
+			},
+			{
+				id: "sb-2021",
+				year: 2021,
+				title: "Blackstone majority stake",
+				stage: "later-work",
+				kind: "company",
+				summary: "First major outside recapitalization after years of private control.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["blakely-fortune-2024"]
+			}
+		],
+		decisionIds: ["blakely-bootstrap-patent"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["spanx-retail"],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "sb-p-own",
+			personId: "sara-blakely",
+			title: "If the story is right, control was the strategy",
+			statement: "Avoiding early investors is a capital-structure decision that trades growth speed for ownership. Confirm against independent records before teaching it as a law.",
+			evidence: "reported",
+			sourceIds: ["blakely-fortune-2024"]
+		}],
+		communications: [],
+		controversies: [{
+			id: "sb-story",
+			personId: "sara-blakely",
+			title: "Founder myth versus thin contemporaneous paper",
+			facts: "The $5,000 / self-patent / no-advertising cluster is told by Blakely and magazines.",
+			criticisms: "Business press often reprints founder memory as fact.",
+			counterarguments: "The company and the 2021 deal are real. Origin amounts can be approximately true and still rounded.",
+			uncertainty: "High on early numbers. Medium on the product idea. Low on later ownership change.",
+			historicalContext: "Women's consumer products were not a 2000s VC category in the way software was.",
+			sourceIds: ["blakely-fortune-2024"]
+		}],
+		successFactors: [{
+			factor: "distribution",
+			role: "Department stores and later a celebrity mention in the public narrative.",
+			evidence: "reported",
+			sourceIds: ["blakely-fortune-2024"]
+		}, {
+			factor: "skill",
+			role: "Sales background applied to buyers.",
+			evidence: "reported",
+			sourceIds: ["blakely-fortune-2024"]
+		}],
+		antiSurvivorship: "Most self-funded apparel ideas do not become category brands. Spanx is visible because it did. The method is not validated by one outcome.",
+		collaborators: [{
+			name: "Oprah Winfrey",
+			relation: "later public booster in the standard story",
+			personId: "oprah-winfrey"
+		}],
+		companies: ["Spanx"],
+		lessonIds: ["lesson-founder-story-as-source"]
+	},
+	{
+		id: "reed-hastings",
+		slug: "reed-hastings",
+		name: "Wilmot Reed Hastings Jr.",
+		sortName: "Hastings, Reed",
+		birth: {
+			year: 1960,
+			date: "1960-10-08",
+			place: "Boston, Massachusetts, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: ["software", "entertainment"],
+		roles: ["entrepreneur", "manager"],
+		knownFor: "Netflix; 2011 Qwikster reversal as a documented failed decision; DVD-to-streaming transition",
+		summary: "Hastings co-founded Netflix (1997) as a DVD-by-mail service, then moved the company into streaming and original content. In 2011 Netflix announced a price restructuring and a brand split (Qwikster for DVDs). Customers and the stock reacted badly; Qwikster was cancelled within weeks while the price change largely remained. Hastings's blog posts are primary sources of a CEO explaining and then reversing a decision. That file is more useful than later success narratives about 'disrupting himself.'",
+		thinking: "The 2011 episode shows a strategy (separate dying DVD from growing streaming) that was directionally coherent and operationally clumsy. Reversal speed is part of the decision quality, not only the original idea.",
+		initials: "RH",
+		era: "1960–",
+		countries: ["United States"],
+		mode: ["entrepreneur"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 60,
+			confidence: "high",
+			gaps: ["Board debate on Qwikster is not public.", "Original-content capital allocation is a later, separate literature."]
+		},
+		education: [{
+			institution: "Bowdoin College",
+			years: "1980s",
+			focus: "Mathematics",
+			evidence: "reported",
+			sourceIds: ["npr-qwikster-2011"]
+		}, {
+			institution: "Stanford University",
+			years: "1980s",
+			focus: "Computer science master's",
+			evidence: "reported",
+			sourceIds: ["npr-qwikster-2011"]
+		}],
+		career: [{
+			org: "Pure Software",
+			role: "Founder",
+			years: "1991–1997"
+		}, {
+			org: "Netflix",
+			role: "Co-founder and CEO (later executive chair)",
+			years: "1997–"
+		}],
+		timeline: [
+			{
+				id: "rh-1997",
+				year: 1997,
+				title: "Netflix founded",
+				stage: "early-career",
+				kind: "company",
+				summary: "DVD-by-mail. Streaming comes later; do not backdate the strategy.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["npr-qwikster-2011"]
+			},
+			{
+				id: "rh-2007",
+				year: 2007,
+				title: "Streaming launched",
+				stage: "transformation",
+				kind: "technology",
+				summary: "Watch Instantly. Catalog and bandwidth constraints are the real product.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["npr-qwikster-2011"]
+			},
+			{
+				id: "rh-2011",
+				year: 2011,
+				title: "Qwikster announced and killed",
+				stage: "failure-setback",
+				kind: "failure",
+				summary: "Brand split reversed in October 2011. Price hike largely stayed. Stock and subscribers had already moved.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hastings-qwikster-blog", "npr-qwikster-2011"]
+			}
+		],
+		decisionIds: ["hastings-qwikster"],
+		failureIds: ["qwikster"],
+		experimentIds: [],
+		breakthroughIds: ["netflix-streaming"],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "rh-p-reverse",
+			personId: "reed-hastings",
+			title: "A wrong packaging of a right strategy is still a failed decision",
+			statement: "Separating DVD and streaming may have been strategically defensible. Forcing customers through two brands and a price shock was a communication and product decision that failed a market test.",
+			evidence: "interpretation",
+			sourceIds: ["hastings-qwikster-blog", "npr-qwikster-2011"]
+		}],
+		communications: [{
+			id: "rh-comm-qwikster",
+			personId: "reed-hastings",
+			title: "2011 blog explanations and reversal",
+			year: 2011,
+			audience: "Customers and investors",
+			objective: "First, justify a split; then retract the brand split.",
+			framing: "Apology plus remaining price structure. Incomplete humility: the price change stayed.",
+			technique: "Direct blog posts rather than only a press release.",
+			tone: "Chastened, still managerial",
+			evidence: "fact",
+			sourceIds: ["hastings-qwikster-blog"]
+		}],
+		controversies: [],
+		successFactors: [{
+			factor: "timing",
+			role: "DVD, then broadband.",
+			evidence: "fact",
+			sourceIds: ["npr-qwikster-2011"]
+		}, {
+			factor: "capital",
+			role: "Ability to fund content later — a different phase.",
+			evidence: "inference",
+			sourceIds: ["npr-qwikster-2011"]
+		}],
+		antiSurvivorship: "Blockbuster is the usual corpse in this story. Many streaming hopefuls also died. Netflix's 2011 drawdown is a reminder that the surviving firm still makes large unforced errors.",
+		collaborators: [{
+			name: "Marc Randolph",
+			relation: "co-founder"
+		}],
+		companies: ["Netflix", "Pure Software"],
+		lessonIds: ["lesson-reverse-in-public"]
+	},
+	{
+		id: "madam-cj-walker",
+		slug: "madam-cj-walker",
+		name: "Madam C.J. Walker",
+		sortName: "Walker, Madam C.J.",
+		honorific: "Sarah Breedlove",
+		birth: {
+			year: 1867,
+			date: "1867-12-23",
+			place: "Delta, Louisiana, United States"
+		},
+		death: {
+			year: 1919,
+			date: "1919-05-25",
+			place: "Irvington, New York, United States"
+		},
+		nationality: ["American"],
+		gender: "woman",
+		fields: ["consumer-goods", "social-innovation"],
+		roles: ["entrepreneur", "social-innovator"],
+		knownFor: "Hair-care manufacturing and a trained sales-agent network; wealth and philanthropy under Jim Crow",
+		summary: "Born Sarah Breedlove to formerly enslaved parents, Walker built a Black hair-care business in the early 20th century: products, a factory, and a system of agents (often women) who sold and taught. The Smithsonian and her descendant A'Lelia Bundles's biography are the anchors here. 'First self-made woman millionaire' is a popular label that historians treat carefully — accounting of net worth is not a modern audited statement. The documented achievement is an industrial and distribution system built despite legal and capital exclusion.",
+		thinking: "The business model is product plus training plus agents: a network, not only a formula. Beauty is the surface; employment and dignity rhetoric were part of the sales system. Read that as strategy in a constrained market, not as later brand copy.",
+		initials: "CW",
+		era: "1867–1919",
+		countries: ["United States"],
+		mode: ["entrepreneur", "social"],
+		research: {
+			sourceCount: 3,
+			primarySourceCount: 0,
+			secondarySourceCount: 3,
+			completeness: 58,
+			confidence: "high",
+			gaps: ["Formula chemistry is not reconstructed here.", "Exact wealth figures are popularly inflated."]
+		},
+		education: [{
+			institution: "Limited formal schooling",
+			years: "childhood",
+			focus: "Worked from childhood after parents' deaths",
+			evidence: "fact",
+			sourceIds: ["bundles-walker"]
+		}],
+		career: [{
+			org: "Madam C.J. Walker Manufacturing Company",
+			role: "Founder",
+			years: "1900s–1919"
+		}],
+		timeline: [
+			{
+				id: "cw-1905",
+				year: 1905,
+				title: "Product and method taking shape",
+				stage: "building",
+				kind: "company",
+				summary: "Wonderful Hair Grower and related products; Denver then Indianapolis as bases in the standard chronology.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["walker-nmaahc", "bundles-walker"]
+			},
+			{
+				id: "cw-1910",
+				year: 1910,
+				title: "Indianapolis factory",
+				stage: "scaling",
+				kind: "company",
+				summary: "Manufacturing base. Agents trained in a 'Walker system.'",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["walker-official", "bundles-walker"]
+			},
+			{
+				id: "cw-1919",
+				year: 1919,
+				title: "Death; company continues",
+				stage: "legacy",
+				kind: "life",
+				summary: "Daughter A'Lelia Walker inherits cultural and business roles. Philanthropy is part of the record.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["bundles-walker"]
+			}
+		],
+		decisionIds: ["walker-agent-network"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["walker-system"],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "cw-p-network",
+			personId: "madam-cj-walker",
+			title: "Distribution can be a trained community",
+			statement: "Agents were not only a sales force. Training created a channel that department stores would not have given her.",
+			evidence: "interpretation",
+			sourceIds: ["walker-nmaahc", "bundles-walker"]
+		}],
+		communications: [],
+		controversies: [{
+			id: "cw-millionaire",
+			personId: "madam-cj-walker",
+			title: "The millionaire label",
+			facts: "Period press and later popular history use 'first millionaire' language.",
+			criticisms: "Historians including Bundles have cautioned against precise modern dollar myths.",
+			counterarguments: "She was unusually wealthy for a Black woman entrepreneur of her time; the order of magnitude is the point.",
+			uncertainty: "Estate accounting versus newspaper copy.",
+			historicalContext: "Jim Crow, lynch law, and exclusion from white capital markets.",
+			sourceIds: ["bundles-walker"]
+		}],
+		successFactors: [
+			{
+				factor: "distribution",
+				role: "Agent network.",
+				evidence: "fact",
+				sourceIds: ["walker-nmaahc"]
+			},
+			{
+				factor: "execution",
+				role: "Factory plus training.",
+				evidence: "fact",
+				sourceIds: ["bundles-walker"]
+			},
+			{
+				factor: "market",
+				role: "A large underserved customer base.",
+				evidence: "fact",
+				sourceIds: ["walker-nmaahc"]
+			}
+		],
+		antiSurvivorship: "Many Black beauty entrepreneurs of the era did not leave factories, archives, or famous descendants. Walker is the one museums can exhibit.",
+		collaborators: [{
+			name: "A'Lelia Walker",
+			relation: "daughter; cultural and business heir"
+		}],
+		companies: ["Madam C.J. Walker Manufacturing Company"],
+		lessonIds: ["lesson-distribution-is-the-product"]
+	},
+	{
+		id: "wangari-maathai",
+		slug: "wangari-maathai",
+		name: "Wangari Muta Maathai",
+		sortName: "Maathai, Wangari",
+		birth: {
+			year: 1940,
+			date: "1940-04-01",
+			place: "Ihithe, Nyeri, Kenya"
+		},
+		death: {
+			year: 2011,
+			date: "2011-09-25",
+			place: "Nairobi, Kenya"
+		},
+		nationality: ["Kenyan"],
+		gender: "woman",
+		fields: [
+			"environment",
+			"social-innovation",
+			"biology"
+		],
+		roles: [
+			"scientist",
+			"social-innovator",
+			"communicator"
+		],
+		knownFor: "Green Belt Movement; 2004 Nobel Peace Prize; tree planting as civic and environmental practice",
+		summary: "Maathai was a veterinary anatomist, the first woman in East and Central Africa to earn a PhD in her field, and founder of the Green Belt Movement (1977), which paid women to plant trees and used planting as a form of civic claim on land and governance. The 2004 Nobel Peace Prize cited sustainable development, democracy, and peace. She was beaten and jailed in protests against land grabs. Unbowed is a memoir — primary and partial. Do not reduce the work to a gentle gardening story.",
+		thinking: "The operational insight is that an environmental metric (trees) can be a political technology: it organizes women, makes degradation visible, and confronts state and private land power. That is social engineering in the literal sense.",
+		initials: "WM",
+		era: "1940–2011",
+		countries: ["Kenya", "United States"],
+		mode: ["scientist", "social"],
+		research: {
+			sourceCount: 3,
+			primarySourceCount: 2,
+			secondarySourceCount: 1,
+			completeness: 62,
+			confidence: "high",
+			gaps: ["Tree-count figures are organizationally reported.", "Kenyan political archives are not fully linked here."]
+		},
+		education: [{
+			institution: "Mount St. Scholastica / University of Pittsburgh / University of Nairobi",
+			years: "1960s–1971",
+			focus: "Biology; PhD in veterinary anatomy",
+			evidence: "fact",
+			sourceIds: ["maathai-nobel-2004"]
+		}],
+		career: [
+			{
+				org: "University of Nairobi",
+				role: "Faculty; later department chair",
+				years: "1970s"
+			},
+			{
+				org: "Green Belt Movement",
+				role: "Founder",
+				years: "1977–2011"
+			},
+			{
+				org: "Kenyan parliament / assistant minister",
+				role: "Elected official",
+				years: "2002–2005"
+			}
+		],
+		timeline: [
+			{
+				id: "wm-1971",
+				year: 1971,
+				title: "PhD, University of Nairobi",
+				stage: "education",
+				kind: "education",
+				summary: "First woman in the region with a doctorate in her field, per Nobel/GBM biographies.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["maathai-nobel-2004", "greenbelt-maathai"]
+			},
+			{
+				id: "wm-1977",
+				year: 1977,
+				title: "Green Belt Movement",
+				stage: "first-major-decision",
+				kind: "company",
+				summary: "Tree planting through women's groups, under the National Council of Women of Kenya then as its own movement.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["greenbelt-maathai"]
+			},
+			{
+				id: "wm-1989",
+				year: 1989,
+				title: "Uhuru Park protest",
+				stage: "major-crisis",
+				kind: "controversy",
+				summary: "Campaign against a planned complex in Uhuru Park; a documented confrontation with the Moi-era state.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["maathai-unbowed"]
+			},
+			{
+				id: "wm-2004",
+				year: 2004,
+				title: "Nobel Peace Prize",
+				stage: "legacy",
+				kind: "publication",
+				summary: "First African woman Peace laureate. The citation is political as well as environmental.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["maathai-nobel-2004"]
+			}
+		],
+		decisionIds: ["maathai-greenbelt"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["green-belt-movement"],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "wm-p-trees",
+			personId: "wangari-maathai",
+			title: "A countable act can carry an uncountable claim",
+			statement: "Planting a tree is measurable. The right to land, firewood, and dissent is not. She yoked them.",
+			evidence: "interpretation",
+			sourceIds: ["maathai-nobel-2004", "maathai-unbowed"]
+		}],
+		communications: [{
+			id: "wm-comm-nobel",
+			personId: "wangari-maathai",
+			title: "Nobel lecture 2004",
+			year: 2004,
+			audience: "International public",
+			objective: "Tie trees to governance and peace.",
+			framing: "Local women's labor as a world-scale argument.",
+			technique: "Memoir detail plus civic claim.",
+			tone: "Firm, pedagogical",
+			evidence: "fact",
+			sourceIds: ["maathai-nobel-2004"]
+		}],
+		controversies: [{
+			id: "wm-state",
+			personId: "wangari-maathai",
+			title: "State violence and gendered ridicule",
+			facts: "She was assaulted at protests and mocked in gendered terms by political opponents.",
+			criticisms: "The Moi government treated environmentalism as opposition.",
+			counterarguments: "None that survive the Nobel committee's later reading — which is not the same as legal acquittal of every tactic.",
+			uncertainty: "Tactical debates inside Kenyan opposition are not fully mapped here.",
+			historicalContext: "Single-party then transitioning Kenya; structural adjustment; land.",
+			sourceIds: ["maathai-unbowed", "greenbelt-maathai"]
+		}],
+		successFactors: [
+			{
+				factor: "network",
+				role: "Women's groups as the operating system.",
+				evidence: "fact",
+				sourceIds: ["greenbelt-maathai"]
+			},
+			{
+				factor: "persistence",
+				role: "Decades against a hostile state.",
+				evidence: "fact",
+				sourceIds: ["maathai-unbowed"]
+			},
+			{
+				factor: "skill",
+				role: "Scientific training plus organizing.",
+				evidence: "fact",
+				sourceIds: ["maathai-nobel-2004"]
+			}
+		],
+		antiSurvivorship: "Other East African organizers did not get a Peace Prize. International recognition is a filter. The trees would still be a local fact without Oslo.",
+		collaborators: [{
+			name: "National Council of Women of Kenya",
+			relation: "early institutional home"
+		}],
+		companies: ["Green Belt Movement"],
+		lessonIds: ["lesson-metric-as-politics"]
+	},
+	{
+		id: "elizabeth-holmes",
+		slug: "elizabeth-holmes",
+		name: "Elizabeth Anne Holmes",
+		sortName: "Holmes, Elizabeth",
+		birth: {
+			year: 1984,
+			date: "1984-02-03",
+			place: "Washington, D.C., United States"
+		},
+		nationality: ["American"],
+		gender: "woman",
+		fields: ["medicine", "pharmaceuticals"],
+		roles: ["entrepreneur"],
+		knownFor: "Theranos; criminal fraud convictions related to investor deception — a control case against survivorship bias",
+		summary: "Holmes founded Theranos (2003) to run many tests on small blood samples. The technology did not work as claimed. John Carreyrou's 2015 Wall Street Journal reporting and 2018 book documented the gap. A jury in 2022 convicted her on four investor-fraud counts and acquitted her on patient-related counts as charged; she was sentenced to 135 months. This is not a 'failed startup' in the ordinary sense. It is a documented case of deception around a medical device. Include it so the archive does not study only people whose bets paid.",
+		thinking: "Publicly she used secrecy, prestige board members, and a Jobs-like costume as substitutes for published validation. That is a communication strategy. The legal finding is that investors were defrauded. Do not amateur-diagnose motives beyond the record.",
+		initials: "EH",
+		era: "1984–",
+		countries: ["United States"],
+		mode: ["entrepreneur"],
+		research: {
+			sourceCount: 3,
+			primarySourceCount: 1,
+			secondarySourceCount: 2,
+			completeness: 70,
+			confidence: "high",
+			gaps: ["Trade-secret claims still hide some internal engineering detail.", "Patient-count harm estimates vary."]
+		},
+		education: [{
+			institution: "Stanford University (left)",
+			years: "2002–2003",
+			focus: "Chemical engineering, incomplete",
+			evidence: "fact",
+			sourceIds: ["carreyrou-bad-blood"]
+		}],
+		career: [{
+			org: "Theranos",
+			role: "Founder and CEO",
+			years: "2003–2018"
+		}],
+		timeline: [
+			{
+				id: "eh-2003",
+				year: 2003,
+				title: "Theranos founded",
+				stage: "early-career",
+				kind: "company",
+				summary: "Drop-out founding story. Early patents and claims about a compact analyzer.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["carreyrou-bad-blood"]
+			},
+			{
+				id: "eh-2013",
+				year: 2013,
+				title: "Walgreens partnership era",
+				stage: "scaling",
+				kind: "company",
+				summary: "Retail wellness centers. The gap between claimed and actual capability is the later trial's subject.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["wsj-theranos-2015"]
+			},
+			{
+				id: "eh-2015",
+				year: 2015,
+				title: "WSJ investigation",
+				stage: "major-crisis",
+				kind: "controversy",
+				summary: "Carreyrou reports the technology has struggled. Company attacks the story; the story holds.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["wsj-theranos-2015"]
+			},
+			{
+				id: "eh-2022",
+				year: 2022,
+				date: "2022-01-03",
+				title: "Conviction",
+				stage: "legacy",
+				kind: "controversy",
+				summary: "Guilty on four investor-related counts; not guilty on certain patient counts. Sentence 135 months (November 2022).",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["holmes-verdict-2022"]
+			}
+		],
+		decisionIds: ["holmes-secrecy"],
+		failureIds: ["theranos"],
+		experimentIds: [],
+		breakthroughIds: [],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [],
+		communications: [{
+			id: "eh-comm-board",
+			personId: "elizabeth-holmes",
+			title: "Prestige as a substitute for methods sections",
+			year: 2014,
+			audience: "Investors, partners, press",
+			objective: "Create confidence without peer-reviewed analytical validation.",
+			framing: "Secrecy as IP; famous names as due diligence.",
+			technique: "Charisma, costume, NDAs, legal threats — as reported in WSJ and the trial record.",
+			tone: "Messianic, controlled",
+			evidence: "reported",
+			sourceIds: ["wsj-theranos-2015", "carreyrou-bad-blood"]
+		}],
+		controversies: [{
+			id: "eh-trial",
+			personId: "elizabeth-holmes",
+			title: "Criminal fraud versus 'fake it till you make it'",
+			year: 2022,
+			facts: "Conviction on investor fraud/conspiracy counts. Acquittal on some patient counts. Restitution later ordered jointly with Balwani in a large amount.",
+			criticisms: "Startup culture's tolerance for forward-looking claims.",
+			counterarguments: "The jury distinguished investor deception from the patient counts as charged — a legal, not moral, distinction.",
+			legal: "U.S. v. Holmes, N.D. Cal. Sentence 135 months.",
+			uncertainty: "Inner beliefs about whether the device would eventually work are not a defense and not fully knowable.",
+			historicalContext: "Silicon Valley medical devices, 2010s unicorn valuations, weak independent validation.",
+			sourceIds: ["holmes-verdict-2022", "carreyrou-bad-blood"]
+		}],
+		successFactors: [{
+			factor: "network",
+			role: "Family and board prestige opened doors.",
+			evidence: "fact",
+			sourceIds: ["carreyrou-bad-blood"]
+		}, {
+			factor: "communication",
+			role: "Storytelling outran the instrument.",
+			evidence: "fact",
+			sourceIds: ["wsj-theranos-2015"]
+		}],
+		antiSurvivorship: "This person is in the archive because the company collapsed in public. Hundreds of quieter medical-device failures never become curricula. Studying Holmes without studying ordinary scientific negative results would over-moralize and under-sample failure.",
+		collaborators: [{
+			name: "Ramesh 'Sunny' Balwani",
+			relation: "partner and president; separately convicted"
+		}],
+		companies: ["Theranos"],
+		lessonIds: ["lesson-secrecy-is-not-a-method", "lesson-survivorship-dotcom"]
+	},
+	{
+		id: "oprah-winfrey",
+		slug: "oprah-winfrey",
+		name: "Oprah Gail Winfrey",
+		sortName: "Winfrey, Oprah",
+		birth: {
+			year: 1954,
+			date: "1954-01-29",
+			place: "Kosciusko, Mississippi, United States"
+		},
+		nationality: ["American"],
+		gender: "woman",
+		fields: ["media", "entertainment"],
+		roles: [
+			"communicator",
+			"entrepreneur",
+			"manager"
+		],
+		knownFor: "The Oprah Winfrey Show; Harpo ownership of the show; a communication empire built from local TV",
+		summary: "Winfrey went from local news and a Chicago talk show (A.M. Chicago) to a nationally syndicated program, then took ownership via Harpo (founded 1986; she gained production control of the show in 1988). The documented strategic move is owning the channel of her own communication rather than remaining talent-for-hire. Later book-club and political-endorsement power is real and easy to mythologize. Keep the ownership decision in the center.",
+		thinking: "The method is audience intimacy at scale, then vertical integration of the production company. Communication is the product; the company is how residuals and control do not leak.",
+		initials: "OW",
+		era: "1954–",
+		countries: ["United States"],
+		mode: ["entrepreneur", "social"],
+		research: {
+			sourceCount: 1,
+			primarySourceCount: 0,
+			secondarySourceCount: 1,
+			completeness: 45,
+			confidence: "medium",
+			gaps: ["Contract terms of the 1988 control shift are not in this file.", "Harpo financials are private."]
+		},
+		education: [{
+			institution: "Tennessee State University",
+			years: "1970s",
+			focus: "Communications",
+			evidence: "reported",
+			sourceIds: ["oprah-harpo"]
+		}],
+		career: [{
+			org: "Local TV news / A.M. Chicago",
+			role: "Presenter",
+			years: "1970s–1986"
+		}, {
+			org: "Harpo Productions",
+			role: "Founder",
+			years: "1986–"
+		}],
+		timeline: [
+			{
+				id: "ow-1984",
+				year: 1984,
+				title: "A.M. Chicago",
+				stage: "early-career",
+				kind: "career",
+				summary: "Takes over a local show that becomes The Oprah Winfrey Show.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["oprah-harpo"]
+			},
+			{
+				id: "ow-1986",
+				year: 1986,
+				title: "Harpo founded; national syndication",
+				stage: "building",
+				kind: "company",
+				summary: "Production company named as Oprah reversed.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["oprah-harpo"]
+			},
+			{
+				id: "ow-1988",
+				year: 1988,
+				title: "Takes production control",
+				stage: "first-major-decision",
+				kind: "decision",
+				summary: "Harpo takes over production of the show — ownership of the communication apparatus.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["oprah-harpo"]
+			}
+		],
+		decisionIds: ["oprah-own-the-show"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["harpo-control"],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "ow-p-own",
+			personId: "oprah-winfrey",
+			title: "Own the production of your voice",
+			statement: "Talent without the company is a rental. The 1988 control shift is the business decision underneath the cultural power.",
+			evidence: "interpretation",
+			sourceIds: ["oprah-harpo"]
+		}],
+		communications: [{
+			id: "ow-comm-show",
+			personId: "oprah-winfrey",
+			title: "The Oprah Winfrey Show as a format",
+			year: 1986,
+			audience: "Daytime television public",
+			objective: "Intimacy, confession, recommendation, and later civic talk at national scale.",
+			framing: "Personal narrative as the unit of meaning.",
+			technique: "Interview, audience, book club, branded recommendation.",
+			tone: "Empathic, directive",
+			evidence: "reported",
+			sourceIds: ["oprah-harpo"]
+		}],
+		controversies: [{
+			id: "ow-influence",
+			personId: "oprah-winfrey",
+			title: "Recommendation power and responsibility",
+			facts: "Book-club and product recommendations moved markets. Some later controversies (e.g. guests, medical advice episodes) are part of the show's history.",
+			criticisms: "Parasocial trust can outrun expertise.",
+			counterarguments: "Literacy and political participation effects are also claimed in the literature.",
+			uncertainty: "Causal media-effects studies are mixed.",
+			historicalContext: "U.S. daytime TV, then a fragmented internet that still treats her endorsement as an event.",
+			sourceIds: ["oprah-harpo"]
+		}],
+		successFactors: [
+			{
+				factor: "skill",
+				role: "On-camera communication.",
+				evidence: "fact",
+				sourceIds: ["oprah-harpo"]
+			},
+			{
+				factor: "strategy",
+				role: "Ownership of Harpo.",
+				evidence: "fact",
+				sourceIds: ["oprah-harpo"]
+			},
+			{
+				factor: "distribution",
+				role: "Syndication.",
+				evidence: "fact",
+				sourceIds: ["oprah-harpo"]
+			}
+		],
+		antiSurvivorship: "Local talk-show hosts who did not get national syndication are invisible. Winfrey's skill is real; so is King World's distribution bet.",
+		collaborators: [{
+			name: "King World",
+			relation: "syndication partner in the national era"
+		}],
+		companies: ["Harpo Productions"],
+		lessonIds: ["lesson-own-the-channel"]
+	},
+	{
+		id: "jack-ma",
+		slug: "jack-ma",
+		name: "Jack Ma",
+		sortName: "Ma, Jack",
+		honorific: "马云",
+		birth: {
+			year: 1964,
+			date: "1964-09-10",
+			place: "Hangzhou, Zhejiang, China"
+		},
+		nationality: ["Chinese"],
+		gender: "man",
+		fields: ["software", "retail"],
+		roles: ["entrepreneur", "manager"],
+		knownFor: "Alibaba; Taobao versus eBay in China; later public clash with regulators",
+		summary: "Ma taught English, failed to join established employers in the often-told early story, then founded Alibaba (1999) as a B2B listing service for Chinese small manufacturers. Taobao (2003) competed with eBay's Chinese operation and won on local product design (including Alipay trust mechanisms). The 2014 F-1 filing is a primary corporate history as told to U.S. regulators. In 2020 a speech criticizing Chinese financial regulation preceded the halted Ant Group IPO and Ma's reduced public profile. Do not tell this as only a charming founder fable.",
+		thinking: "The documented competitive move versus eBay is localization plus a trust/payment layer for a market without U.S.-style credit cards. State relationship is not an afterthought in Chinese platform history; it is a constraint that later reasserted itself.",
+		initials: "JM",
+		era: "1964–",
+		countries: ["China"],
+		mode: ["entrepreneur"],
+		research: {
+			sourceCount: 1,
+			primarySourceCount: 1,
+			secondarySourceCount: 0,
+			completeness: 48,
+			confidence: "medium",
+			gaps: ["Internal Taobao vs eBay metrics are company-narrated.", "2020–2021 political sequence is still being documented."]
+		},
+		education: [{
+			institution: "Hangzhou Teacher's Institute",
+			years: "1980s",
+			focus: "English",
+			evidence: "reported",
+			sourceIds: ["jack-ma-alibaba-ipo"]
+		}],
+		career: [{
+			org: "Alibaba Group",
+			role: "Co-founder and long-time leader",
+			years: "1999–"
+		}],
+		timeline: [
+			{
+				id: "jm-1999",
+				year: 1999,
+				title: "Alibaba founded",
+				stage: "building",
+				kind: "company",
+				summary: "B2B marketplace for Chinese SMEs. Eighteen founders in the corporate legend; treat headcount as company history.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["jack-ma-alibaba-ipo"]
+			},
+			{
+				id: "jm-2003",
+				year: 2003,
+				title: "Taobao launched",
+				stage: "first-major-decision",
+				kind: "company",
+				summary: "C2C against eBay EachNet. Free listings and later Alipay as trust infrastructure.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["jack-ma-alibaba-ipo"]
+			},
+			{
+				id: "jm-2014",
+				year: 2014,
+				title: "NYSE IPO",
+				stage: "scaling",
+				kind: "company",
+				summary: "F-1 as a primary narrative of the firm.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["jack-ma-alibaba-ipo"]
+			},
+			{
+				id: "jm-2020",
+				year: 2020,
+				title: "Ant IPO halted after Bund speech",
+				stage: "major-crisis",
+				kind: "crisis",
+				summary: "Public criticism of regulation; IPO suspended. A political-economy event, not only a market event.",
+				evidence: "reported",
+				confidence: "medium",
+				sourceIds: ["jack-ma-alibaba-ipo"]
+			}
+		],
+		decisionIds: ["ma-taobao"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["taobao-local"],
+		technologyIds: ["alipay"],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "jm-p-local",
+			personId: "jack-ma",
+			title: "Copy the category, not the American UX",
+			statement: "eBay's model met a different payments and trust environment. Taobao's design choices were local constraints made into product.",
+			evidence: "interpretation",
+			sourceIds: ["jack-ma-alibaba-ipo"]
+		}],
+		communications: [{
+			id: "jm-comm-showman",
+			personId: "jack-ma",
+			title: "Founder as performer",
+			year: 2014,
+			audience: "Employees, SMEs, later global IPO investors",
+			objective: "Charisma as recruiting and political cover — until it wasn't.",
+			framing: "Teacher, underdog, national SME champion.",
+			technique: "Stagecraft, aphorism, mass wedding-style company events.",
+			tone: "Exuberant",
+			evidence: "reported",
+			sourceIds: ["jack-ma-alibaba-ipo"]
+		}],
+		controversies: [{
+			id: "jm-state",
+			personId: "jack-ma",
+			title: "Platform power and the party-state",
+			year: 2020,
+			facts: "Ant IPO halt; subsequent restructuring pressure. Counter-party-state speech is not a protected category in the PRC.",
+			criticisms: "From the state: financial risk and arrogant tech. From liberals: earlier closeness to the state.",
+			counterarguments: "Alibaba also expanded SME export access — the F-1's own claim.",
+			uncertainty: "Inner elite politics are not transparent.",
+			historicalContext: "PRC internet, 1999–2021: permissioned entrepreneurship.",
+			sourceIds: ["jack-ma-alibaba-ipo"]
+		}],
+		successFactors: [
+			{
+				factor: "market",
+				role: "Chinese manufacturing SMEs needing export channels, then domestic consumption.",
+				evidence: "fact",
+				sourceIds: ["jack-ma-alibaba-ipo"]
+			},
+			{
+				factor: "timing",
+				role: "eBay entered without full localization.",
+				evidence: "reported",
+				sourceIds: ["jack-ma-alibaba-ipo"]
+			},
+			{
+				factor: "external-environment",
+				role: "State policy toward private internet firms shifted over time.",
+				evidence: "inference",
+				sourceIds: ["jack-ma-alibaba-ipo"]
+			}
+		],
+		antiSurvivorship: "Other Chinese portals of 1999 are forgotten. Alibaba's F-1 is the survivor's autobiography.",
+		collaborators: [{
+			name: "Joseph Tsai",
+			relation: "long-time partner; corporate architecture"
+		}],
+		companies: [
+			"Alibaba",
+			"Taobao",
+			"Ant Group"
+		],
+		lessonIds: ["lesson-localize-the-constraint"]
+	},
+	{
+		id: "warren-buffett",
+		slug: "warren-buffett",
+		name: "Warren Edward Buffett",
+		sortName: "Buffett, Warren",
+		birth: {
+			year: 1930,
+			date: "1930-08-30",
+			place: "Omaha, Nebraska, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: ["finance"],
+		roles: ["investor", "manager"],
+		knownFor: "Berkshire Hathaway letters; capital allocation; insurance float as a funding technology",
+		summary: "Buffett's primary sources are the Berkshire Hathaway shareholder letters: a decades-long explanation of how he allocates capital, how he thinks about moats, and how he uses insurance float. The letters are unusually clear and also a carefully managed persona. Performance is real over a long window and is not a promise that the same rules work for people without permanent capital, tax history, and a cult of patient shareholders. Circle of competence is a documented theme; so is the later Apple position, which tests any cartoon of 'he never does tech.'",
+		thinking: "The method is to write the decision rule in public, repeatedly, and to treat cash as a strategic inventory. Communication (the letter) is part of attracting the right capital, which is part of the strategy.",
+		initials: "WB",
+		era: "1930–",
+		countries: ["United States"],
+		mode: ["entrepreneur"],
+		research: {
+			sourceCount: 1,
+			primarySourceCount: 1,
+			secondarySourceCount: 0,
+			completeness: 55,
+			confidence: "high",
+			gaps: ["Partnership years before Berkshire are compressed.", "This file does not replicate 60 years of letters."]
+		},
+		education: [{
+			institution: "University of Nebraska; Columbia Business School",
+			years: "1940s–1951",
+			focus: "Graham and Dodd value investing",
+			evidence: "fact",
+			sourceIds: ["buffett-letters"]
+		}],
+		career: [{
+			org: "Buffett Partnership Ltd.",
+			role: "Investor",
+			years: "1956–1969"
+		}, {
+			org: "Berkshire Hathaway",
+			role: "Chairman and CEO",
+			years: "1965–"
+		}],
+		timeline: [
+			{
+				id: "wb-1965",
+				year: 1965,
+				title: "Control of Berkshire",
+				stage: "building",
+				kind: "company",
+				summary: "Textile mill as a vehicle. He later calls the textile business a mistake; the vehicle remains.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["buffett-letters"]
+			},
+			{
+				id: "wb-1967",
+				year: 1967,
+				title: "Insurance entry (National Indemnity era)",
+				stage: "breakthrough",
+				kind: "company",
+				summary: "Float as capital. A structural, not stock-picking, move.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["buffett-letters"]
+			},
+			{
+				id: "wb-letters",
+				year: 1977,
+				title: "Letters as a genre",
+				stage: "later-work",
+				kind: "communication",
+				summary: "Annual letters become a teaching and investor-selection device.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["buffett-letters"]
+			}
+		],
+		decisionIds: ["buffett-float"],
+		failureIds: ["buffett-textiles"],
+		experimentIds: [],
+		breakthroughIds: ["berkshire-float"],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: ["buffett-circle"],
+		principles: [{
+			id: "wb-p-circle",
+			personId: "warren-buffett",
+			title: "Write the rule, then attract capital that wants the rule",
+			statement: "The letter is not decoration. It selects shareholders who will tolerate unused cash and concentrated bets.",
+			evidence: "interpretation",
+			sourceIds: ["buffett-letters"]
+		}],
+		communications: [{
+			id: "wb-comm-letters",
+			personId: "warren-buffett",
+			title: "Berkshire Hathaway letters",
+			year: 1977,
+			audience: "Shareholders, later a global student audience",
+			objective: "Explain capital allocation and set expectations.",
+			framing: "Plain Midwestern prose, numbered lessons, jokes, named mistakes.",
+			technique: "Admit errors in public; teach accounting; repeat.",
+			tone: "Avuncular, precise about money",
+			evidence: "fact",
+			sourceIds: ["buffett-letters"]
+		}],
+		controversies: [{
+			id: "wb-power",
+			personId: "warren-buffett",
+			title: "Gentle persona, hard capitalism",
+			facts: "Berkshire owns insurers, railroads, energy, consumer brands. Some holdings have drawn labor or climate criticism.",
+			criticisms: "The folksy letter can soften scrutiny of market power.",
+			counterarguments: "He publishes more self-criticism than most CEOs. That is not the same as innocence.",
+			uncertainty: "Which criticisms attach to Buffett personally versus subsidiary management.",
+			historicalContext: "U.S. conglomerate after the 1960s, surviving by being a capital allocator rather than a textile operator.",
+			sourceIds: ["buffett-letters"]
+		}],
+		successFactors: [
+			{
+				factor: "capital",
+				role: "Permanent capital and float.",
+				evidence: "fact",
+				sourceIds: ["buffett-letters"]
+			},
+			{
+				factor: "skill",
+				role: "Security analysis plus capital allocation.",
+				evidence: "fact",
+				sourceIds: ["buffett-letters"]
+			},
+			{
+				factor: "timing",
+				role: "Long American equity compounding window.",
+				evidence: "inference",
+				sourceIds: ["buffett-letters"]
+			}
+		],
+		antiSurvivorship: "Value investors with worse 50-year luck are unknown. Buffett also had Graham as a teacher and a particular U.S. market. The letters are a method; the track record is one path.",
+		collaborators: [{
+			name: "Charlie Munger",
+			relation: "partner; mental-models foil"
+		}],
+		companies: ["Berkshire Hathaway"],
+		lessonIds: ["lesson-write-the-rule"]
+	},
+	{
+		id: "henry-ford",
+		slug: "henry-ford",
+		name: "Henry Ford",
+		sortName: "Ford, Henry",
+		birth: {
+			year: 1863,
+			date: "1863-07-30",
+			place: "Springwells Township, Michigan, United States"
+		},
+		death: {
+			year: 1947,
+			date: "1947-04-07",
+			place: "Dearborn, Michigan, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: ["engineering", "retail"],
+		roles: [
+			"entrepreneur",
+			"inventor",
+			"manager"
+		],
+		knownFor: "Model T; moving assembly; $5 day — and a documented record of antisemitic publishing",
+		summary: "Ford did not invent the automobile or the assembly line. Ford Motor Company (1903) made the Model T (1908) a mass product and, at Highland Park, developed moving-assembly methods that cut labor time. On 5 January 1914 the company announced a $5 day — roughly a doubling for many workers — with behavioral conditions and a Sociological Department. The same man used the Dearborn Independent to publish antisemitic material later circulated in Europe. This archive will not separate the production system from the politics as if they were two people.",
+		thinking: "The industrial method is standardization, flow, and wages high enough to reduce turnover and, in Ford's rhetoric, to create customers. The political method is propaganda. Both are documented.",
+		initials: "HF",
+		era: "1863–1947",
+		countries: ["United States"],
+		mode: ["entrepreneur", "inventor"],
+		research: {
+			sourceCount: 1,
+			primarySourceCount: 1,
+			secondarySourceCount: 0,
+			completeness: 50,
+			confidence: "high",
+			gaps: ["Highland Park time-and-motion studies are a specialist literature.", "Dearborn Independent full run is not excerpted."]
+		},
+		education: [{
+			institution: "Machine-shop apprenticeship",
+			years: "1870s–1880s",
+			focus: "Mechanics",
+			evidence: "fact",
+			sourceIds: ["ford-five-dollar-day"]
+		}],
+		career: [{
+			org: "Ford Motor Company",
+			role: "Founder",
+			years: "1903–1945"
+		}],
+		timeline: [
+			{
+				id: "hf-1908",
+				year: 1908,
+				title: "Model T",
+				stage: "breakthrough",
+				kind: "technology",
+				summary: "A standardized car aimed at volume. Not the first car.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["ford-five-dollar-day"]
+			},
+			{
+				id: "hf-1913",
+				year: 1913,
+				title: "Moving assembly at Highland Park",
+				stage: "building",
+				kind: "technology",
+				summary: "Flow production. Many engineers; Ford's name on the firm.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["ford-five-dollar-day"]
+			},
+			{
+				id: "hf-1914",
+				year: 1914,
+				date: "1914-01-05",
+				title: "$5 day announced",
+				stage: "first-major-decision",
+				kind: "decision",
+				summary: "Wage-plus-profit-sharing with moral conditions. Not simple generosity.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["ford-five-dollar-day"]
+			}
+		],
+		decisionIds: ["ford-five-dollar"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["highland-park-flow"],
+		technologyIds: ["model-t-system"],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "hf-p-flow",
+			personId: "henry-ford",
+			title: "Price the product for volume, then force the process to that price",
+			statement: "Standardization is a demand-side and a supply-side decision at once.",
+			evidence: "interpretation",
+			sourceIds: ["ford-five-dollar-day"]
+		}],
+		communications: [],
+		controversies: [{
+			id: "hf-antisemitism",
+			personId: "henry-ford",
+			title: "Dearborn Independent and The International Jew",
+			facts: "Ford owned a newspaper that published antisemitic series. Material was later used by others, including in Nazi Germany. He eventually signed a 1927 retraction under legal and commercial pressure.",
+			criticisms: "Not a side hobby. It is a mass-communication project.",
+			counterarguments: "A signed apology exists; historians debate sincerity. It does not unpublish the run.",
+			legal: "Libel pressure contributed to the 1927 statement.",
+			uncertainty: "How much Ford wrote versus signed is a specialist question; ownership is not.",
+			historicalContext: "U.S. nativism, industrial paternalism, worldwide antisemitic networks.",
+			sourceIds: ["ford-five-dollar-day"]
+		}],
+		successFactors: [
+			{
+				factor: "technology",
+				role: "Flow production and a frozen design.",
+				evidence: "fact",
+				sourceIds: ["ford-five-dollar-day"]
+			},
+			{
+				factor: "capital",
+				role: "Reinvested profits; later a closely held firm.",
+				evidence: "fact",
+				sourceIds: ["ford-five-dollar-day"]
+			},
+			{
+				factor: "market",
+				role: "U.S. rural and working customers for a cheap car.",
+				evidence: "fact",
+				sourceIds: ["ford-five-dollar-day"]
+			}
+		],
+		antiSurvivorship: "Other automakers existed. Ford's process won a phase, then lost design flexibility to General Motors' annual-model strategy — a later competitive failure of the frozen Model T world.",
+		collaborators: [{
+			name: "Charles Sorensen / Highland Park engineers",
+			relation: "production system"
+		}],
+		companies: ["Ford Motor Company"],
+		lessonIds: ["lesson-wage-as-system", "lesson-do-not-sanitize"]
+	}
+];
+var people = [
+	{
+		id: "marie-curie",
+		slug: "marie-curie",
+		name: "Marie Skłodowska Curie",
+		sortName: "Curie, Marie",
+		birth: {
+			year: 1867,
+			date: "1867-11-07",
+			place: "Warsaw, Congress Poland, Russian Empire"
+		},
+		death: {
+			year: 1934,
+			date: "1934-07-04",
+			place: "Passy, France"
+		},
+		nationality: ["Polish", "French"],
+		gender: "woman",
+		fields: ["physics", "chemistry"],
+		roles: ["scientist", "researcher"],
+		knownFor: "Radioactivity; discovery of polonium and radium; two Nobel Prizes in different sciences",
+		summary: "Maria Salomea Skłodowska left partitioned Poland for Paris because the Russian-controlled University of Warsaw did not admit women. At the Sorbonne she took a research problem that looked modest: whether Becquerel's uranium rays were unique. Measurement, not speculation, drove the work. Pitchblende was more active than its uranium content predicted, which implied unknown elements. Isolation of those elements required years of chemical processing in a shed, then a fight over scientific credit, then a second, solo Nobel after Pierre Curie's death. The work created a field and also a medical and industrial hazard that the Curies underestimated. Success here is not a parable of lone genius. It is a record of quantitative stubbornness, partnership, institutional exclusion, and delayed recognition of risk.",
+		thinking: "Curie's method was to treat a qualitative curiosity as a measurement problem. She asked whether radioactivity was an atomic property, then designed instruments (with Pierre) that could compare activity across materials. When data contradicted the simple uranium story, she did not protect the hypothesis; she enlarged the chemical search. She also refused to patent radium isolation, a documented choice with mixed later consequences: faster scientific diffusion, weaker personal control of the industrial process.",
+		initials: "MC",
+		era: "1867–1934",
+		countries: ["Poland", "France"],
+		mode: ["scientist"],
+		research: {
+			sourceCount: 6,
+			primarySourceCount: 3,
+			secondarySourceCount: 3,
+			completeness: 72,
+			confidence: "high",
+			gaps: [
+				"Laboratory notebooks are only partially represented here.",
+				"The precise division of labor with Pierre on each 1898 result is still debated in the literature.",
+				"Personal letters around the 1911 Langevin controversy are not reproduced."
+			]
+		},
+		education: [{
+			institution: "Flying University, Warsaw",
+			years: "1880s",
+			focus: "Clandestine higher education for women",
+			evidence: "reported",
+			sourceIds: ["curie-britannica"]
+		}, {
+			institution: "University of Paris (Sorbonne)",
+			years: "1891–1894",
+			focus: "Physics and mathematics",
+			evidence: "fact",
+			sourceIds: ["curie-britannica", "institut-curie-legacy"]
+		}],
+		career: [
+			{
+				org: "Municipal School of Industrial Physics and Chemistry, Paris",
+				role: "Researcher (with Pierre Curie)",
+				years: "1895–1906"
+			},
+			{
+				org: "University of Paris",
+				role: "Professor of General Physics (first woman professor at the Sorbonne)",
+				years: "1906–1934"
+			},
+			{
+				org: "Radium Institute (Institut du Radium)",
+				role: "Director",
+				years: "1914–1934"
+			}
+		],
+		timeline: [
+			{
+				id: "mc-1867",
+				year: 1867,
+				date: "1867-11-07",
+				title: "Born in Warsaw",
+				stage: "early-life",
+				kind: "life",
+				summary: "Born Maria Salomea Skłodowska in a city under Russian imperial rule. Higher education for women was blocked at the official university.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-britannica", "institut-curie-legacy"]
+			},
+			{
+				id: "mc-1891",
+				year: 1891,
+				title: "Leaves for Paris",
+				stage: "education",
+				kind: "education",
+				summary: "Moves to Paris to study at the Sorbonne after years of work as a governess to fund education for herself and her sister.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-britannica"]
+			},
+			{
+				id: "mc-1895",
+				year: 1895,
+				date: "1895-07-25",
+				title: "Marries Pierre Curie",
+				stage: "early-career",
+				kind: "life",
+				summary: "Scientific partnership begins. Pierre had already built sensitive piezoelectric electrometers that later made activity measurements possible.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-britannica"]
+			},
+			{
+				id: "mc-1896",
+				year: 1896,
+				title: "Chooses Becquerel's rays as a thesis problem",
+				stage: "first-major-problem",
+				kind: "decision",
+				summary: "Henri Becquerel had observed uranium rays. Curie asks whether the property exists beyond uranium and whether it is an atomic property.",
+				evidence: "documented_decision",
+				confidence: "high",
+				sourceIds: ["curie-britannica", "curie-thesis-1903"]
+			},
+			{
+				id: "mc-1898-po",
+				year: 1898,
+				title: "Polonium announced",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "A new active substance in pitchblende is reported and named polonium after Poland.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-nobel-chemistry-1911", "curie-britannica"]
+			},
+			{
+				id: "mc-1898-ra",
+				year: 1898,
+				title: "Radium announced",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "A second, still more active substance is reported as radium. Isolation of weighable quantities takes years of processing tons of residue.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-nobel-chemistry-1911"]
+			},
+			{
+				id: "mc-1903",
+				year: 1903,
+				title: "Doctorate and Nobel Prize in Physics",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Doctoral thesis presented 25 June 1903. Nobel Prize in Physics shared with Pierre Curie and Henri Becquerel. The French Academy's initial nomination omitted Marie; Pierre insisted she be included — a documented intervention, not a legend to skip.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-nobel-physics-1903", "curie-thesis-1903"]
+			},
+			{
+				id: "mc-1906",
+				year: 1906,
+				title: "Pierre Curie dies; Marie takes the chair",
+				stage: "major-crisis",
+				kind: "crisis",
+				summary: "Pierre is killed in a street accident. Marie is appointed to his professorship, becoming the first woman professor at the Sorbonne.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["institut-curie-legacy"]
+			},
+			{
+				id: "mc-1911",
+				year: 1911,
+				title: "Nobel Prize in Chemistry, and a public scandal",
+				stage: "later-work",
+				kind: "controversy",
+				summary: "Awarded the chemistry prize for radium and polonium. The same year, the Langevin affair is used to attack her personally. She attends Stockholm against advice to stay away.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-nobel-chemistry-1911", "curie-britannica"]
+			},
+			{
+				id: "mc-1914",
+				year: 1914,
+				title: "Mobile X-ray units in the First World War",
+				stage: "later-work",
+				kind: "technology",
+				summary: "Organizes radiological cars ('petites Curies') and trains operators. Practical deployment of radiation, with incomplete protection standards.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-britannica", "institut-curie-legacy"]
+			},
+			{
+				id: "mc-1934",
+				year: 1934,
+				date: "1934-07-04",
+				title: "Death from aplastic anemia",
+				stage: "legacy",
+				kind: "life",
+				summary: "Dies at 66. Cause is consistent with long radiation exposure. The Curies had handled radioactive materials with far less protection than later standards require.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["curie-britannica"]
+			}
+		],
+		decisionIds: ["curie-thesis-problem", "curie-no-patent"],
+		failureIds: ["curie-radiation-risk"],
+		experimentIds: ["curie-pitchblende-activity"],
+		breakthroughIds: ["curie-radioactivity-field", "curie-radium"],
+		technologyIds: ["radium-isolation"],
+		discoveryIds: ["polonium", "radium"],
+		quoteIds: ["curie-quote-none-verified-fear"],
+		principles: [{
+			id: "mc-p-measure",
+			personId: "marie-curie",
+			title: "Quantify before you name",
+			statement: "Activity was compared instrumentally across materials before new elements were claimed. Naming followed measurement, not the reverse.",
+			evidence: "interpretation",
+			sourceIds: ["curie-thesis-1903"],
+			notes: "This is a methodological reading of the thesis, not a slogan Curie published."
+		}, {
+			id: "mc-p-open",
+			personId: "marie-curie",
+			title: "Open scientific process over patent control",
+			statement: "The Curies did not patent the radium isolation process. The choice accelerated research use and reduced private capture.",
+			evidence: "documented_decision",
+			sourceIds: ["curie-britannica"]
+		}],
+		communications: [{
+			id: "mc-comm-thesis",
+			personId: "marie-curie",
+			title: "Doctoral defense, 1903",
+			year: 1903,
+			audience: "Faculty of Sciences, Paris",
+			objective: "Establish radioactivity as a measurable atomic property and document two new elements.",
+			framing: "Empirical and chemical, not rhetorical. The argument is the table of activities.",
+			technique: "Instrumental comparison, chemical fractionation, refusal of speculative physics beyond the data.",
+			tone: "Formal, compressed, technical",
+			evidence: "research_finding",
+			sourceIds: ["curie-thesis-1903"]
+		}],
+		controversies: [{
+			id: "mc-langevin",
+			personId: "marie-curie",
+			title: "1911 Langevin affair and xenophobic press attacks",
+			year: 1911,
+			facts: "A relationship with physicist Paul Langevin, who was married, became public. The French press attacked Curie with nationalist and sexist language in the same season as her second Nobel.",
+			criticisms: "Contemporaries accused her of immorality and of being a foreigner undeserving of French honors.",
+			counterarguments: "The scientific work was independent of the private life. The Nobel committee did not withdraw the chemistry prize.",
+			uncertainty: "Private correspondence is only partly public. Do not reconstruct inner life from tabloid claims.",
+			historicalContext: "A woman, a Pole, a widow, and a second-time Nobel laureate was an unusual target in the Third Republic's press.",
+			sourceIds: ["curie-britannica"]
+		}],
+		successFactors: [
+			{
+				factor: "skill",
+				role: "Chemical isolation at industrial-adjacent scale, plus electrometric measurement.",
+				evidence: "fact",
+				sourceIds: ["curie-thesis-1903"]
+			},
+			{
+				factor: "team",
+				role: "Pierre Curie's instruments and later André-Louis Debierne's chemistry.",
+				evidence: "fact",
+				sourceIds: ["curie-britannica"]
+			},
+			{
+				factor: "persistence",
+				role: "Years of processing pitchblende residue in poor facilities.",
+				evidence: "reported",
+				sourceIds: ["curie-britannica"]
+			},
+			{
+				factor: "external-environment",
+				role: "Becquerel's 1896 observation created the problem space. The Sorbonne admitted her as a student, unlike Warsaw.",
+				evidence: "fact",
+				sourceIds: ["curie-britannica"]
+			}
+		],
+		antiSurvivorship: "Many skilled chemists processed ores without discovering elements. Curie's result depended on a specific anomaly (pitchblende more active than uranium) plus instruments that could measure it. The later medical myth of radium as a tonic shows that the same discovery produced harm when the model of biological risk was wrong.",
+		collaborators: [
+			{
+				name: "Pierre Curie",
+				relation: "spouse and scientific partner"
+			},
+			{
+				name: "Henri Becquerel",
+				relation: "prior discovery; shared 1903 Nobel"
+			},
+			{
+				name: "André-Louis Debierne",
+				relation: "chemical collaborator on metallic radium"
+			},
+			{
+				name: "Irène Joliot-Curie",
+				relation: "daughter; later Nobel laureate in artificial radioactivity"
+			}
+		],
+		companies: ["Radium Institute"],
+		lessonIds: ["lesson-measure-the-anomaly", "lesson-open-science-tradeoff"]
+	},
+	{
+		id: "alan-turing",
+		slug: "alan-turing",
+		name: "Alan Mathison Turing",
+		sortName: "Turing, Alan",
+		birth: {
+			year: 1912,
+			date: "1912-06-23",
+			place: "Maida Vale, London, United Kingdom"
+		},
+		death: {
+			year: 1954,
+			date: "1954-06-07",
+			place: "Wilmslow, Cheshire, United Kingdom"
+		},
+		nationality: ["British"],
+		gender: "man",
+		fields: ["mathematics", "computer-science"],
+		roles: [
+			"mathematician",
+			"scientist",
+			"engineer"
+		],
+		knownFor: "Computable numbers and the Turing machine; wartime cryptanalysis; the imitation game",
+		summary: "Turing's 1936 paper did not invent a gadget. It defined what it would mean for a number, or a procedure, to be computable, by describing a hypothetical machine that reads and writes symbols on a tape. The same mind later designed practical cryptanalytic machines at Bletchley Park, then argued in 1950 that the question 'Can machines think?' should be replaced by a behavioral test. The British state prosecuted him in 1952 for homosexual acts, then imposed hormone treatment. He died of cyanide poisoning in 1954; the inquest returned suicide, which some later writers have questioned. The correct reading is not 'tragic genius.' It is: a sequence of precise intellectual moves, a classified engineering career, and a legal-medical assault that the state later acknowledged as wrong.",
+		thinking: "Turing reduced vague problems to operational ones. The Entscheidungsproblem becomes: is there a mechanical procedure that decides, for every mathematical statement, whether it is provable? The thinking-machine question becomes: can a machine's answers be indistinguishable from a human's in a controlled conversation? He was willing to replace metaphysics with a test, and to accept that the test might be passed without settling the metaphysics.",
+		initials: "AT",
+		era: "1912–1954",
+		countries: ["United Kingdom"],
+		mode: ["scientist", "inventor"],
+		research: {
+			sourceCount: 4,
+			primarySourceCount: 2,
+			secondarySourceCount: 2,
+			completeness: 68,
+			confidence: "high",
+			gaps: ["Much Bletchley Park detail remained classified for decades; some operational credit is still being revised.", "Cause of death is legally recorded as suicide; alternative hypotheses exist and are not settled here."]
+		},
+		education: [{
+			institution: "King's College, Cambridge",
+			years: "1931–1934",
+			focus: "Mathematics",
+			evidence: "fact",
+			sourceIds: ["hodges-turing"]
+		}, {
+			institution: "Princeton University",
+			years: "1936–1938",
+			focus: "PhD under Alonzo Church",
+			evidence: "fact",
+			sourceIds: ["hodges-turing"]
+		}],
+		career: [
+			{
+				org: "Government Code and Cypher School, Bletchley Park",
+				role: "Cryptanalyst",
+				years: "1939–1945"
+			},
+			{
+				org: "National Physical Laboratory",
+				role: "ACE computer design",
+				years: "1945–1948"
+			},
+			{
+				org: "University of Manchester",
+				role: "Reader; software and morphogenesis",
+				years: "1948–1954"
+			}
+		],
+		timeline: [
+			{
+				id: "at-1936",
+				year: 1936,
+				date: "1936-05-28",
+				title: "Submits On Computable Numbers",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Defines computable numbers via an abstract machine and shows that the Entscheidungsproblem is unsolvable.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["turing-1936"]
+			},
+			{
+				id: "at-1939",
+				year: 1939,
+				title: "Bletchley Park",
+				stage: "building",
+				kind: "career",
+				summary: "Joins GC&CS. Works especially on Naval Enigma. The Bombe is an electromechanical search machine, not a stored-program computer.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hodges-turing"]
+			},
+			{
+				id: "at-1946",
+				year: 1946,
+				title: "ACE report",
+				stage: "building",
+				kind: "technology",
+				summary: "Designs the Automatic Computing Engine at NPL. Implementation is slow; Turing leaves for Manchester.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hodges-turing"]
+			},
+			{
+				id: "at-1950",
+				year: 1950,
+				title: "Computing Machinery and Intelligence",
+				stage: "later-work",
+				kind: "publication",
+				summary: "Proposes the imitation game and answers 'Lady Lovelace's objection' that machines cannot originate anything.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["turing-1950", "lovelace-note-g"]
+			},
+			{
+				id: "at-1952",
+				year: 1952,
+				title: "Prosecution and organotherapy",
+				stage: "major-crisis",
+				kind: "controversy",
+				summary: "Convicted under gross indecency law. Chooses hormone treatment over prison. Security clearance is affected.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hodges-turing"]
+			},
+			{
+				id: "at-1954",
+				year: 1954,
+				date: "1954-06-07",
+				title: "Death",
+				stage: "legacy",
+				kind: "life",
+				summary: "Cyanide poisoning. Inquest: suicide. A 2013 royal pardon addresses the conviction, not the cause of death.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hodges-turing"]
+			}
+		],
+		decisionIds: ["turing-imitation-game", "turing-hormone"],
+		failureIds: ["turing-ace-delay"],
+		experimentIds: [],
+		breakthroughIds: ["turing-machine"],
+		technologyIds: ["turing-bombe"],
+		discoveryIds: ["computable-numbers"],
+		quoteIds: ["turing-can-machines-think"],
+		principles: [{
+			id: "at-p-operationalize",
+			personId: "alan-turing",
+			title: "Replace the metaphysical question with an operational test",
+			statement: "If a question cannot be made into a procedure or a game with observable outcomes, it may not be the right question.",
+			evidence: "interpretation",
+			sourceIds: ["turing-1950"]
+		}],
+		communications: [{
+			id: "at-comm-mind",
+			personId: "alan-turing",
+			title: "Computing Machinery and Intelligence",
+			year: 1950,
+			audience: "Philosophers and scientists reading Mind",
+			objective: "Reframe machine intelligence as a behavioral question and answer standard objections.",
+			framing: "Opens with a question, then replaces it. Uses dialogue, thought experiment, and numbered objections.",
+			technique: "Objection-and-reply structure; the Lovelace objection is named and engaged rather than dismissed.",
+			tone: "Playful, precise, anti-mystical",
+			excerpt: "I propose to consider the question, 'Can machines think?'",
+			evidence: "direct_quote",
+			sourceIds: ["turing-1950"]
+		}],
+		controversies: [{
+			id: "at-prosecution",
+			personId: "alan-turing",
+			title: "Criminalization of homosexuality and state-imposed treatment",
+			year: 1952,
+			facts: "Turing was prosecuted for homosexual acts, then legally required to undergo organotherapy as a condition of probation.",
+			criticisms: "The law itself is now recognized as unjust. The treatment had documented physiological effects.",
+			counterarguments: "None that survive ethical scrutiny. Contemporary legality is not a defense.",
+			legal: "Conviction under the same statute used against many others. Royal pardon issued in 2013; a later 'Alan Turing law' pardoned others.",
+			uncertainty: "Psychological interiority around 1954 remains partly unknown.",
+			historicalContext: "Postwar British security culture treated homosexuality as a blackmail risk. Classification of war work limited public defense of his record.",
+			sourceIds: ["hodges-turing"]
+		}],
+		successFactors: [
+			{
+				factor: "skill",
+				role: "Mathematical reduction of problems plus practical cryptanalytic engineering.",
+				evidence: "fact",
+				sourceIds: ["turing-1936", "hodges-turing"]
+			},
+			{
+				factor: "external-environment",
+				role: "Wartime state demand for cryptanalysis created resources that peacetime academia did not.",
+				evidence: "fact",
+				sourceIds: ["hodges-turing"]
+			},
+			{
+				factor: "team",
+				role: "Bletchley was a large organization. Turing was not a solitary codebreaker.",
+				evidence: "fact",
+				sourceIds: ["hodges-turing"]
+			}
+		],
+		antiSurvivorship: "Turing's theoretical paper was not immediately world-changing in 1936. Church had a parallel result. The wartime work was classified, so 'influence' was delayed. The 1950 paper is famous now because later AI research made the test a landmark — a retrospective status, not a 1950 consensus.",
+		collaborators: [
+			{
+				name: "Alonzo Church",
+				relation: "PhD advisor; independent formulation of computability"
+			},
+			{
+				name: "Gordon Welchman",
+				relation: "Bombe improvements at Bletchley"
+			},
+			{
+				name: "Joan Clarke",
+				relation: "cryptanalytic colleague"
+			}
+		],
+		companies: [
+			"Bletchley Park",
+			"National Physical Laboratory",
+			"University of Manchester"
+		],
+		lessonIds: ["lesson-operationalize-the-question", "lesson-state-violence-and-credit"]
+	},
+	{
+		id: "rosalind-franklin",
+		slug: "rosalind-franklin",
+		name: "Rosalind Elsie Franklin",
+		sortName: "Franklin, Rosalind",
+		birth: {
+			year: 1920,
+			date: "1920-07-25",
+			place: "Notting Hill, London, United Kingdom"
+		},
+		death: {
+			year: 1958,
+			date: "1958-04-16",
+			place: "Chelsea, London, United Kingdom"
+		},
+		nationality: ["British"],
+		gender: "woman",
+		fields: ["chemistry", "biology"],
+		roles: ["scientist", "researcher"],
+		knownFor: "X-ray diffraction of DNA (Photograph 51); coal and virus structure",
+		summary: "Franklin was a physical chemist who made DNA's B-form diffraction image with Raymond Gosling in May 1952. Maurice Wilkins showed Photograph 51 to James Watson in 1953 without Franklin's knowledge. Watson and Crick published the double-helix model in Nature on 25 April 1953; Franklin and Gosling published their data in the same issue. She was not a footnote who 'almost' saw the helix. She was a scientist with unpublished data that others used, in a laboratory with a broken managerial structure. She later did foundational work on tobacco mosaic virus. She died in 1958, before the 1962 Nobel awarded to Watson, Crick, and Wilkins. The Nobel is not given posthumously; that rule, not a secret cabal, is the immediate reason she was not a laureate. The deeper issue is credit, access, and how data moved.",
+		thinking: "Franklin's published 1953 paper is cautious: the B-form pattern is consistent with a helical structure, and she reports quantitative parameters. Watson's memoir later caricatured her as anti-helical. Historians have shown a more mixed record: she considered helical models, rejected bad ones, and was moving toward the structure. Do not flatten this into either 'she was about to publish the helix' or 'she refused to see it.'",
+		initials: "RF",
+		era: "1920–1958",
+		countries: ["United Kingdom", "France"],
+		mode: ["scientist"],
+		research: {
+			sourceCount: 5,
+			primarySourceCount: 2,
+			secondarySourceCount: 3,
+			completeness: 70,
+			confidence: "high",
+			gaps: ["Lab notebooks and the exact conversation in which Wilkins showed Photo 51 are reconstructed from later testimony.", "How close Franklin was to the base-pairing model remains disputed."]
+		},
+		education: [{
+			institution: "Newnham College, Cambridge",
+			years: "1938–1941",
+			focus: "Physical chemistry",
+			evidence: "fact",
+			sourceIds: ["maddox-franklin"]
+		}],
+		career: [
+			{
+				org: "British Coal Utilisation Research Association",
+				role: "Research",
+				years: "1942–1946"
+			},
+			{
+				org: "Laboratoire Central des Services Chimiques de l'État, Paris",
+				role: "X-ray crystallography",
+				years: "1947–1950"
+			},
+			{
+				org: "King's College London",
+				role: "DNA fibre diffraction",
+				years: "1951–1953"
+			},
+			{
+				org: "Birkbeck College",
+				role: "Virus structure",
+				years: "1953–1958"
+			}
+		],
+		timeline: [
+			{
+				id: "rf-1951",
+				year: 1951,
+				title: "Arrives at King's College London",
+				stage: "early-career",
+				kind: "career",
+				summary: "Hired to work on DNA. Managerial confusion with Wilkins about who directed the DNA work creates lasting conflict.",
+				evidence: "reported",
+				confidence: "high",
+				sourceIds: ["kcl-photo-51", "maddox-franklin"]
+			},
+			{
+				id: "rf-1952",
+				year: 1952,
+				date: "1952-05",
+				title: "Photograph 51",
+				stage: "breakthrough",
+				kind: "experiment",
+				summary: "B-form DNA image, 62 hours of X-ray exposure, taken with Raymond Gosling. Camera set up 2 May, developed 6 May.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["kcl-photo-51"]
+			},
+			{
+				id: "rf-1953-show",
+				year: 1953,
+				date: "1953-01",
+				title: "Wilkins shows Photo 51 to Watson",
+				stage: "major-crisis",
+				kind: "controversy",
+				summary: "Franklin is preparing to leave King's. Wilkins, about to supervise Gosling again, shows the image to Watson. Franklin is not told.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["kcl-photo-51"]
+			},
+			{
+				id: "rf-1953-nature",
+				year: 1953,
+				date: "1953-04-25",
+				title: "Three Nature papers",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Watson & Crick model; Wilkins, Stokes & Wilson; Franklin & Gosling. Franklin's paper is not a footnote; it is independent data.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["franklin-gosling-1953", "watson-crick-1953"]
+			},
+			{
+				id: "rf-1958",
+				year: 1958,
+				title: "Death from ovarian cancer",
+				stage: "legacy",
+				kind: "life",
+				summary: "Dies at 37. Radiation exposure is sometimes invoked; causation is not established as a simple fact.",
+				evidence: "fact",
+				confidence: "medium",
+				sourceIds: ["maddox-franklin"]
+			}
+		],
+		decisionIds: ["franklin-leave-kings"],
+		failureIds: ["franklin-credit-failure"],
+		experimentIds: ["photo-51"],
+		breakthroughIds: ["dna-b-form"],
+		technologyIds: [],
+		discoveryIds: ["dna-diffraction-parameters"],
+		quoteIds: [],
+		principles: [{
+			id: "rf-p-data",
+			personId: "rosalind-franklin",
+			title: "Do not publish a model ahead of the pattern",
+			statement: "Franklin's public writing stayed close to what the diffraction pattern constrained. That caution is a scientific virtue and, in a competitive race, a strategic cost.",
+			evidence: "interpretation",
+			sourceIds: ["franklin-gosling-1953"]
+		}],
+		communications: [{
+			id: "rf-comm-nature",
+			personId: "rosalind-franklin",
+			title: "Nature paper, 25 April 1953",
+			year: 1953,
+			audience: "Structural chemists and biologists",
+			objective: "Report quantitative X-ray data on B-form DNA.",
+			framing: "Technical, impersonal, data-first. No claim to a complete chemical model of pairing.",
+			technique: "Parameters, photographs, measured intensities.",
+			tone: "Restrained",
+			evidence: "research_finding",
+			sourceIds: ["franklin-gosling-1953"]
+		}],
+		controversies: [{
+			id: "rf-photo51",
+			personId: "rosalind-franklin",
+			title: "Use of Photograph 51 without Franklin's knowledge",
+			year: 1953,
+			facts: "Wilkins showed Watson the B-form image. Franklin did not authorize that showing. Watson and Crick also had access to an MRC report summarizing her data.",
+			criticisms: "Many later accounts call this theft. Matthew Cobb and others argue 'stole' overstates a messy, gendered, poorly governed data-sharing situation.",
+			counterarguments: "Watson and Crick still had to build a chemically plausible model; a glance at Photo 51 did not give base pairing. Their 1953 paper acknowledges being 'stimulated by a knowledge of the general nature of the unpublished experimental results and ideas of Wilkins, Franklin and their co-workers.'",
+			uncertainty: "Sources disagree on how decisive Photo 51 was versus the MRC report and Chargaff's ratios.",
+			historicalContext: "King's DNA unit had overlapping claims of leadership. Women at King's were excluded from some common rooms. Watson's The Double Helix (1968) is a primary source for his attitude and a hostile source for Franklin's character.",
+			sourceIds: [
+				"kcl-photo-51",
+				"franklin-gosling-1953",
+				"watson-crick-1953"
+			]
+		}],
+		successFactors: [
+			{
+				factor: "skill",
+				role: "X-ray technique and sample hydration control that produced a readable B-form pattern.",
+				evidence: "fact",
+				sourceIds: ["kcl-photo-51"]
+			},
+			{
+				factor: "team",
+				role: "Raymond Gosling as PhD student and experimental partner.",
+				evidence: "fact",
+				sourceIds: ["kcl-photo-51"]
+			},
+			{
+				factor: "luck",
+				role: "Watson happening to visit Wilkins at the moment the image could be shown is a contingent event.",
+				evidence: "inference",
+				sourceIds: ["kcl-photo-51"]
+			}
+		],
+		antiSurvivorship: "Franklin's virus work at Birkbeck is often skipped because it is not the helix story. Evaluating her only through DNA repeats the credit distortion the archive is trying to correct.",
+		collaborators: [
+			{
+				name: "Raymond Gosling",
+				relation: "PhD student; co-author of Photograph 51"
+			},
+			{
+				name: "Maurice Wilkins",
+				relation: "colleague; conflicted data sharing"
+			},
+			{
+				name: "Aaron Klug",
+				relation: "Birkbeck collaborator on viruses; later Nobel laureate"
+			}
+		],
+		companies: ["King's College London", "Birkbeck College"],
+		lessonIds: ["lesson-data-governance", "lesson-caution-vs-speed"]
+	},
+	{
+		id: "katherine-johnson",
+		slug: "katherine-johnson",
+		name: "Katherine Coleman Goble Johnson",
+		sortName: "Johnson, Katherine",
+		birth: {
+			year: 1918,
+			date: "1918-08-26",
+			place: "White Sulphur Springs, West Virginia, United States"
+		},
+		death: {
+			year: 2020,
+			date: "2020-02-24",
+			place: "Newport News, Virginia, United States"
+		},
+		nationality: ["American"],
+		gender: "woman",
+		fields: ["mathematics", "space"],
+		roles: ["mathematician", "researcher"],
+		knownFor: "Orbital trajectory analysis for Mercury and Apollo; verification of early electronic computer output",
+		summary: "Johnson was a mathematician in NACA/NASA's West Area Computing group, then in the Flight Research Division. She co-authored NASA TN D-233 (1960) on the azimuth angle at burnout needed to place a satellite over a selected Earth position — a recovery-zone problem, not a cinematic blackboard miracle. Before John Glenn's February 1962 orbital flight, Glenn asked that 'the girl' (Johnson) check the IBM 7090's trajectory numbers by hand. She did. That episode is documented; the movie Hidden Figures compresses and dramatizes surrounding events. Johnson's career is a record of analytic skill inside a segregated, then slowly desegregating, federal laboratory — not a single heroic moment.",
+		thinking: "The work is numerical analysis under operational constraints: rotating Earth, atmospheric drag near reentry, a specified splashdown box. Trust in a new machine was itself a decision. Glenn's request was not anti-computer mysticism; it was a high-stakes audit of a new tool by a person whose prior work he trusted.",
+		initials: "KJ",
+		era: "1918–2020",
+		countries: ["United States"],
+		mode: ["scientist"],
+		research: {
+			sourceCount: 3,
+			primarySourceCount: 2,
+			secondarySourceCount: 1,
+			completeness: 64,
+			confidence: "high",
+			gaps: ["The exact wording of Glenn's request is reported in later NASA and press accounts; a contemporaneous transcript is not attached here.", "Division of labor on Apollo-era work is broader than popular narratives imply."]
+		},
+		education: [{
+			institution: "West Virginia State College",
+			years: "early 1930s",
+			focus: "Mathematics and French; graduated at 18",
+			evidence: "fact",
+			sourceIds: ["nasa-katherine-johnson"]
+		}, {
+			institution: "West Virginia University",
+			years: "1939",
+			focus: "Graduate mathematics; one of the first Black students admitted",
+			evidence: "fact",
+			sourceIds: ["nasa-katherine-johnson"]
+		}],
+		career: [{
+			org: "NACA Langley / West Area Computing",
+			role: "Mathematician",
+			years: "1953–1958"
+		}, {
+			org: "NASA Langley Flight Research Division",
+			role: "Aerospace technologist",
+			years: "1958–1986"
+		}],
+		timeline: [
+			{
+				id: "kj-1953",
+				year: 1953,
+				title: "Joins NACA Langley",
+				stage: "early-career",
+				kind: "career",
+				summary: "Assigned to the West Area Computing unit, a group of African American women mathematicians.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["nasa-katherine-johnson"]
+			},
+			{
+				id: "kj-1960",
+				year: 1960,
+				title: "NASA TN D-233",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Co-author with Ted Skopinski on burnout azimuth for placing a satellite over a selected Earth position.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["skopinski-johnson-1960"]
+			},
+			{
+				id: "kj-1962",
+				year: 1962,
+				date: "1962-02",
+				title: "Friendship 7 verification",
+				stage: "first-major-decision",
+				kind: "decision",
+				summary: "Hand-checks IBM 7090 trajectory output before Glenn's orbital flight.",
+				evidence: "reported",
+				confidence: "high",
+				sourceIds: ["nasa-katherine-johnson", "nasm-glenn-johnson"]
+			},
+			{
+				id: "kj-1969",
+				year: 1969,
+				title: "Apollo-era trajectory work",
+				stage: "building",
+				kind: "career",
+				summary: "Contributes to lunar trajectory analysis. Popular accounts sometimes over-attribute the entire lunar trajectory to her; the work was institutional.",
+				evidence: "fact",
+				confidence: "medium",
+				sourceIds: ["nasa-katherine-johnson"]
+			},
+			{
+				id: "kj-2015",
+				year: 2015,
+				title: "Presidential Medal of Freedom",
+				stage: "legacy",
+				kind: "life",
+				summary: "National recognition decades after the flights. Hidden Figures (2016) then reshapes public memory.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["nasa-katherine-johnson"]
+			}
+		],
+		decisionIds: ["johnson-verify-7090"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["johnson-orbital-analysis"],
+		technologyIds: [],
+		discoveryIds: [],
+		quoteIds: ["johnson-glenn-quote"],
+		principles: [{
+			id: "kj-p-audit",
+			personId: "katherine-johnson",
+			title: "New tools get old audits",
+			statement: "When the cost of error is a human life, independent recomputation is not nostalgia. It is verification.",
+			evidence: "interpretation",
+			sourceIds: ["nasa-katherine-johnson", "nasm-glenn-johnson"]
+		}],
+		communications: [{
+			id: "kj-comm-tn",
+			personId: "katherine-johnson",
+			title: "NASA technical note D-233",
+			year: 1960,
+			audience: "Engineers and trajectory analysts",
+			objective: "Give a usable method for burnout azimuth so recovery forces can be placed.",
+			framing: "Equations, assumptions, worked method. No public-facing rhetoric.",
+			technique: "Technical prose; named co-authorship in a period when women computers were often uncredited.",
+			tone: "Institutional, exact",
+			evidence: "fact",
+			sourceIds: ["skopinski-johnson-1960"]
+		}],
+		controversies: [{
+			id: "kj-hidden-figures",
+			personId: "katherine-johnson",
+			title: "Dramatization versus the archival record",
+			facts: "Hidden Figures made Johnson famous. Some scenes (bathroom runs, a single blackboard insight for reentry) are compressed or invented for film.",
+			criticisms: "Historians such as Michael Neufeld have noted the film's departures.",
+			counterarguments: "The film also corrected a genuine public omission of Black women in NASA's story.",
+			uncertainty: "Public memory now mixes the film with the technical notes. This archive prefers the notes.",
+			historicalContext: "Segregated facilities at Langley were real. The timeline of desegregation is more gradual than a single scene.",
+			sourceIds: ["nasm-glenn-johnson", "nasa-katherine-johnson"]
+		}],
+		successFactors: [
+			{
+				factor: "skill",
+				role: "Analytic geometry and numerical methods applied to orbital mechanics.",
+				evidence: "fact",
+				sourceIds: ["skopinski-johnson-1960"]
+			},
+			{
+				factor: "external-environment",
+				role: "Cold War space race created demand for computers, human and electronic.",
+				evidence: "fact",
+				sourceIds: ["nasa-katherine-johnson"]
+			},
+			{
+				factor: "network",
+				role: "Glenn's personal trust, itself a product of prior accurate work.",
+				evidence: "reported",
+				sourceIds: ["nasm-glenn-johnson"]
+			}
+		],
+		antiSurvivorship: "West Area Computing included many women whose names are still less documented. Johnson is the one a film and a medal made visible. That is a selection effect.",
+		collaborators: [
+			{
+				name: "Dorothy Vaughan",
+				relation: "West Area Computing supervisor"
+			},
+			{
+				name: "Mary Jackson",
+				relation: "colleague; NASA's first Black woman engineer"
+			},
+			{
+				name: "Ted Skopinski",
+				relation: "co-author of TN D-233"
+			},
+			{
+				name: "John Glenn",
+				relation: "astronaut who requested her verification"
+			}
+		],
+		companies: ["NACA", "NASA"],
+		lessonIds: ["lesson-verify-the-new-machine"]
+	},
+	{
+		id: "ada-lovelace",
+		slug: "ada-lovelace",
+		name: "Augusta Ada King, Countess of Lovelace",
+		sortName: "Lovelace, Ada",
+		birth: {
+			year: 1815,
+			date: "1815-12-10",
+			place: "London, United Kingdom"
+		},
+		death: {
+			year: 1852,
+			date: "1852-11-27",
+			place: "Marylebone, London, United Kingdom"
+		},
+		nationality: ["British"],
+		gender: "woman",
+		fields: ["mathematics", "computer-science"],
+		roles: ["mathematician", "researcher"],
+		knownFor: "Notes on the Analytical Engine, including an algorithm for Bernoulli numbers and a limit-claim about machine originality",
+		summary: "Lovelace translated Luigi Menabrea's 1842 paper on Charles Babbage's unbuilt Analytical Engine and added notes that are longer than the original. Note G contains a worked plan for computing Bernoulli numbers and the claim that the Engine cannot originate anything — only perform what it is ordered to perform. Turing later named this 'Lady Lovelace's objection.' She was not the sole inventor of programming, and Babbage had written example programs. She was an interpreter who saw that a general-purpose engine might manipulate symbols, not only numbers, and who also drew a hard line against machine originality. Both halves matter.",
+		thinking: "The interesting move is dual: expand the imagined use of the machine (music, symbols, general manipulation) while denying that expansion implies thought. That is a more sophisticated position than either techno-prophecy or Luddite refusal.",
+		initials: "AL",
+		era: "1815–1852",
+		countries: ["United Kingdom"],
+		mode: ["scientist"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 58,
+			confidence: "high",
+			gaps: ["How much of Note G's algorithm is Lovelace versus Babbage remains discussed in the specialist literature.", "The Engine was never built; all claims about its behavior are theoretical."]
+		},
+		education: [{
+			institution: "Private tutors, including Augustus De Morgan",
+			years: "1830s",
+			focus: "Mathematics",
+			evidence: "fact",
+			sourceIds: ["lovelace-note-g"]
+		}],
+		career: [{
+			org: "Independent / collaboration with Charles Babbage",
+			role: "Translator and commentator",
+			years: "1842–1843"
+		}],
+		timeline: [{
+			id: "al-1833",
+			year: 1833,
+			title: "Meets Babbage and the Difference Engine",
+			stage: "early-interest",
+			kind: "life",
+			summary: "Sees Babbage's Difference Engine. Correspondence and mathematical study follow.",
+			evidence: "fact",
+			confidence: "high",
+			sourceIds: ["lovelace-note-g"]
+		}, {
+			id: "al-1843",
+			year: 1843,
+			title: "Notes published, signed A.A.L.",
+			stage: "breakthrough",
+			kind: "publication",
+			summary: "Translation plus notes in Taylor's Scientific Memoirs. Note G includes the Bernoulli numbers plan and the originality limit.",
+			evidence: "fact",
+			confidence: "high",
+			sourceIds: ["lovelace-note-g"]
+		}],
+		decisionIds: ["lovelace-notes"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["lovelace-note-g"],
+		technologyIds: ["analytical-engine-notes"],
+		discoveryIds: [],
+		quoteIds: ["lovelace-originate"],
+		principles: [{
+			id: "al-p-limit",
+			personId: "ada-lovelace",
+			title: "Capability is not originality",
+			statement: "A general machine can be ordered to do many things. That is not the same as originating a result its programmer does not know how to specify.",
+			evidence: "direct_quote",
+			sourceIds: ["lovelace-note-g"]
+		}],
+		communications: [{
+			id: "al-comm-notes",
+			personId: "ada-lovelace",
+			title: "Translator's notes to Menabrea",
+			year: 1843,
+			audience: "Scientific readers of Taylor's Scientific Memoirs",
+			objective: "Explain, extend, and in places correct the public account of the Analytical Engine.",
+			framing: "Commentary that becomes the main text. Signed with initials, not a full name.",
+			technique: "Worked example (Bernoulli numbers); conceptual distinction between origin and execution.",
+			tone: "Formal Victorian scientific prose",
+			excerpt: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform.",
+			evidence: "direct_quote",
+			sourceIds: ["lovelace-note-g"]
+		}],
+		controversies: [{
+			id: "al-credit",
+			personId: "ada-lovelace",
+			title: "How much of 'the first program' is hers?",
+			facts: "Babbage had written example programs. Lovelace's Note G presents a Bernoulli numbers computation in published form.",
+			criticisms: "Some historians argue popular culture overstates her role as 'the first programmer.'",
+			counterarguments: "The published notes are her authorial act, including interpretive claims Babbage did not make in the same way.",
+			uncertainty: "Manuscript evidence of drafting sequence is incomplete in this archive.",
+			historicalContext: "A countess publishing mathematics under initials in 1843 is already an unusual communication choice.",
+			sourceIds: ["lovelace-note-g"]
+		}],
+		successFactors: [{
+			factor: "network",
+			role: "Access to Babbage and to De Morgan's teaching — aristocratic scientific networks.",
+			evidence: "fact",
+			sourceIds: ["lovelace-note-g"]
+		}, {
+			factor: "skill",
+			role: "Mathematical fluency sufficient to extend Menabrea's paper.",
+			evidence: "fact",
+			sourceIds: ["lovelace-note-g"]
+		}],
+		antiSurvivorship: "The Analytical Engine was not built. Lovelace's notes look prophetic because later stored-program computers made the analogy work. In 1843 they were commentary on a machine that did not exist.",
+		collaborators: [{
+			name: "Charles Babbage",
+			relation: "designer of the Analytical Engine"
+		}, {
+			name: "Luigi Menabrea",
+			relation: "author of the paper she translated"
+		}],
+		companies: [],
+		lessonIds: ["lesson-specify-the-limit"]
+	},
+	{
+		id: "tu-youyou",
+		slug: "tu-youyou",
+		name: "Tu Youyou",
+		sortName: "Tu, Youyou",
+		honorific: "屠呦呦",
+		birth: {
+			year: 1930,
+			date: "1930-12-30",
+			place: "Ningbo, Zhejiang, China"
+		},
+		nationality: ["Chinese"],
+		gender: "woman",
+		fields: [
+			"medicine",
+			"chemistry",
+			"pharmaceuticals"
+		],
+		roles: ["scientist", "researcher"],
+		knownFor: "Discovery of artemisinin (qinghaosu) as an antimalarial, from a classified wartime research program",
+		summary: "Tu led a team inside Project 523, a secret Chinese effort begun in 1967 to find antimalarials during the Vietnam War. She screened traditional recipes, focused on Artemisia annua (qinghao), and — after hot extraction failed — used a lower-temperature ether extraction suggested by a reading of Ge Hong's fourth-century text. Sample 191 showed complete parasite clearance in animal models on 4 October 1971. The 2015 Nobel Prize named her; hundreds of scientists were on the project. The story is neither 'ancient wisdom magically works' nor 'Western method alone.' It is literature search plus process change plus animal assay, inside a political-military program.",
+		thinking: "The key revision is process, not plant. The plant was already in the recipe list. Heat was destroying the active compound. Changing solvent and temperature converted a weak or null result into a strong one. That is experimental reasoning, not reverence.",
+		initials: "TY",
+		era: "1930–",
+		countries: ["China"],
+		mode: ["scientist"],
+		research: {
+			sourceCount: 3,
+			primarySourceCount: 2,
+			secondarySourceCount: 1,
+			completeness: 66,
+			confidence: "high",
+			gaps: ["Project 523 was classified; internal credit disputes exist among participating institutes.", "The exact influence of Ge Hong's steep in cold water' is Tu's later account of her reasoning."]
+		},
+		education: [{
+			institution: "Peking University Medical School / Beijing Medical College",
+			years: "1950s",
+			focus: "Pharmacology and traditional medicine",
+			evidence: "fact",
+			sourceIds: ["tu-nobel-lecture"]
+		}],
+		career: [{
+			org: "China Academy of Traditional Chinese Medicine / Institute of Chinese Materia Medica",
+			role: "Researcher; later chief scientist",
+			years: "1955–"
+		}, {
+			org: "Project 523",
+			role: "Team leader for qinghao extraction",
+			years: "1969–1972"
+		}],
+		timeline: [
+			{
+				id: "ty-1967",
+				year: 1967,
+				title: "Project 523 launched",
+				stage: "first-major-problem",
+				kind: "career",
+				summary: "Military-scientific program to find new antimalarials as chloroquine resistance and wartime need rise.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["su-tu-2015"]
+			},
+			{
+				id: "ty-1969",
+				year: 1969,
+				title: "Tu appointed to lead a 523 team",
+				stage: "opportunity-recognition",
+				kind: "decision",
+				summary: "Assigned to screen traditional prescriptions and identify candidate plants.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["tu-nobel-lecture", "su-tu-2015"]
+			},
+			{
+				id: "ty-1971",
+				year: 1971,
+				date: "1971-10-04",
+				title: "Sample 191",
+				stage: "breakthrough",
+				kind: "experiment",
+				summary: "Ether extract of A. annua shows 100% activity against rodent malaria in the reported assay.",
+				evidence: "research_finding",
+				confidence: "high",
+				sourceIds: ["su-tu-2015"]
+			},
+			{
+				id: "ty-1972",
+				year: 1972,
+				title: "Shares extraction method; crystals obtained",
+				stage: "building",
+				kind: "communication",
+				summary: "March 1972 presentation of a stable extraction procedure. Other 523 groups then obtain high-quality crystals.",
+				evidence: "research_finding",
+				confidence: "high",
+				sourceIds: ["su-tu-2015"]
+			},
+			{
+				id: "ty-2015",
+				year: 2015,
+				title: "Nobel Prize in Physiology or Medicine",
+				stage: "legacy",
+				kind: "publication",
+				summary: "Shared prize for artemisinin (with Campbell and Ōmura honored for avermectin). First Chinese woman Nobel laureate in science.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["tu-nobel-lecture"]
+			}
+		],
+		decisionIds: ["tu-ether-extraction"],
+		failureIds: ["tu-hot-extraction"],
+		experimentIds: ["tu-sample-191"],
+		breakthroughIds: ["artemisinin"],
+		technologyIds: ["qinghaosu-extraction"],
+		discoveryIds: ["artemisinin-discovery"],
+		quoteIds: [],
+		principles: [{
+			id: "ty-p-process",
+			personId: "tu-youyou",
+			title: "If the recipe fails, change the process variables before discarding the candidate",
+			statement: "The plant was not the error. The extraction temperature was.",
+			evidence: "research_finding",
+			sourceIds: ["su-tu-2015", "tu-nobel-lecture"]
+		}],
+		communications: [{
+			id: "ty-comm-1972",
+			personId: "tu-youyou",
+			title: "Project 523 presentation, 8 March 1972",
+			year: 1972,
+			audience: "Other 523 research groups",
+			objective: "Transfer a working extraction method so crystals can be obtained elsewhere.",
+			framing: "Procedural, not proprietary. Letters of thanks from other institutes are documented in later reviews.",
+			technique: "Method sharing inside a classified consortium.",
+			tone: "Technical, collective",
+			evidence: "research_finding",
+			sourceIds: ["su-tu-2015"]
+		}],
+		controversies: [{
+			id: "ty-credit-523",
+			personId: "tu-youyou",
+			title: "Individual Nobel versus collective Project 523",
+			facts: "Hundreds of scientists participated. Tu's documented contributions include bringing A. annua into focus and the ether method. Other groups crystallized and developed derivatives.",
+			criticisms: "Some Chinese colleagues argued the prize over-individualized a national project.",
+			counterarguments: "Nobel rules limit the number of living laureates. Su and Miller (2015) itemize Tu's specific contributions rather than treating the prize as a mascot award.",
+			uncertainty: "Internal 523 archives are not fully public.",
+			historicalContext: "Cultural Revolution-era science, military need, and later national prestige all shape the memory of the work.",
+			sourceIds: ["su-tu-2015", "tu-nobel-lecture"]
+		}],
+		successFactors: [
+			{
+				factor: "skill",
+				role: "Pharmacognosy plus willingness to alter extraction chemistry.",
+				evidence: "research_finding",
+				sourceIds: ["su-tu-2015"]
+			},
+			{
+				factor: "external-environment",
+				role: "Wartime malaria and chloroquine resistance created a crash program.",
+				evidence: "fact",
+				sourceIds: ["su-tu-2015"]
+			},
+			{
+				factor: "team",
+				role: "A multi-institute project, not a lone bench.",
+				evidence: "fact",
+				sourceIds: ["su-tu-2015"]
+			}
+		],
+		antiSurvivorship: "Project 523 screened hundreds of remedies. Most did not become drugs. Artemisinin is the visible success of a large search with many nulls.",
+		collaborators: [{
+			name: "Project 523 consortium",
+			relation: "multi-institute malaria program"
+		}],
+		companies: ["China Academy of Chinese Medical Sciences"],
+		lessonIds: ["lesson-failed-extraction", "lesson-collective-discovery"]
+	}
+];
+var scientistPeople = [
+	{
+		id: "claude-shannon",
+		slug: "claude-shannon",
+		name: "Claude Elwood Shannon",
+		sortName: "Shannon, Claude",
+		birth: {
+			year: 1916,
+			date: "1916-04-30",
+			place: "Petoskey, Michigan, United States"
+		},
+		death: {
+			year: 2001,
+			date: "2001-02-24",
+			place: "Medford, Massachusetts, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: [
+			"mathematics",
+			"information-theory",
+			"computer-science",
+			"engineering"
+		],
+		roles: [
+			"scientist",
+			"engineer",
+			"mathematician"
+		],
+		knownFor: "A Mathematical Theory of Communication (1948); information as a measurable quantity",
+		summary: "Shannon's 1948 paper did not invent the telephone. It defined a unit of information, a model of a noisy channel, and theorems about how much can be sent reliably. The work grew from his 1937 master's thesis, which showed that Boolean algebra could describe switching circuits, and from wartime cryptography at Bell Labs. Popular accounts call him the father of the information age. The paper itself is more modest: a mathematical theory of communication, with entropy borrowed from statistical mechanics as an analogy, not a metaphysics of meaning.",
+		thinking: "Shannon separated the engineering problem (reproducing a message) from the semantic problem (what the message means). That split is a decision about what to model. It made the theory portable across telegraph, voice, and later digital systems. It also left meaning outside the equations — a limit, not a failure.",
+		initials: "CS",
+		era: "1916–2001",
+		countries: ["United States"],
+		mode: ["scientist", "inventor"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 62,
+			confidence: "high",
+			gaps: ["Wartime classified crypto work is only partly public.", "Later hobbyist robotics is well attested but not fully inventoried here."]
+		},
+		education: [{
+			institution: "University of Michigan",
+			years: "1932–1936",
+			focus: "Electrical engineering and mathematics",
+			evidence: "fact",
+			sourceIds: ["shannon-1948"]
+		}, {
+			institution: "MIT",
+			years: "1936–1940",
+			focus: "Master's on switching; PhD on genetics and circuits",
+			evidence: "fact",
+			sourceIds: ["shannon-1948"]
+		}],
+		career: [{
+			org: "Bell Telephone Laboratories",
+			role: "Research mathematician",
+			years: "1941–1956"
+		}, {
+			org: "MIT",
+			role: "Professor",
+			years: "1956–1978"
+		}],
+		timeline: [
+			{
+				id: "cs-1937",
+				year: 1937,
+				title: "Switching thesis",
+				stage: "early-career",
+				kind: "publication",
+				summary: "Shows that Boolean algebra can represent relay and switching circuits — a mapping, not a gadget.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["shannon-1948"]
+			},
+			{
+				id: "cs-1948",
+				year: 1948,
+				title: "A Mathematical Theory of Communication",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Defines information, channel capacity, and coding in the presence of noise. Published in the Bell System Technical Journal.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["shannon-1948"]
+			},
+			{
+				id: "cs-1949",
+				year: 1949,
+				title: "Communication theory of secrecy systems",
+				stage: "later-work",
+				kind: "publication",
+				summary: "Declassified cryptographic theory, connecting secrecy to information.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["shannon-1948"]
+			}
+		],
+		decisionIds: ["shannon-ignore-meaning"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["information-theory"],
+		technologyIds: ["bit-channel-model"],
+		discoveryIds: ["channel-capacity"],
+		quoteIds: [],
+		principles: [{
+			id: "cs-p-model",
+			personId: "claude-shannon",
+			title: "Model the reproducible, not the meaningful",
+			statement: "A theory of communication can treat a message as a selection from a set. Meaning can wait.",
+			evidence: "interpretation",
+			sourceIds: ["shannon-1948"],
+			notes: "This is a reading of the 1948 framing, not a slogan Shannon printed on a poster."
+		}],
+		communications: [{
+			id: "cs-comm-1948",
+			personId: "claude-shannon",
+			title: "Bell System Technical Journal paper",
+			year: 1948,
+			audience: "Engineers and mathematicians inside and beyond Bell Labs",
+			objective: "Give a quantitative theory that covers discrete and continuous channels.",
+			framing: "Diagram of source, transmitter, channel, noise, receiver, destination. Then theorems.",
+			technique: "Definitions first; entropy as a named function; worked coding examples.",
+			tone: "Compressed, non-rhetorical",
+			evidence: "fact",
+			sourceIds: ["shannon-1948"]
+		}],
+		controversies: [],
+		successFactors: [{
+			factor: "skill",
+			role: "Ability to move between circuits, algebra, and probability.",
+			evidence: "fact",
+			sourceIds: ["shannon-1948"]
+		}, {
+			factor: "external-environment",
+			role: "Bell Labs and wartime crypto created both problems and time.",
+			evidence: "inference",
+			sourceIds: ["shannon-1948"]
+		}],
+		antiSurvivorship: "Many 1940s engineers improved specific channels without a general theory. Shannon's paper is famous because later digital systems made the bit the default unit. In 1948 it was a journal article.",
+		collaborators: [{
+			name: "Warren Weaver",
+			relation: "wrote a popularizing introduction to the 1949 book edition"
+		}, {
+			name: "Nyquist and Hartley",
+			relation: "prior quantitative work on telegraph transmission"
+		}],
+		companies: ["Bell Labs", "MIT"],
+		lessonIds: ["lesson-define-the-unit"]
+	},
+	{
+		id: "grace-hopper",
+		slug: "grace-hopper",
+		name: "Grace Brewster Murray Hopper",
+		sortName: "Hopper, Grace",
+		birth: {
+			year: 1906,
+			date: "1906-12-09",
+			place: "New York City, United States"
+		},
+		death: {
+			year: 1992,
+			date: "1992-01-01",
+			place: "Arlington, Virginia, United States"
+		},
+		nationality: ["American"],
+		gender: "woman",
+		fields: ["computer-science", "software"],
+		roles: [
+			"scientist",
+			"engineer",
+			"inventor"
+		],
+		knownFor: "Compilers and English-like programming (FLOW-MATIC); COBOL influence; UNIVAC work",
+		summary: "Hopper was a mathematician who joined the Navy Reserve in 1943, worked on the Harvard Mark I, then at Eckert–Mauchly/Remington Rand on UNIVAC. She argued that programming should be closer to English so that more people could specify procedures. FLOW-MATIC (mid-1950s) was a data-processing language using English keywords; it influenced COBOL. The moth in the Mark II logbook is a real object in the Smithsonian story of the word 'bug,' but Hopper did not invent the term — it was already engineering slang. Treat the moth as an anecdote with a photograph, not as origin myth.",
+		thinking: "The technical bet is that a compiler is not a luxury. Translating human-readable specification into machine code is a way to scale who can instruct a computer. That is a labor and language decision as much as an engineering one.",
+		initials: "GH",
+		era: "1906–1992",
+		countries: ["United States"],
+		mode: ["scientist", "inventor"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 60,
+			confidence: "high",
+			gaps: ["FLOW-MATIC manuals are not excerpted at length here.", "Navy career details are compressed."]
+		},
+		education: [{
+			institution: "Vassar College",
+			years: "1924–1928",
+			focus: "Mathematics and physics",
+			evidence: "fact",
+			sourceIds: ["hopper-cobol"]
+		}, {
+			institution: "Yale University",
+			years: "1930–1934",
+			focus: "PhD in mathematics",
+			evidence: "fact",
+			sourceIds: ["hopper-cobol"]
+		}],
+		career: [
+			{
+				org: "U.S. Navy / Harvard Computation Laboratory",
+				role: "Mark I programming",
+				years: "1944–1949"
+			},
+			{
+				org: "Eckert–Mauchly / Remington Rand",
+				role: "UNIVAC software; FLOW-MATIC",
+				years: "1949–1960s"
+			},
+			{
+				org: "U.S. Navy",
+				role: "Returned to active duty; later rear admiral",
+				years: "1967–1986"
+			}
+		],
+		timeline: [
+			{
+				id: "gh-1944",
+				year: 1944,
+				title: "Harvard Mark I",
+				stage: "early-career",
+				kind: "career",
+				summary: "Assigned to the Bureau of Ships computation project at Harvard.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hopper-cobol"]
+			},
+			{
+				id: "gh-1952",
+				year: 1952,
+				title: "The Education of a Computer",
+				stage: "building",
+				kind: "publication",
+				summary: "ACM paper arguing for automatic programming — machines preparing their own programs from higher-level specification.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hopper-compiler"]
+			},
+			{
+				id: "gh-1955",
+				year: 1955,
+				title: "FLOW-MATIC development",
+				stage: "breakthrough",
+				kind: "technology",
+				summary: "English-keyword language for business data processing on UNIVAC.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hopper-cobol"]
+			},
+			{
+				id: "gh-1959",
+				year: 1959,
+				title: "COBOL committee influence",
+				stage: "scaling",
+				kind: "technology",
+				summary: "FLOW-MATIC is a documented ancestor of COBOL. Hopper is an advocate, not the sole author of the language.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["hopper-cobol"]
+			}
+		],
+		decisionIds: ["hopper-english-code"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["hopper-compiler-idea"],
+		technologyIds: ["flow-matic"],
+		discoveryIds: [],
+		quoteIds: ["hopper-forgiveness-attributed"],
+		principles: [{
+			id: "gh-p-language",
+			personId: "grace-hopper",
+			title: "The interface to the machine can be a human language",
+			statement: "If the bottleneck is who can write machine code, change the notation.",
+			evidence: "interpretation",
+			sourceIds: ["hopper-compiler"]
+		}],
+		communications: [{
+			id: "gh-comm-1952",
+			personId: "grace-hopper",
+			title: "The Education of a Computer",
+			year: 1952,
+			audience: "ACM / computing researchers",
+			objective: "Argue that automatic coding is a research program, not a trick.",
+			framing: "The computer should be educated to accept a more convenient language.",
+			technique: "Technical talk later printed; later career used lectures and demonstrations.",
+			tone: "Direct, pedagogical",
+			evidence: "fact",
+			sourceIds: ["hopper-compiler"]
+		}],
+		controversies: [{
+			id: "gh-bug-myth",
+			personId: "grace-hopper",
+			title: "The moth and the word 'bug'",
+			facts: "A moth was taped in a 1947 Harvard Mark II logbook. Hopper retold the story. The word 'bug' for defect predates this event in engineering.",
+			criticisms: "Popular science often credits her with coining 'bug' or 'debug.'",
+			counterarguments: "She helped popularize a story; she did not need the coinage to have done the compiler work.",
+			uncertainty: "Who first used 'debug' in computing remains a lexical history problem.",
+			historicalContext: "Anecdotes travel faster than ACM papers.",
+			sourceIds: ["hopper-cobol"]
+		}],
+		successFactors: [{
+			factor: "skill",
+			role: "Mathematics plus wartime machine experience.",
+			evidence: "fact",
+			sourceIds: ["hopper-cobol"]
+		}, {
+			factor: "external-environment",
+			role: "UNIVAC business customers needed data-processing languages.",
+			evidence: "inference",
+			sourceIds: ["hopper-cobol"]
+		}],
+		antiSurvivorship: "Many automatic-coding projects of the 1950s disappeared. COBOL's later ubiquity makes FLOW-MATIC look inevitable. It was one language among several.",
+		collaborators: [{
+			name: "Howard Aiken",
+			relation: "Harvard Mark I director"
+		}, {
+			name: "CODASYL committee",
+			relation: "COBOL development body"
+		}],
+		companies: ["UNIVAC", "U.S. Navy"],
+		lessonIds: ["lesson-change-the-notation"]
+	},
+	{
+		id: "barbara-mcclintock",
+		slug: "barbara-mcclintock",
+		name: "Barbara McClintock",
+		sortName: "McClintock, Barbara",
+		birth: {
+			year: 1902,
+			date: "1902-06-16",
+			place: "Hartford, Connecticut, United States"
+		},
+		death: {
+			year: 1992,
+			date: "1992-09-02",
+			place: "Huntington, New York, United States"
+		},
+		nationality: ["American"],
+		gender: "woman",
+		fields: ["biology"],
+		roles: ["scientist", "researcher"],
+		knownFor: "Transposable genetic elements in maize; 1983 Nobel Prize in Physiology or Medicine",
+		summary: "McClintock used maize cytology to show that genes can move. Her 1950 PNAS paper on mutable loci was not immediately absorbed into the mainstream of molecular genetics, which was then organizing around a more static picture of the genome. She continued the work at Cold Spring Harbor, often with few students. In 1983 she received a solo Nobel Prize. The later narrative of a woman ignored then vindicated is partly true and partly too clean: some specialists did engage; the delay was real; the 'ignored genius' story can erase the actual cytological arguments.",
+		thinking: "She trusted patterns in kernels and chromosomes over the consensus model of a fixed gene order. That is not mysticism. It is a decision to treat anomalous spotting patterns as data that the standard model had to answer.",
+		initials: "BM",
+		era: "1902–1992",
+		countries: ["United States"],
+		mode: ["scientist"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 2,
+			secondarySourceCount: 0,
+			completeness: 58,
+			confidence: "high",
+			gaps: ["Correspondence around 1950s reception is not fully represented.", "How widely her talks were understood at the time is still discussed."]
+		},
+		education: [{
+			institution: "Cornell University",
+			years: "1919–1927",
+			focus: "Botany / cytology; PhD 1927",
+			evidence: "fact",
+			sourceIds: ["mcclintock-nobel-1983"]
+		}],
+		career: [{
+			org: "Cornell, Missouri, and others",
+			role: "Cytogeneticist",
+			years: "1927–1941"
+		}, {
+			org: "Cold Spring Harbor Laboratory",
+			role: "Staff scientist",
+			years: "1941–1992"
+		}],
+		timeline: [
+			{
+				id: "bm-1931",
+				year: 1931,
+				title: "Crossing-over proof in maize",
+				stage: "early-career",
+				kind: "publication",
+				summary: "With Harriet Creighton, physical evidence that chromosomal crossing-over accompanies genetic recombination.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["mcclintock-nobel-1983"]
+			},
+			{
+				id: "bm-1950",
+				year: 1950,
+				title: "Mutable loci paper",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "PNAS paper on the origin and behavior of mutable loci — the transposition argument in cytogenetic language.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["mcclintock-pnas"]
+			},
+			{
+				id: "bm-1983",
+				year: 1983,
+				title: "Nobel Prize",
+				stage: "legacy",
+				kind: "publication",
+				summary: "Awarded for the discovery of mobile genetic elements. Solo prize.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["mcclintock-nobel-1983"]
+			}
+		],
+		decisionIds: ["mcclintock-keep-maize"],
+		failureIds: ["mcclintock-delayed-reception"],
+		experimentIds: ["mcclintock-kernel-patterns"],
+		breakthroughIds: ["transposition"],
+		technologyIds: [],
+		discoveryIds: ["transposable-elements"],
+		quoteIds: [],
+		principles: [{
+			id: "bm-p-anomaly",
+			personId: "barbara-mcclintock",
+			title: "Anomalous patterns are the experiment",
+			statement: "Variegation that the stable-gene model cannot explain is not noise until you have shown it is noise.",
+			evidence: "interpretation",
+			sourceIds: ["mcclintock-pnas"]
+		}],
+		communications: [{
+			id: "bm-comm-pnas",
+			personId: "barbara-mcclintock",
+			title: "1950 PNAS paper",
+			year: 1950,
+			audience: "Geneticists",
+			objective: "Report mutable loci and their chromosomal behavior.",
+			framing: "Cytogenetic, maize-specific, not yet the later molecular vocabulary of 'jumping genes.'",
+			technique: "Dense observational argument. Later talks were famously hard for some audiences.",
+			tone: "Technical, uncompromising",
+			evidence: "fact",
+			sourceIds: ["mcclintock-pnas"]
+		}],
+		controversies: [{
+			id: "bm-ignored",
+			personId: "barbara-mcclintock",
+			title: "How ignored was the work?",
+			facts: "The 1983 prize came decades after the 1950 paper. Molecular genetics in the 1950s–60s had other organizing problems (DNA structure, code).",
+			criticisms: "Some later tellings imply a total freeze-out.",
+			counterarguments: "Specialists in maize genetics were a small community; delayed uptake is not the same as zero uptake.",
+			uncertainty: "Quantifying 'reception' from citations and letters is incomplete here.",
+			historicalContext: "A woman running an independent maize program at CSHL did not match the emerging molecular-lab template.",
+			sourceIds: ["mcclintock-nobel-1983", "mcclintock-pnas"]
+		}],
+		successFactors: [{
+			factor: "skill",
+			role: "Chromosome visualization and experimental design in maize.",
+			evidence: "fact",
+			sourceIds: ["mcclintock-pnas"]
+		}, {
+			factor: "persistence",
+			role: "Continued the program through years of limited fashion.",
+			evidence: "reported",
+			sourceIds: ["mcclintock-nobel-1983"]
+		}],
+		antiSurvivorship: "Cytogenetic programs that did not later map onto molecular biology are less remembered. McClintock is visible because transposition became central to genomes, viruses, and biotech.",
+		collaborators: [{
+			name: "Harriet Creighton",
+			relation: "early crossing-over coauthor"
+		}],
+		companies: ["Cold Spring Harbor Laboratory"],
+		lessonIds: ["lesson-delayed-recognition"]
+	},
+	{
+		id: "tim-berners-lee",
+		slug: "tim-berners-lee",
+		name: "Tim Berners-Lee",
+		sortName: "Berners-Lee, Tim",
+		birth: {
+			year: 1955,
+			date: "1955-06-08",
+			place: "London, United Kingdom"
+		},
+		nationality: ["British"],
+		gender: "man",
+		fields: [
+			"computer-science",
+			"software",
+			"telecommunications"
+		],
+		roles: [
+			"inventor",
+			"engineer",
+			"scientist"
+		],
+		knownFor: "The World Wide Web: HTTP, HTML, URLs, and the decision to release the software without royalties",
+		summary: "In March 1989 Berners-Lee, a contractor/software engineer at CERN, wrote 'Information Management: A Proposal' to solve a local problem: CERN's documents and people were hard to link across machines. The proposal mixed existing ideas (hypertext, the Internet, SGML-like markup) into a practical system. On 30 April 1993 CERN placed the WWW software in the public domain. That legal-institutional act, not a single flash of insight, is a large part of why the Web became a general platform rather than a lab tool or a proprietary network.",
+		thinking: "The architecture is deliberately simple: a URL to name, HTTP to transfer, HTML to render. The harder decision is economic and political — not to charge. Simplicity plus non-royalty distribution is a strategy, not a personality trait.",
+		initials: "TBL",
+		era: "1955–",
+		countries: ["United Kingdom", "Switzerland"],
+		mode: ["inventor", "scientist"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 2,
+			secondarySourceCount: 0,
+			completeness: 70,
+			confidence: "high",
+			gaps: ["Internal CERN politics around the 1993 release are summarized, not fully archived here.", "Later W3C governance debates are only sketched."]
+		},
+		education: [{
+			institution: "The Queen's College, Oxford",
+			years: "1973–1976",
+			focus: "Physics",
+			evidence: "fact",
+			sourceIds: ["cern-web-history"]
+		}],
+		career: [{
+			org: "CERN",
+			role: "Software engineer; WWW",
+			years: "1980s–1994"
+		}, {
+			org: "W3C / MIT",
+			role: "Director of the World Wide Web Consortium",
+			years: "1994–"
+		}],
+		timeline: [
+			{
+				id: "tbl-1989",
+				year: 1989,
+				date: "1989-03",
+				title: "Information Management: A Proposal",
+				stage: "first-major-decision",
+				kind: "publication",
+				summary: "Proposes a linked information system for CERN. Initially cool reception; he proceeds anyway.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["berners-lee-1989"]
+			},
+			{
+				id: "tbl-1990",
+				year: 1990,
+				title: "First browser and server",
+				stage: "building",
+				kind: "technology",
+				summary: "WorldWideWeb browser/editor on a NeXT machine; HTTP and HTML in working form.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["cern-web-history"]
+			},
+			{
+				id: "tbl-1993",
+				year: 1993,
+				date: "1993-04-30",
+				title: "CERN puts WWW in the public domain",
+				stage: "breakthrough",
+				kind: "decision",
+				summary: "Royalty-free release. A later open licence follows. This is an institutional decision, not a personal slogan.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["cern-web-history"]
+			}
+		],
+		decisionIds: ["berners-lee-public-domain"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["world-wide-web"],
+		technologyIds: ["www-stack"],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "tbl-p-open",
+			personId: "tim-berners-lee",
+			title: "A universal system cannot start as a product with a toll",
+			statement: "If every implementer must pay, the network of documents stays small.",
+			evidence: "interpretation",
+			sourceIds: ["cern-web-history"]
+		}],
+		communications: [{
+			id: "tbl-comm-1989",
+			personId: "tim-berners-lee",
+			title: "1989 CERN proposal",
+			year: 1989,
+			audience: "CERN management and colleagues",
+			objective: "Get permission and resources to build a linked information system.",
+			framing: "Starts from a management problem (lost information), not from a vision of commerce.",
+			technique: "Diagrams, prior art (hypertext), modest ask.",
+			tone: "Practical, internal",
+			evidence: "fact",
+			sourceIds: ["berners-lee-1989"]
+		}],
+		controversies: [{
+			id: "tbl-not-alone",
+			personId: "tim-berners-lee",
+			title: "Credit versus the stack of prior art",
+			facts: "Hypertext (Nelson, Engelbart), the Internet, and markup existed. Berners-Lee combined and shipped.",
+			criticisms: "Hero-inventor stories underplay Robert Cailliau, early browser authors, and CERN.",
+			counterarguments: "The 1989 proposal and the 1993 release are still specific, dated acts.",
+			uncertainty: "Counterfactual: would another lab have shipped a similar open system in the same window?",
+			historicalContext: "Gopher and other information systems competed in the early 1990s.",
+			sourceIds: ["cern-web-history", "berners-lee-1989"]
+		}],
+		successFactors: [
+			{
+				factor: "timing",
+				role: "Internet was ready; personal computers were spreading; Gopher was a competitor, not a monopoly.",
+				evidence: "fact",
+				sourceIds: ["cern-web-history"]
+			},
+			{
+				factor: "strategy",
+				role: "Royalty-free release.",
+				evidence: "fact",
+				sourceIds: ["cern-web-history"]
+			},
+			{
+				factor: "skill",
+				role: "Could implement the stack, not only propose it.",
+				evidence: "fact",
+				sourceIds: ["cern-web-history"]
+			}
+		],
+		antiSurvivorship: "Gopher, WAIS, and HyperCard did not become the Web. Openness and later Mosaic's graphics matter as much as the original proposal.",
+		collaborators: [{
+			name: "Robert Cailliau",
+			relation: "CERN colleague; early Web advocate"
+		}, {
+			name: "CERN",
+			relation: "employer and rights-holder that released the software"
+		}],
+		companies: ["CERN", "W3C"],
+		lessonIds: ["lesson-open-science-tradeoff", "lesson-ship-the-simple-system"]
+	},
+	{
+		id: "percy-julian",
+		slug: "percy-julian",
+		name: "Percy Lavon Julian",
+		sortName: "Julian, Percy",
+		birth: {
+			year: 1899,
+			date: "1899-04-11",
+			place: "Montgomery, Alabama, United States"
+		},
+		death: {
+			year: 1975,
+			date: "1975-04-19",
+			place: "Waukegan, Illinois, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: ["chemistry", "pharmaceuticals"],
+		roles: [
+			"scientist",
+			"inventor",
+			"entrepreneur"
+		],
+		knownFor: "Synthesis of physostigmine; industrial routes to steroids and hormones from plant sterols",
+		summary: "Julian synthesized physostigmine in 1935 with Josef Pikl, a landmark in alkaloid chemistry, while at DePauw. U.S. PhD programs and industrial labs often closed doors because he was Black; he earned a doctorate in Vienna and later ran a research lab at Glidden, then his own Julian Laboratories. The scientific record is the syntheses and patents. The career record is also a sequence of institutional refusals. Do not treat the chemistry as a morality play, and do not omit the refusals.",
+		thinking: "The industrial move is to find cheap plant starting materials (soy, wild yams in the broader steroid story) and a process that scales. Academic total synthesis and factory production are different problems. Julian worked both.",
+		initials: "PJ",
+		era: "1899–1975",
+		countries: ["United States", "Austria"],
+		mode: [
+			"scientist",
+			"inventor",
+			"entrepreneur"
+		],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 55,
+			confidence: "high",
+			gaps: ["Full patent list is not inventoried.", "Glidden internal decision-making is thinly sourced here."]
+		},
+		education: [{
+			institution: "DePauw University",
+			years: "1916–1920",
+			focus: "Chemistry",
+			evidence: "fact",
+			sourceIds: ["julian-sciencehistory"]
+		}, {
+			institution: "University of Vienna",
+			years: "1929–1931",
+			focus: "PhD, chemistry",
+			evidence: "fact",
+			sourceIds: ["julian-sciencehistory"]
+		}],
+		career: [
+			{
+				org: "DePauw University",
+				role: "Research / teaching; physostigmine",
+				years: "1932–1936"
+			},
+			{
+				org: "Glidden Company",
+				role: "Director of research, soya products",
+				years: "1936–1953"
+			},
+			{
+				org: "Julian Laboratories",
+				role: "Founder",
+				years: "1953–1961"
+			}
+		],
+		timeline: [
+			{
+				id: "pj-1935",
+				year: 1935,
+				title: "Physostigmine synthesis",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Complete synthesis of physostigmine (eserine) reported in JACS with Josef Pikl.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["julian-physostigmine-1935"]
+			},
+			{
+				id: "pj-1936",
+				year: 1936,
+				title: "Joins Glidden",
+				stage: "building",
+				kind: "career",
+				summary: "Industrial research on soy proteins and sterols after academic placement barriers.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["julian-sciencehistory"]
+			},
+			{
+				id: "pj-1953",
+				year: 1953,
+				title: "Julian Laboratories",
+				stage: "transformation",
+				kind: "company",
+				summary: "Founds his own firm; later sold to SmithKline. Path from excluded academic to owner of a process business.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["julian-sciencehistory"]
+			}
+		],
+		decisionIds: ["julian-industrial-route"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["physostigmine-synthesis"],
+		technologyIds: ["soy-sterol-process"],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "pj-p-scale",
+			personId: "percy-julian",
+			title: "A synthesis that cannot be manufactured is a different kind of result",
+			statement: "Academic elegance and industrial starting materials are both chemical problems.",
+			evidence: "interpretation",
+			sourceIds: ["julian-sciencehistory"]
+		}],
+		communications: [{
+			id: "pj-comm-jacs",
+			personId: "percy-julian",
+			title: "JACS physostigmine papers",
+			year: 1935,
+			audience: "Organic chemists",
+			objective: "Establish a complete synthetic route.",
+			framing: "Series papers in the indole series; the claim is chemical, not autobiographical.",
+			technique: "Experimental organic prose.",
+			tone: "Standard journal",
+			evidence: "fact",
+			sourceIds: ["julian-physostigmine-1935"]
+		}],
+		controversies: [{
+			id: "pj-housing",
+			personId: "percy-julian",
+			title: "Oak Park attacks and American scientific racism",
+			facts: "When Julian's family moved to Oak Park, Illinois, the house was attacked. University and corporate labs had excluded him earlier.",
+			criticisms: "None needed; the facts are the criticism of the institutions.",
+			counterarguments: "Individual colleagues did hire and collaborate. That does not cancel the pattern.",
+			uncertainty: "Motives of every gatekeeper are not all documented.",
+			historicalContext: "Jim Crow and northern segregation structured who could be a research chemist in the U.S.",
+			sourceIds: ["julian-sciencehistory"]
+		}],
+		successFactors: [
+			{
+				factor: "skill",
+				role: "Synthetic organic chemistry at a high level.",
+				evidence: "fact",
+				sourceIds: ["julian-physostigmine-1935"]
+			},
+			{
+				factor: "capital",
+				role: "Glidden's industrial lab, then his own company.",
+				evidence: "fact",
+				sourceIds: ["julian-sciencehistory"]
+			},
+			{
+				factor: "external-environment",
+				role: "Demand for cheaper steroids and soy chemistry.",
+				evidence: "inference",
+				sourceIds: ["julian-sciencehistory"]
+			}
+		],
+		antiSurvivorship: "Chemists excluded from labs leave fewer papers. Julian is visible because he published and patented anyway. The sample of 'great chemists' is truncated by who was allowed to work.",
+		collaborators: [{
+			name: "Josef Pikl",
+			relation: "coauthor on physostigmine"
+		}],
+		companies: ["Glidden", "Julian Laboratories"],
+		lessonIds: ["lesson-institutions-gatekeep"]
+	},
+	{
+		id: "hedy-lamarr",
+		slug: "hedy-lamarr",
+		name: "Hedy Lamarr",
+		sortName: "Lamarr, Hedy",
+		honorific: "Hedwig Eva Maria Kiesler",
+		birth: {
+			year: 1914,
+			date: "1914-11-09",
+			place: "Vienna, Austria-Hungary"
+		},
+		death: {
+			year: 2e3,
+			date: "2000-01-19",
+			place: "Casselberry, Florida, United States"
+		},
+		nationality: ["Austrian", "American"],
+		gender: "woman",
+		fields: [
+			"telecommunications",
+			"engineering",
+			"entertainment"
+		],
+		roles: ["inventor", "communicator"],
+		knownFor: "Co-inventor, with George Antheil, of a frequency-hopping secret communication patent (1942)",
+		summary: "Lamarr was a film actor who, with composer George Antheil, received U.S. Patent 2,292,387 in 1942 for a 'Secret Communication System' using coordinated frequency hops, motivated by radio-controlled torpedoes. The Navy did not deploy it as patented during the war. Later spread-spectrum systems are historically related in idea, not as a direct product line from the patent. The internet-meme version ('she invented Wi-Fi') is false. The documented version is still unusual: a performer and a composer filing a wartime communications patent.",
+		thinking: "The idea is jamming resistance through hopping, synchronized at transmitter and receiver. Antheil's contribution is often described via player-piano roll synchronization — a mechanical analogy. Treat the patent claims, not the biopic, as the primary object.",
+		initials: "HL",
+		era: "1914–2000",
+		countries: ["Austria", "United States"],
+		mode: ["inventor"],
+		research: {
+			sourceCount: 1,
+			primarySourceCount: 1,
+			secondarySourceCount: 0,
+			completeness: 48,
+			confidence: "medium",
+			gaps: ["How much of the circuit design is Lamarr versus engineering help is not fully settled in this archive.", "Navy evaluation paperwork is not attached."]
+		},
+		education: [{
+			institution: "No formal engineering degree",
+			years: "—",
+			focus: "Self-directed technical work alongside a film career",
+			evidence: "fact",
+			sourceIds: ["lamarr-patent-1942"]
+		}],
+		career: [{
+			org: "Film industry (Europe, then Hollywood)",
+			role: "Actor",
+			years: "1930s–1950s"
+		}, {
+			org: "Independent invention with George Antheil",
+			role: "Co-inventor",
+			years: "1940–1942"
+		}],
+		timeline: [{
+			id: "hl-1942",
+			year: 1942,
+			date: "1942-08-11",
+			title: "Patent 2,292,387 issued",
+			stage: "breakthrough",
+			kind: "technology",
+			summary: "Secret Communication System, assigned in some tellings toward the war effort. Not a deployed Navy standard in WWII.",
+			evidence: "fact",
+			confidence: "high",
+			sourceIds: ["lamarr-patent-1942"]
+		}],
+		decisionIds: ["lamarr-file-patent"],
+		failureIds: ["lamarr-non-adoption"],
+		experimentIds: [],
+		breakthroughIds: ["frequency-hopping-patent"],
+		technologyIds: ["secret-communication-system"],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "hl-p-domain",
+			personId: "hedy-lamarr",
+			title: "Relevant analogy can come from another craft",
+			statement: "A synchronization problem in music machinery can be an analogy for a radio problem. Analogies still have to become claims in a patent.",
+			evidence: "inference",
+			sourceIds: ["lamarr-patent-1942"]
+		}],
+		communications: [],
+		controversies: [{
+			id: "hl-wifi-myth",
+			personId: "hedy-lamarr",
+			title: "The Wi-Fi origin story",
+			facts: "The 1942 patent describes frequency hopping for secret communication. Modern Wi-Fi and Bluetooth use spread-spectrum techniques with a long, multi-inventor history.",
+			criticisms: "Viral biographies collapse that history into a single inventor.",
+			counterarguments: "Correcting the meme does not erase the patent.",
+			uncertainty: "Exact influence pathways from this patent to later military spread-spectrum work are mediated and disputed.",
+			historicalContext: "Late-20th-century rediscovery of the patent coincided with a hunger for hidden women inventors — a corrective that can overshoot.",
+			sourceIds: ["lamarr-patent-1942"]
+		}],
+		successFactors: [{
+			factor: "network",
+			role: "Antheil as co-inventor; Hollywood access to wartime scientific social circles is reported in biographies.",
+			evidence: "reported",
+			sourceIds: ["lamarr-patent-1942"]
+		}, {
+			factor: "skill",
+			role: "Enough technical grasp to be a named inventor on a granted patent.",
+			evidence: "fact",
+			sourceIds: ["lamarr-patent-1942"]
+		}],
+		antiSurvivorship: "Most wartime gadget patents were never built. This one is famous because of who filed it and because spread spectrum later mattered. Fame is not the same as causal primacy.",
+		collaborators: [{
+			name: "George Antheil",
+			relation: "co-inventor"
+		}],
+		companies: [],
+		lessonIds: ["lesson-patent-is-not-deployment"]
+	},
+	{
+		id: "albert-einstein",
+		slug: "albert-einstein",
+		name: "Albert Einstein",
+		sortName: "Einstein, Albert",
+		birth: {
+			year: 1879,
+			date: "1879-03-14",
+			place: "Ulm, German Empire"
+		},
+		death: {
+			year: 1955,
+			date: "1955-04-18",
+			place: "Princeton, New Jersey, United States"
+		},
+		nationality: [
+			"German",
+			"Swiss",
+			"American"
+		],
+		gender: "man",
+		fields: ["physics"],
+		roles: ["scientist", "researcher"],
+		knownFor: "1905 papers (including special relativity and the light quantum); general relativity; later resistance to completeness of quantum mechanics",
+		summary: "Einstein's 1905 Annalen der Physik papers include a treatment of moving bodies that became special relativity, a light-quantum paper, Brownian motion, and E = mc² as a short follow-up. He was then a patent clerk in Bern, not a professor. General relativity (1915) is a separate, longer campaign. Later he argued, with Podolsky and Rosen (1935), that quantum mechanics was incomplete. He was not a mascot of 'creativity.' He was a physicist who made specific, dated arguments, some of which the later community judged incomplete.",
+		thinking: "A recurring move is to take an asymmetry in existing theory as a real problem (electrodynamics of moving bodies) and to elevate a principle (constancy of light speed, equivalence) until the mathematics is forced to change. In the quantum debates the same taste for principles led him to reject a complete statistical interpretation — a case where the method did not yield the later consensus.",
+		initials: "AE",
+		era: "1879–1955",
+		countries: [
+			"Germany",
+			"Switzerland",
+			"United States"
+		],
+		mode: ["scientist"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 52,
+			confidence: "high",
+			gaps: ["This archive does not attempt a complete Einstein edition.", "Patent-office day-to-day influence is often overstated in popular accounts."]
+		},
+		education: [{
+			institution: "ETH Zurich",
+			years: "1896–1900",
+			focus: "Teaching diploma in physics and mathematics",
+			evidence: "fact",
+			sourceIds: ["einstein-1905-relativity"]
+		}],
+		career: [{
+			org: "Swiss Patent Office, Bern",
+			role: "Technical expert",
+			years: "1902–1909"
+		}, {
+			org: "Universities (Zurich, Prague, Berlin) then IAS Princeton",
+			role: "Professor / member",
+			years: "1909–1955"
+		}],
+		timeline: [
+			{
+				id: "ae-1905",
+				year: 1905,
+				title: "Annus papers",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Light quantum; Brownian motion; electrodynamics of moving bodies. Not a single 'relativity paper' as later packaged.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["einstein-1905-relativity"]
+			},
+			{
+				id: "ae-1915",
+				year: 1915,
+				title: "General relativity field equations",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Gravitation as spacetime geometry. Hilbert was working in parallel; priority is a specialist debate.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["einstein-1905-relativity"]
+			},
+			{
+				id: "ae-1919",
+				year: 1919,
+				title: "Eclipse confirmation and fame",
+				stage: "scaling",
+				kind: "life",
+				summary: "Eddington's eclipse measurements are reported as confirming light bending. Public fame follows. Later re-analysis has discussed the strength of the 1919 data.",
+				evidence: "fact",
+				confidence: "medium",
+				sourceIds: ["einstein-1905-relativity"]
+			},
+			{
+				id: "ae-1935",
+				year: 1935,
+				title: "EPR paper",
+				stage: "later-work",
+				kind: "publication",
+				summary: "Argues quantum mechanics is incomplete. Later Bell tests and experiments went against Einstein's hoped-for local hidden variables as originally imagined.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["einstein-1905-relativity"]
+			}
+		],
+		decisionIds: ["einstein-light-principle"],
+		failureIds: ["einstein-quantum-completeness"],
+		experimentIds: [],
+		breakthroughIds: ["special-relativity"],
+		technologyIds: [],
+		discoveryIds: ["light-quantum-1905"],
+		quoteIds: [],
+		principles: [{
+			id: "ae-p-principle",
+			personId: "albert-einstein",
+			title: "Elevate a stubborn empirical constraint into a principle",
+			statement: "If the speed of light is invariant, rebuild kinematics rather than add epicycles to the ether.",
+			evidence: "interpretation",
+			sourceIds: ["einstein-1905-relativity"]
+		}],
+		communications: [{
+			id: "ae-comm-1905",
+			personId: "albert-einstein",
+			title: "Zur Elektrodynamik bewegter Körper",
+			year: 1905,
+			audience: "Physicists reading Annalen der Physik",
+			objective: "Remove asymmetries in electrodynamics of moving bodies.",
+			framing: "Thought experiments and postulates, then Lorentz transformations as consequence.",
+			technique: "Few citations; principle-first. Not how most papers of the era looked.",
+			tone: "Spare, argumentative",
+			evidence: "fact",
+			sourceIds: ["einstein-1905-relativity"]
+		}],
+		controversies: [{
+			id: "ae-bomb-letter",
+			personId: "albert-einstein",
+			title: "Szilárd letter and later pacifism",
+			year: 1939,
+			facts: "Einstein signed a letter to Roosevelt warning about German uranium research, prompted by Szilárd. He did not run the Manhattan Project. He later supported arms control.",
+			criticisms: "Some treat him as author of the bomb; others as a saintly pacifist. Neither matches the file.",
+			counterarguments: "The letter is real; the bomb project is a vast institutional fact beyond one signature.",
+			uncertainty: "Counterfactuals about the letter's influence on Roosevelt are debated.",
+			historicalContext: "Refugee scientist, 1939, fascist nuclear physics as a live fear.",
+			sourceIds: ["einstein-1905-relativity"]
+		}],
+		successFactors: [{
+			factor: "skill",
+			role: "Physical argument and mathematical uptake (with friends for GR mathematics).",
+			evidence: "fact",
+			sourceIds: ["einstein-1905-relativity"]
+		}, {
+			factor: "timing",
+			role: "Electrodynamics was already in crisis; Lorentz and Poincaré were nearby.",
+			evidence: "fact",
+			sourceIds: ["einstein-1905-relativity"]
+		}],
+		antiSurvivorship: "1905 looks like lightning because we keep the papers that reorganized physics. Patent clerks who wrote wrong theories are not in the archive. Einstein's later quantum stance shows the same mind missing a later consensus.",
+		collaborators: [
+			{
+				name: "Michele Besso",
+				relation: "sounding board in Bern"
+			},
+			{
+				name: "Marcel Grossmann",
+				relation: "mathematical help toward GR"
+			},
+			{
+				name: "Niels Bohr",
+				relation: "quantum debates"
+			}
+		],
+		companies: ["Institute for Advanced Study"],
+		lessonIds: ["lesson-principles-can-fail", "lesson-define-the-unit"]
+	},
+	{
+		id: "richard-feynman",
+		slug: "richard-feynman",
+		name: "Richard Phillips Feynman",
+		sortName: "Feynman, Richard",
+		birth: {
+			year: 1918,
+			date: "1918-05-11",
+			place: "Queens, New York, United States"
+		},
+		death: {
+			year: 1988,
+			date: "1988-02-15",
+			place: "Los Angeles, California, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: ["physics"],
+		roles: [
+			"scientist",
+			"researcher",
+			"communicator"
+		],
+		knownFor: "QED; Feynman diagrams; cargo-cult science lecture; Challenger O-ring demonstration",
+		summary: "Feynman shared the 1965 Nobel Prize for quantum electrodynamics. He also became a public explainer, sometimes a self-mythologizer (Surely You're Joking is performance as well as memory). Two documented communication events matter here: the 1974 Caltech commencement address on cargo-cult science, and the 1986 Rogers Commission work on Challenger, including a televised O-ring-in-ice-water demonstration. The physics and the theater are both real; they are not the same thing.",
+		thinking: "He pushed calculation methods that kept physical processes visible (diagrams). In the Challenger work he treated a public inquiry as an experiment: if the rubber loses resilience when cold, show it. That is a method for mixed audiences, not a replacement for the Commission's engineering analysis.",
+		initials: "RFY",
+		era: "1918–1988",
+		countries: ["United States"],
+		mode: ["scientist"],
+		research: {
+			sourceCount: 1,
+			primarySourceCount: 1,
+			secondarySourceCount: 0,
+			completeness: 50,
+			confidence: "medium",
+			gaps: ["QED priority is shared with Schwinger and Tomonaga; this file does not adjudicate taste.", "Anecdotes from memoirs are not treated as lab notebooks."]
+		},
+		education: [{
+			institution: "MIT",
+			years: "1935–1939",
+			focus: "Physics",
+			evidence: "fact",
+			sourceIds: ["feynman-cargo-cult"]
+		}, {
+			institution: "Princeton University",
+			years: "1939–1942",
+			focus: "PhD",
+			evidence: "fact",
+			sourceIds: ["feynman-cargo-cult"]
+		}],
+		career: [{
+			org: "Manhattan Project, Los Alamos",
+			role: "Theoretical physicist",
+			years: "1943–1945"
+		}, {
+			org: "Cornell, then Caltech",
+			role: "Professor",
+			years: "1945–1988"
+		}],
+		timeline: [
+			{
+				id: "rfy-1948",
+				year: 1948,
+				title: "Path integrals / diagrams period",
+				stage: "breakthrough",
+				kind: "publication",
+				summary: "Methods that made QED calculations tractable. Shared later Nobel.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["feynman-cargo-cult"]
+			},
+			{
+				id: "rfy-1974",
+				year: 1974,
+				title: "Cargo Cult Science",
+				stage: "later-work",
+				kind: "communication",
+				summary: "Caltech commencement: you must not fool yourself. A scientific ethics talk, not a research paper.",
+				evidence: "direct_quote",
+				confidence: "high",
+				sourceIds: ["feynman-cargo-cult"]
+			},
+			{
+				id: "rfy-1986",
+				year: 1986,
+				title: "Challenger commission",
+				stage: "major-crisis",
+				kind: "communication",
+				summary: "Public demonstration of O-ring stiffness in ice water. Engineering cause was already being established; the demo was communication under political pressure.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["feynman-cargo-cult"]
+			}
+		],
+		decisionIds: ["feynman-challenger-demo"],
+		failureIds: [],
+		experimentIds: [],
+		breakthroughIds: ["qed-methods"],
+		technologyIds: ["feynman-diagrams"],
+		discoveryIds: [],
+		quoteIds: ["feynman-fool-yourself"],
+		principles: [{
+			id: "rfy-p-fool",
+			personId: "richard-feynman",
+			title: "Do not fool yourself",
+			statement: "The first principle is that you must not fool yourself — and you are the easiest person to fool.",
+			evidence: "direct_quote",
+			sourceIds: ["feynman-cargo-cult"]
+		}],
+		communications: [{
+			id: "rfy-comm-cargo",
+			personId: "richard-feynman",
+			title: "Cargo Cult Science",
+			year: 1974,
+			audience: "Caltech graduates; later a wide reading public",
+			objective: "State a norm: report what would prove you wrong.",
+			framing: "South Seas cargo cults as analogy for science that keeps the form and drops the honesty.",
+			technique: "Anecdote plus imperative. Easy to quote; harder to institutionalize.",
+			tone: "Colloquial, moral",
+			excerpt: "The first principle is that you must not fool yourself — and you are the easiest person to fool.",
+			evidence: "direct_quote",
+			sourceIds: ["feynman-cargo-cult"]
+		}],
+		controversies: [{
+			id: "rfy-memoir",
+			personId: "richard-feynman",
+			title: "Memoir tone and gendered anecdotes",
+			facts: "Popular books include stories that later readers criticize as sexist or self-aggrandizing.",
+			criticisms: "The persona can eclipse the papers and the Challenger appendix.",
+			counterarguments: "The technical work and the Rogers Commission appendix stand without the persona.",
+			uncertainty: "Memoir dialogue is not a transcript.",
+			historicalContext: "Mid-century theoretical-physics culture is not a defense; it is context.",
+			sourceIds: ["feynman-cargo-cult"]
+		}],
+		successFactors: [{
+			factor: "skill",
+			role: "Calculational invention in QED.",
+			evidence: "fact",
+			sourceIds: ["feynman-cargo-cult"]
+		}, {
+			factor: "communication",
+			role: "Unusual ability to stage an explanation for mixed audiences.",
+			evidence: "fact",
+			sourceIds: ["feynman-cargo-cult"]
+		}],
+		antiSurvivorship: "Los Alamos and QED had many theorists. Diagrams plus later television made Feynman the public physicist. That is a selection on communication as much as on physics.",
+		collaborators: [{
+			name: "Murray Gell-Mann",
+			relation: "Caltech colleague; sometimes rival"
+		}, {
+			name: "Schwinger and Tomonaga",
+			relation: "independent QED work; shared Nobel"
+		}],
+		companies: ["Caltech"],
+		lessonIds: ["lesson-show-the-disconfirming-test"]
+	},
+	{
+		id: "nikola-tesla",
+		slug: "nikola-tesla",
+		name: "Nikola Tesla",
+		sortName: "Tesla, Nikola",
+		birth: {
+			year: 1856,
+			date: "1856-07-10",
+			place: "Smiljan, Austrian Empire (now Croatia)"
+		},
+		death: {
+			year: 1943,
+			date: "1943-01-07",
+			place: "New York City, United States"
+		},
+		nationality: ["Serbian", "American"],
+		gender: "man",
+		fields: [
+			"engineering",
+			"energy",
+			"physics"
+		],
+		roles: ["inventor", "engineer"],
+		knownFor: "Polyphase AC systems; induction motor; later high-frequency experiments; Wardenclyffe failure",
+		summary: "Tesla's polyphase AC patents (1888) and work with Westinghouse are the documented core of his technological impact. The 'war of the currents' was a fight among Edison, Westinghouse, and others over electrical systems, not a superhero film. Wardenclyffe, his Long Island wireless-power station, ran out of money and was never completed as imagined. Later cult writing credits him with free energy, death rays, and suppressed genius. This archive keeps patents, systems, and a failed capital project — and marks the rest unknown or discredited.",
+		thinking: "He thought in rotating magnetic fields and in spectacular demonstrations. Demonstration is a communication strategy that can fund work and also outrun engineering. Wardenclyffe is what happens when the demonstration's promise exceeds the backer's patience and the physics of the proposed service.",
+		initials: "NT",
+		era: "1856–1943",
+		countries: [
+			"Croatia",
+			"Austria-Hungary",
+			"United States"
+		],
+		mode: ["inventor"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 58,
+			confidence: "medium",
+			gaps: ["Popular Tesla literature is unusually contaminated; this file stays near patents and standard history.", "Laboratory notebooks are not reproduced."]
+		},
+		education: [{
+			institution: "Graz / Prague studies, incomplete degree path",
+			years: "1870s",
+			focus: "Engineering",
+			evidence: "reported",
+			sourceIds: ["jonnes-empires-of-light"]
+		}],
+		career: [{
+			org: "Edison companies (briefly)",
+			role: "Engineer",
+			years: "1884–1885"
+		}, {
+			org: "Independent / Westinghouse licensing",
+			role: "Inventor",
+			years: "1886–"
+		}],
+		timeline: [
+			{
+				id: "nt-1888",
+				year: 1888,
+				title: "AC polyphase patents",
+				stage: "breakthrough",
+				kind: "technology",
+				summary: "Patents on AC motors and power transmission. Licensed in the Westinghouse orbit.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["tesla-ac-patents"]
+			},
+			{
+				id: "nt-1893",
+				year: 1893,
+				title: "Chicago World's Fair AC lighting",
+				stage: "scaling",
+				kind: "technology",
+				summary: "Westinghouse/Tesla AC lights the fair — a public systems demonstration, not a solo act.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["jonnes-empires-of-light"]
+			},
+			{
+				id: "nt-1901",
+				year: 1901,
+				title: "Wardenclyffe construction",
+				stage: "building",
+				kind: "failure",
+				summary: "Morgan-backed wireless station. Funding stops. Tower later demolished.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["jonnes-empires-of-light"]
+			}
+		],
+		decisionIds: ["tesla-westinghouse-license"],
+		failureIds: ["tesla-wardenclyffe"],
+		experimentIds: [],
+		breakthroughIds: ["polyphase-ac"],
+		technologyIds: ["induction-motor"],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "nt-p-demo",
+			personId: "nikola-tesla",
+			title: "Show the field, not only the equation",
+			statement: "Public high-voltage demonstrations were a funding and persuasion technology. They did not substitute for a completed service at Wardenclyffe.",
+			evidence: "interpretation",
+			sourceIds: ["jonnes-empires-of-light"]
+		}],
+		communications: [],
+		controversies: [{
+			id: "nt-cult",
+			personId: "nikola-tesla",
+			title: "Cult versus electrical history",
+			facts: "Tesla was a significant inventor in AC power. He was also a showman who made later claims the engineering record does not support.",
+			criticisms: "Internet culture treats Edison as villain and Tesla as stolen genius.",
+			counterarguments: "Edison, Westinghouse, and Tesla were all operators in a capital-intensive systems fight. Credit is distributed.",
+			uncertainty: "Some unpublished notes invite speculation; speculation is not evidence.",
+			historicalContext: "Immigrant inventor, Gilded Age capital, patent law as the battlefield.",
+			sourceIds: ["jonnes-empires-of-light", "tesla-ac-patents"]
+		}],
+		successFactors: [
+			{
+				factor: "skill",
+				role: "Electromechanical invention in AC machinery.",
+				evidence: "fact",
+				sourceIds: ["tesla-ac-patents"]
+			},
+			{
+				factor: "capital",
+				role: "Westinghouse as the firm that could build a system.",
+				evidence: "fact",
+				sourceIds: ["jonnes-empires-of-light"]
+			},
+			{
+				factor: "timing",
+				role: "Cities were choosing electrical systems.",
+				evidence: "fact",
+				sourceIds: ["jonnes-empires-of-light"]
+			}
+		],
+		antiSurvivorship: "AC won. That does not mean every Tesla idea was correct. Wardenclyffe is the control case: same person, failed project, forgotten physics of the promised service.",
+		collaborators: [{
+			name: "George Westinghouse",
+			relation: "licensee and systems builder",
+			personId: void 0
+		}, {
+			name: "Thomas Edison",
+			relation: "brief employer; later systems rival",
+			personId: "thomas-edison"
+		}],
+		companies: ["Westinghouse", "Wardenclyffe"],
+		lessonIds: ["lesson-patent-is-not-deployment", "lesson-capital-stops-the-tower"]
+	},
+	{
+		id: "thomas-edison",
+		slug: "thomas-edison",
+		name: "Thomas Alva Edison",
+		sortName: "Edison, Thomas",
+		birth: {
+			year: 1847,
+			date: "1847-02-11",
+			place: "Milan, Ohio, United States"
+		},
+		death: {
+			year: 1931,
+			date: "1931-10-18",
+			place: "West Orange, New Jersey, United States"
+		},
+		nationality: ["American"],
+		gender: "man",
+		fields: [
+			"engineering",
+			"energy",
+			"entertainment"
+		],
+		roles: [
+			"inventor",
+			"entrepreneur",
+			"engineer"
+		],
+		knownFor: "Industrial research lab; incandescent lighting as a system; phonograph; electric distribution — and the AC/DC fight",
+		summary: "Edison did not invent the first light bulb. He and his lab developed a high-resistance filament lamp plus parallel distribution, meters, and generation — a system that could be sold to cities. Menlo Park and later West Orange are early industrial research organizations: many hands, many patents, Edison's name on the door. The war of the currents included ugly tactics (including association with electrocution) as DC lost ground to AC for long-distance transmission. Success here is systems engineering and organization, not a lone eureka.",
+		thinking: "The method is iterative, empirical, and organizational: try many materials, hire specialists, file patents, build the utility. It is also commercially ruthless. Those are documented together.",
+		initials: "TE",
+		era: "1847–1931",
+		countries: ["United States"],
+		mode: ["inventor", "entrepreneur"],
+		research: {
+			sourceCount: 2,
+			primarySourceCount: 1,
+			secondarySourceCount: 1,
+			completeness: 60,
+			confidence: "high",
+			gaps: ["Lab notebooks are vast; this file samples the lighting system and the current war.", "Phonograph and later business failures are compressed."]
+		},
+		education: [{
+			institution: "Little formal schooling; telegraphy apprenticeship",
+			years: "1860s",
+			focus: "Practical electricity",
+			evidence: "fact",
+			sourceIds: ["jonnes-empires-of-light"]
+		}],
+		career: [{
+			org: "Menlo Park laboratory",
+			role: "Inventor-manager",
+			years: "1876–1880s"
+		}, {
+			org: "Edison Electric / General Electric lineage",
+			role: "Founder / namesake",
+			years: "1880s–"
+		}],
+		timeline: [
+			{
+				id: "te-1879",
+				year: 1879,
+				title: "Practical incandescent lamp campaign",
+				stage: "breakthrough",
+				kind: "technology",
+				summary: "High-resistance carbon filament in vacuum, aimed at parallel circuits. Not the first incandescent.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["edison-patents"]
+			},
+			{
+				id: "te-1882",
+				year: 1882,
+				title: "Pearl Street Station",
+				stage: "scaling",
+				kind: "company",
+				summary: "First commercial central station in Manhattan. A utility, not a bulb.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["jonnes-empires-of-light"]
+			},
+			{
+				id: "te-1890s",
+				year: 1893,
+				title: "Current war peak",
+				stage: "major-crisis",
+				kind: "controversy",
+				summary: "AC systems (Westinghouse/Tesla patents) win long-distance economics. Edison's DC camp uses safety arguments and worse.",
+				evidence: "fact",
+				confidence: "high",
+				sourceIds: ["jonnes-empires-of-light"]
+			}
+		],
+		decisionIds: ["edison-system-not-bulb"],
+		failureIds: ["edison-dc-bet"],
+		experimentIds: ["edison-filament-search"],
+		breakthroughIds: ["pearl-street"],
+		technologyIds: ["edison-lighting-system"],
+		discoveryIds: [],
+		quoteIds: [],
+		principles: [{
+			id: "te-p-system",
+			personId: "thomas-edison",
+			title: "Invent the utility, not the component",
+			statement: "A lamp without generation, distribution, and metering is a demonstration.",
+			evidence: "interpretation",
+			sourceIds: ["edison-patents", "jonnes-empires-of-light"]
+		}],
+		communications: [],
+		controversies: [{
+			id: "te-current-war",
+			personId: "thomas-edison",
+			title: "Tactics in the war of the currents",
+			facts: "Edison-associated campaigns stressed AC danger. Electrocution technology became entangled in the public argument.",
+			criticisms: "Historians document smear and fear as competitive tools.",
+			counterarguments: "DC did have safety properties at low voltage; the issue was scaling transmission.",
+			uncertainty: "How much Edison personally directed every publicity act varies by incident.",
+			historicalContext: "Winner-take-city electrical franchises. Capital, not only physics, decided the standard.",
+			sourceIds: ["jonnes-empires-of-light"]
+		}],
+		successFactors: [
+			{
+				factor: "team",
+				role: "Menlo Park as a research organization.",
+				evidence: "fact",
+				sourceIds: ["jonnes-empires-of-light"]
+			},
+			{
+				factor: "capital",
+				role: "Investors for stations and manufacturing.",
+				evidence: "fact",
+				sourceIds: ["jonnes-empires-of-light"]
+			},
+			{
+				factor: "execution",
+				role: "Pearl Street actually ran.",
+				evidence: "fact",
+				sourceIds: ["jonnes-empires-of-light"]
+			}
+		],
+		antiSurvivorship: "The lighting system won in cities, then AC transmission won over Edison's DC preference. He is both a successful systems builder and a case of a wrong technical bet that did not erase the earlier success.",
+		collaborators: [{
+			name: "Francis Upton",
+			relation: "Menlo Park mathematician/physicist"
+		}, {
+			name: "Nikola Tesla",
+			relation: "brief employee; later rival camp",
+			personId: "nikola-tesla"
+		}],
+		companies: [
+			"Edison Electric",
+			"General Electric",
+			"Menlo Park"
+		],
+		lessonIds: ["lesson-invent-the-system", "lesson-wrong-standard"]
+	}
+];
+var quotes = [
+	{
+		id: "curie-quote-none-verified-fear",
+		personId: "marie-curie",
+		text: "Nothing in life is to be feared, it is only to be understood.",
+		context: "Widely attributed on posters. A reliable primary citation is not attached in this archive.",
+		evidence: "unknown",
+		sourceIds: ["curie-britannica"],
+		notes: "Do not treat this as a verified Curie sentence here. The thesis and Nobel lectures are the primary voice."
+	},
+	{
+		id: "turing-can-machines-think",
+		personId: "alan-turing",
+		text: "I propose to consider the question, 'Can machines think?'",
+		year: 1950,
+		context: "Opening of Computing Machinery and Intelligence, Mind.",
+		audience: "Philosophers and scientists",
+		evidence: "direct_quote",
+		sourceIds: ["turing-1950"]
+	},
+	{
+		id: "lovelace-originate",
+		personId: "ada-lovelace",
+		text: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform.",
+		year: 1843,
+		context: "Note G, translator's notes to Menabrea.",
+		evidence: "direct_quote",
+		sourceIds: ["lovelace-note-g"]
+	},
+	{
+		id: "johnson-glenn-quote",
+		personId: "katherine-johnson",
+		text: "John Glenn requested that Katherine personally recheck the computer calculations before his 1962 Friendship 7 flight.",
+		year: 1962,
+		context: "NASA's later official wording of Glenn's request. Not Johnson's own epigram.",
+		evidence: "reported",
+		sourceIds: ["nasa-katherine-johnson"],
+		notes: "Included as a documented third-party report, not as a first-person slogan."
+	},
+	{
+		id: "hopper-forgiveness-attributed",
+		personId: "grace-hopper",
+		text: "It's easier to ask forgiveness than it is to get permission.",
+		context: "Often attributed to Hopper in talks. Variants exist in military and computing lore. Treat as reported attribution, not a pinned primary sentence.",
+		evidence: "reported",
+		sourceIds: ["hopper-cobol"],
+		notes: "The 1952 ACM paper is a better primary for her actual technical argument."
+	},
+	{
+		id: "feynman-fool-yourself",
+		personId: "richard-feynman",
+		text: "The first principle is that you must not fool yourself — and you are the easiest person to fool.",
+		year: 1974,
+		context: "Cargo Cult Science, Caltech commencement.",
+		audience: "Graduates",
+		evidence: "direct_quote",
+		sourceIds: ["feynman-cargo-cult"]
+	},
+	{
+		id: "bezos-day-1",
+		personId: "jeff-bezos",
+		text: "We will continue to make investment decisions in light of long-term market leadership considerations rather than short-term profitability considerations or short-term Wall Street reactions.",
+		year: 1997,
+		context: "1997 letter to shareholders.",
+		audience: "Public shareholders",
+		evidence: "direct_quote",
+		sourceIds: ["bezos-1997-letter"]
+	},
+	{
+		id: "bezos-one-way-doors",
+		personId: "jeff-bezos",
+		text: "Some decisions are consequential and irreversible or nearly irreversible — one-way doors — and these decisions must be made methodically, carefully, slowly, with great deliberation and consultation. … But most decisions aren't like that — they are changeable, reversible — they're two-way doors.",
+		year: 2015,
+		context: "2015 letter to shareholders.",
+		audience: "Shareholders and, in practice, managers",
+		evidence: "direct_quote",
+		sourceIds: ["bezos-2015-letter"]
+	},
+	{
+		id: "jobs-dots",
+		personId: "steve-jobs",
+		text: "You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future.",
+		year: 2005,
+		context: "Stanford commencement. A retrospective narrative, not a decision log.",
+		audience: "Graduates",
+		evidence: "direct_quote",
+		sourceIds: ["jobs-stanford-2005"],
+		notes: "Useful as a speech. Dangerous as a research method."
+	},
+	{
+		id: "nadella-cloud-first-quote",
+		personId: "satya-nadella",
+		text: "Our job is to ensure that Microsoft thrives in a mobile and cloud-first world.",
+		year: 2014,
+		context: "First-day email to employees, 4 February 2014.",
+		audience: "Microsoft employees",
+		evidence: "direct_quote",
+		sourceIds: ["nadella-2014-email"]
+	},
+	{
+		id: "musk-last-money",
+		personId: "elon-musk",
+		text: "The first three launches failed. Fortunately the fourth launch — that was the last money that we had for Falcon 1 — the fourth launch worked, or that would have been it for SpaceX.",
+		year: 2017,
+		context: "IAC 2017 talk, recalling 2008. First-person memory of cash position.",
+		audience: "Space congress / public internet",
+		evidence: "direct_quote",
+		sourceIds: ["musk-iac-2017"],
+		notes: "The orbital success is independently dated. The 'last money' clause is Musk's later account."
+	},
+	{
+		id: "buffett-circle",
+		personId: "warren-buffett",
+		text: "What an investor needs is the ability to correctly evaluate selected businesses. Note that word 'selected': You don't have to be an expert on every company, or even many. You only have to be able to evaluate companies within your circle of competence. The size of that circle is not very important; knowing its boundaries, however, is vital.",
+		year: 1996,
+		context: "Shareholder letter language on circle of competence (1996 letter is the usual locus of this formulation).",
+		audience: "Berkshire shareholders",
+		evidence: "direct_quote",
+		sourceIds: ["buffett-letters"]
+	}
+];
+var lessons = [
+	{
+		id: "lesson-measure-the-anomaly",
+		title: "Measure the surplus before you name it",
+		personIds: ["marie-curie"],
+		relatedIds: ["curie-thesis-problem", "curie-pitchblende-activity"],
+		whatHappened: "Pitchblende was too active for its uranium. The number, not a vision, opened the chemical search.",
+		whyItMatters: "Anomalies are easy to narrate after the element is named. The work was the table of activities.",
+		whatToLearn: "If your instrument can compare, comparison is the first experiment.",
+		whatToQuestion: "Whether the instrument is measuring the thing you think.",
+		evidenceNote: "Thesis and 1898 announcements.",
+		uncertain: "Division of labor with Pierre on each result is still discussed.",
+		reflection: ["What surplus in your data are you currently explaining away?", "If you could not use the word 'genius,' what would you still do on Monday?"],
+		mentalModel: "Anomaly as a quantitative remainder."
+	},
+	{
+		id: "lesson-open-science-tradeoff",
+		title: "Openness is a real choice with mixed rents",
+		personIds: ["marie-curie", "tim-berners-lee"],
+		relatedIds: ["curie-no-patent", "berners-lee-public-domain"],
+		whatHappened: "Curies did not patent isolation. CERN put WWW in the public domain. Both diffused. Both left money and later enclosure to others.",
+		whyItMatters: "Moralized as saintliness, the choice is also industrial strategy.",
+		whatToLearn: "State who captures the layer you are opening.",
+		whatToQuestion: "Whether 'open' at one layer invites capture at the next (browsers, radium firms).",
+		evidenceNote: "CERN 30 April 1993; Curie biographies on patents.",
+		uncertain: "Counterfactuals about a patented Web or a patented radium process.",
+		reflection: ["Which layer are you opening, and who owns the layer above?", "If you patent, what diffusion do you lose?"],
+		mentalModel: "Commons versus capture, layer by layer."
+	},
+	{
+		id: "lesson-operationalize-the-question",
+		title: "Replace the foggy question with a procedure",
+		personIds: ["alan-turing", "ada-lovelace"],
+		relatedIds: ["turing-imitation-game", "lovelace-notes"],
+		whatHappened: "Turing replaced 'Can machines think?' with a game. Lovelace specified a limit: origination versus execution.",
+		whyItMatters: "Undefined words produce sermons.",
+		whatToLearn: "Write the test, including what would count as failure.",
+		whatToQuestion: "Whether your test actually answers the human question you still care about.",
+		evidenceNote: "Mind 1950; Note G 1843.",
+		uncertain: "Whether passing an imitation game should ever be called thought.",
+		reflection: ["What question in your work cannot currently be failed?", "What would a negative result look like?"],
+		mentalModel: "Operational criterion."
+	},
+	{
+		id: "lesson-state-violence-and-credit",
+		title: "Credit without safety is not a complete story",
+		personIds: ["alan-turing"],
+		relatedIds: ["turing-hormone"],
+		whatHappened: "The same state that used Turing's war work criminalized his private life.",
+		whyItMatters: "Innovation histories that stop at the paper omit the body.",
+		whatToLearn: "Record institutional violence as part of the file, not a sad footnote.",
+		whatToQuestion: "Any 'genius and tragedy' template that makes the law look like weather.",
+		evidenceNote: "Hodges; the 1952 conviction; 2013 pardon.",
+		uncertain: "Interiority around 1954.",
+		reflection: ["Who could not have done this work because of law or lab access?", "What are you counting as 'context' that is actually causation?"]
+	},
+	{
+		id: "lesson-data-governance",
+		title: "Unpublished data is still a governed object",
+		personIds: ["rosalind-franklin"],
+		relatedIds: [
+			"franklin-leave-kings",
+			"franklin-credit-failure",
+			"photo-51"
+		],
+		whatHappened: "Photograph 51 moved without Franklin's knowledge.",
+		whyItMatters: "Priority fights are often logistics of who saw the image.",
+		whatToLearn: "Consent for data sharing is method, not manners.",
+		whatToQuestion: "Stories that require her to have been 'about to see' the helix to deserve credit. The data paper already exists.",
+		evidenceNote: "KCL account; Nature 1953 trio.",
+		uncertain: "Exact words of the Wilkins–Watson moment.",
+		reflection: ["Who can see your unpublished figures?", "What would a fair simultaneous publication look like?"]
+	},
+	{
+		id: "lesson-caution-vs-speed",
+		title: "Caution and speed are both research strategies",
+		personIds: ["rosalind-franklin"],
+		relatedIds: ["dna-b-form"],
+		whatHappened: "Franklin's published voice is careful. Watson and Crick speculated in a model paper. Both papers ran the same week.",
+		whyItMatters: "Later myth makes caution look like failure to see.",
+		whatToLearn: "Match epistemic style to what you can actually defend.",
+		whatToQuestion: "Whether 'move fast' is being imported from a domain where the cost of error is a slide deck, not a structure of life.",
+		evidenceNote: "The three Nature papers, 25 April 1953.",
+		uncertain: "How close her unpublished modelling was.",
+		reflection: ["What is the cost of a wrong model in your domain?", "Who benefits if you wait, and who benefits if you don't?"]
+	},
+	{
+		id: "lesson-verify-the-new-machine",
+		title: "New tools get old audits when the cost of error is a life",
+		personIds: ["katherine-johnson"],
+		relatedIds: ["johnson-verify-7090"],
+		whatHappened: "Glenn asked Johnson to check the IBM 7090.",
+		whyItMatters: "Trust in automation is itself a decision.",
+		whatToLearn: "Independent recomputation is not nostalgia.",
+		whatToQuestion: "The film version. Use the technical note.",
+		evidenceNote: "NASA biographies; TN D-233; NASM commentary.",
+		uncertain: "Exact wording of the request.",
+		reflection: ["What new tool are you trusting because it is new?", "Who is your audit, and do they have standing to disagree?"],
+		mentalModel: "Verification as social and technical control."
+	},
+	{
+		id: "lesson-specify-the-limit",
+		title: "State what the machine cannot do",
+		personIds: ["ada-lovelace"],
+		relatedIds: ["lovelace-notes", "lovelace-originate"],
+		whatHappened: "Note G both expands uses and denies origination.",
+		whyItMatters: "Hype usually keeps the expansion and drops the limit.",
+		whatToLearn: "Write the negative claim in the same document as the positive one.",
+		whatToQuestion: "Whether 'first programmer' talk is doing historical work or poster work.",
+		evidenceNote: "Note G, 1843.",
+		uncertain: "Drafting sequence with Babbage.",
+		reflection: ["What can your system not originate?", "Who is quoting only the exciting half of your spec?"]
+	},
+	{
+		id: "lesson-failed-extraction",
+		title: "If the recipe fails, change the process variables",
+		personIds: ["tu-youyou"],
+		relatedIds: [
+			"tu-ether-extraction",
+			"tu-hot-extraction",
+			"tu-sample-191"
+		],
+		whatHappened: "Hot extracts failed; ether and lower temperature did not.",
+		whyItMatters: "Null results are often about the procedure.",
+		whatToLearn: "Do not discard the candidate until the process has been varied on purpose.",
+		whatToQuestion: "Romantic readings of 'ancient wisdom.' The text was a process hint, if Tu's later account holds.",
+		evidenceNote: "Su & Miller 2015; Nobel lecture.",
+		uncertain: "Exact influence of Ge Hong versus ordinary heat-labile reasoning.",
+		reflection: ["What have you marked 'doesn't work' that you only ran one way?", "Which variable have you never changed?"],
+		mentalModel: "Process vs candidate."
+	},
+	{
+		id: "lesson-collective-discovery",
+		title: "A named prize can hide a consortium",
+		personIds: ["tu-youyou"],
+		relatedIds: ["artemisinin"],
+		whatHappened: "Project 523 was many institutes. The Nobel named Tu.",
+		whyItMatters: "Individualization is a prize rule, not a laboratory census.",
+		whatToLearn: "Ask who crystallized, who assayed, who scaled.",
+		whatToQuestion: "Nationalist and anti-nationalist simplifications of 523.",
+		evidenceNote: "Su & Miller itemize contributions.",
+		uncertain: "Still-closed archives.",
+		reflection: ["Whose name would a prize committee be forced to drop?", "What work is only visible as 'team'?"]
+	},
+	{
+		id: "lesson-define-the-unit",
+		title: "Define a thin unit so the theory can move",
+		personIds: ["claude-shannon", "albert-einstein"],
+		relatedIds: ["shannon-ignore-meaning", "einstein-light-principle"],
+		whatHappened: "Shannon defined a bit without meaning. Einstein elevated c and rebuilt kinematics.",
+		whyItMatters: "Thick, local concepts do not travel.",
+		whatToLearn: "Say what you are not modelling.",
+		whatToQuestion: "Whether thinness has thrown away the thing you actually care about (meaning, gravity, ethics).",
+		evidenceNote: "BSTJ 1948; Annalen 1905.",
+		uncertain: "How much Einstein used Michelson–Morley.",
+		reflection: ["What is your bit — the portable unit?", "What did you exclude to get it?"]
+	},
+	{
+		id: "lesson-change-the-notation",
+		title: "If the bottleneck is who can write the instructions, change the language",
+		personIds: ["grace-hopper"],
+		relatedIds: ["hopper-english-code", "flow-matic"],
+		whatHappened: "Hopper argued for automatic coding and English-like data processing.",
+		whyItMatters: "Labor, not only algorithms, determines who computes.",
+		whatToLearn: "Interfaces are political economy.",
+		whatToQuestion: "The moth story as origin of 'bug.'",
+		evidenceNote: "ACM 1952; FLOW-MATIC/COBOL histories.",
+		uncertain: "How much of COBOL is Hopper versus a committee.",
+		reflection: ["Who cannot instruct your system today?", "What notation would let them?"]
+	},
+	{
+		id: "lesson-delayed-recognition",
+		title: "Being early can look like being wrong",
+		personIds: ["barbara-mcclintock"],
+		relatedIds: ["mcclintock-keep-maize", "mcclintock-delayed-reception"],
+		whatHappened: "Transposition waited. Then a solo Nobel.",
+		whyItMatters: "Most ignored work stays ignored. McClintock is a selected success of stubbornness.",
+		whatToLearn: "Anomalies are not noise by default. Also: stubbornness is not a grant strategy.",
+		whatToQuestion: "The 'vindicated woman' template that erases the actual arguments.",
+		evidenceNote: "PNAS 1950; Nobel 1983.",
+		uncertain: "How complete the freeze-out really was.",
+		reflection: ["What is your ignored anomaly?", "What would disconfirm it, and have you run that?"]
+	},
+	{
+		id: "lesson-ship-the-simple-system",
+		title: "A simple shipped system beats a complete unshipped one",
+		personIds: ["tim-berners-lee"],
+		relatedIds: ["berners-lee-public-domain", "www-stack"],
+		whatHappened: "URL, HTTP, HTML, then a legal release.",
+		whyItMatters: "Gopher and others were in the race. Completeness was not the winning axis.",
+		whatToLearn: "Reduce until it can be implemented without you.",
+		whatToQuestion: "Whether simplicity at the protocol invited later enclosure in applications.",
+		evidenceNote: "1989 proposal; CERN 1993.",
+		uncertain: "Counterfactual proprietary Web.",
+		reflection: ["What can you delete and still have a network?", "Who implements if you charge?"]
+	},
+	{
+		id: "lesson-institutions-gatekeep",
+		title: "Talent is truncated by who is allowed a bench",
+		personIds: [
+			"percy-julian",
+			"katherine-johnson",
+			"marie-curie"
+		],
+		relatedIds: ["julian-industrial-route"],
+		whatHappened: "Julian synthesized physostigmine then went industrial because chairs were closed. Johnson worked inside a segregated computing unit.",
+		whyItMatters: "Samples of 'great scientists' are censored samples.",
+		whatToLearn: "Read refusals as part of the method, not atmosphere.",
+		whatToQuestion: "Merit stories that start after the gate.",
+		evidenceNote: "Science History Institute; NASA; Curie leaving Warsaw.",
+		uncertain: "The full census of the excluded.",
+		reflection: ["Whose absence is your field treating as lack of talent?", "Where is the Glidden — the second-best bench?"]
+	},
+	{
+		id: "lesson-patent-is-not-deployment",
+		title: "A patent is a document, not a fielded system",
+		personIds: ["hedy-lamarr", "nikola-tesla"],
+		relatedIds: [
+			"lamarr-file-patent",
+			"tesla-westinghouse-license",
+			"lamarr-non-adoption"
+		],
+		whatHappened: "Lamarr/Antheil patented hopping that the Navy did not field as specified. Tesla's AC mattered because Westinghouse built it; Wardenclyffe did not get that firm.",
+		whyItMatters: "Internet history loves inventors. Industry history needs factories.",
+		whatToLearn: "Ask who manufactures.",
+		whatToQuestion: "Wi-Fi origin memes; Tesla free-energy memes.",
+		evidenceNote: "US 2,292,387; AC patents; Wardenclyffe.",
+		uncertain: "Mediated influence pathways.",
+		reflection: ["Who is your Westinghouse?", "If nobody builds it, what did you actually do?"]
+	},
+	{
+		id: "lesson-principles-can-fail",
+		title: "The same principle-taste can win in 1905 and lose in 1935",
+		personIds: ["albert-einstein"],
+		relatedIds: ["einstein-light-principle", "einstein-quantum-completeness"],
+		whatHappened: "Elevate a constraint: it worked for c. Completeness/locality as he wanted them did not survive later quantum experiments.",
+		whyItMatters: "Method is not a talisman.",
+		whatToLearn: "Keep the 1905 paper and the EPR miss in the same file.",
+		whatToQuestion: "Poster Einstein.",
+		evidenceNote: "1905 paper; EPR 1935 as standard history.",
+		uncertain: "How to teach foundations without cartooning Bohr.",
+		reflection: ["Where are you elevating a taste into a principle?", "What experiment could embarrass it?"]
+	},
+	{
+		id: "lesson-show-the-disconfirming-test",
+		title: "Show the test that would make you wrong — in public if you must",
+		personIds: ["richard-feynman"],
+		relatedIds: ["feynman-challenger-demo", "feynman-fool-yourself"],
+		whatHappened: "Cargo-cult lecture; O-ring in ice water.",
+		whyItMatters: "Organizations hide disconfirming tests in appendices.",
+		whatToLearn: "A demo is sometimes the only way a mixed audience cannot evade a physical claim. It can also oversimplify a systems accident.",
+		whatToQuestion: "Your own showmanship.",
+		evidenceNote: "1974 address; 1986 hearings (demo is public fact).",
+		uncertain: "How much the demo moved the Commission versus engineering already in train.",
+		reflection: ["What would you put in ice water?", "What causal tree are you flattening to one prop?"]
+	},
+	{
+		id: "lesson-capital-stops-the-tower",
+		title: "When the backer leaves, the physics of the demo is irrelevant",
+		personIds: ["nikola-tesla"],
+		relatedIds: ["tesla-wardenclyffe"],
+		whatHappened: "Wardenclyffe.",
+		whyItMatters: "Control case against inventor cults.",
+		whatToLearn: "Map the capital like you map the circuit.",
+		whatToQuestion: "Any story in which Tesla 'had it' and it was stolen as a complete wireless-power utility.",
+		evidenceNote: "Standard electrical history (Jonnes).",
+		uncertain: "What the station could physically have done if funded.",
+		reflection: ["What part of your project dies if one check does not clear?", "Is your demo a service?"]
+	},
+	{
+		id: "lesson-invent-the-system",
+		title: "Invent the utility, not only the component",
+		personIds: ["thomas-edison"],
+		relatedIds: ["edison-system-not-bulb", "pearl-street"],
+		whatHappened: "Pearl Street: generation, distribution, meter, lamp.",
+		whyItMatters: "Component myths hide the product.",
+		whatToLearn: "List the missing pieces of the service.",
+		whatToQuestion: "The lone-bulb story; also Edison's later DC insistence.",
+		evidenceNote: "Patents plus station history.",
+		uncertain: "Internal lab credit splits.",
+		reflection: ["If you only have the component, who owns the rest?", "What is your meter?"]
+	},
+	{
+		id: "lesson-wrong-standard",
+		title: "Winning a layer does not win the next standard",
+		personIds: ["thomas-edison"],
+		relatedIds: ["edison-dc-bet"],
+		whatHappened: "DC lighting districts lost long-distance transmission to AC.",
+		whyItMatters: "Success can freeze a model.",
+		whatToLearn: "Re-evaluate the architecture when the geographic scale changes.",
+		whatToQuestion: "Smear tactics as a substitute for a better transformer.",
+		evidenceNote: "War of the currents.",
+		uncertain: "Personal direction of every publicity act.",
+		reflection: ["What scale would make your architecture wrong?", "Are you arguing safety or economics?"]
+	},
+	{
+		id: "lesson-reversibility",
+		title: "Cut first on reversibility, not on 'importance'",
+		personIds: ["jeff-bezos", "reed-hastings"],
+		relatedIds: ["bezos-two-way-doors", "hastings-qwikster"],
+		whatHappened: "Bezos published a door taxonomy. Hastings ran a two-way-door packaging choice that still hurt, then reversed the brand.",
+		whyItMatters: "Importance is inflated. Reversibility can be checked.",
+		whatToLearn: "Ask how you would undo it, and how fast.",
+		whatToQuestion: "Slogans that call every choice a two-way door to justify haste — including one-way medical or legal doors (see Holmes).",
+		evidenceNote: "2015 letter; 2011 Netflix posts.",
+		uncertain: "Amazon's actual internal compliance.",
+		reflection: ["Is this a door or a corridor?", "If you reverse in public, what part are you keeping?"],
+		mentalModel: "Type 1 / Type 2 decisions."
+	},
+	{
+		id: "lesson-survivorship-dotcom",
+		title: "The method is visible because the fourth thing worked",
+		personIds: [
+			"jeff-bezos",
+			"elon-musk",
+			"elizabeth-holmes"
+		],
+		relatedIds: [
+			"bezos-long-term-1997",
+			"musk-falcon1-continue",
+			"theranos"
+		],
+		whatHappened: "Amazon survived a crash that killed peers. Falcon 1 Flight 4 worked. Theranos is the non-survivor that still raised on a story.",
+		whyItMatters: "Studying only winners teaches luck as skill.",
+		whatToLearn: "Keep a failure file. Holmes is not 'the opposite of Musk'; different legal facts. But all three show selection.",
+		whatToQuestion: "Any curriculum of billionaires without Webvan, Qwikster, Wardenclyffe, Theranos.",
+		evidenceNote: "Letters; Falcon 1 dates; Holmes verdict.",
+		uncertain: "Exact cash on Falcon 1 Flight 4.",
+		reflection: ["Who had the same method and died?", "What would this page say if the last trial failed?"],
+		mentalModel: "Survivorship bias."
+	},
+	{
+		id: "lesson-failed-company-surviving-layer",
+		title: "A failed firm can still ship a surviving layer",
+		personIds: ["steve-jobs"],
+		relatedIds: ["jobs-next-hardware", "nextstep-osx"],
+		whatHappened: "NeXT hardware lost; NeXTSTEP became OS X after Apple bought it.",
+		whyItMatters: "Outcome at the company level and at the layer level can diverge.",
+		whatToLearn: "Account for assets, not only logos.",
+		whatToQuestion: "Romantic readings of 1985 as necessary exile.",
+		evidenceNote: "Isaacson; the acquisition is a public fact.",
+		uncertain: "Whether another OS could have been bought.",
+		reflection: ["What layer of your failed project still works?", "Who is the only buyer that would make it famous?"]
+	},
+	{
+		id: "lesson-framing-is-a-decision",
+		title: "The keynote is part of the product decision",
+		personIds: ["steve-jobs"],
+		relatedIds: ["jobs-iphone-2007"],
+		whatHappened: "Three products, then one. The missing keyboard is framed as subtraction.",
+		whyItMatters: "Communication is not a wrapper around a spec. It is how the spec is chosen in public.",
+		whatToLearn: "Write the sentence that makes the tradeoff look like taste.",
+		whatToQuestion: "Whether the frame hid engineering credit and later platform control.",
+		evidenceNote: "Macworld 2007 recording.",
+		uncertain: "Interior debates on physical keyboards.",
+		reflection: ["What are you calling one device that is actually three bets?", "What are you subtracting on stage that users will miss on day one?"]
+	},
+	{
+		id: "lesson-incumbent-learning",
+		title: "An incumbent can change the learning rule — if the balance sheet allows it",
+		personIds: ["satya-nadella"],
+		relatedIds: ["nadella-cloud-first"],
+		whatHappened: "First-day email named mobile and cloud. Azure and M&A followed on a rich incumbent.",
+		whyItMatters: "Culture talk without cash is a poster.",
+		whatToLearn: "Specify the environment, then look at the budget line.",
+		whatToQuestion: "CEO-genius stories that erase Ballmer-era cloud and secular demand.",
+		evidenceNote: "4 Feb 2014 email.",
+		uncertain: "Causal share of culture versus demand.",
+		reflection: ["What sentence would re-specify your job?", "What would you have to stop funding?"]
+	},
+	{
+		id: "lesson-expensive-iteration",
+		title: "Hardware iteration is a cash-burning experiment, not a proverb",
+		personIds: ["elon-musk"],
+		relatedIds: [
+			"musk-falcon1-continue",
+			"musk-falcon1-three",
+			"falcon1-flights"
+		],
+		whatHappened: "Three failures, then orbit. Musk later said last money.",
+		whyItMatters: "If Flight 4 fails, the method looks like ruin.",
+		whatToLearn: "Price the loop. Write the kill criterion before the attempt.",
+		whatToQuestion: "Grit posters. Also Musk's later unverified claims in other domains — do not smear the 2008 flight with later tweets, or vice versa.",
+		evidenceNote: "28 Sep 2008; IAC 2017.",
+		uncertain: "Internal EV and cash.",
+		reflection: ["What is your Flight 4?", "What is your kill criterion if it fails?"]
+	},
+	{
+		id: "lesson-platform-trough",
+		title: "A platform bet looks stupid until a workload arrives",
+		personIds: ["jensen-huang"],
+		relatedIds: ["huang-cuda", "cuda"],
+		whatHappened: "CUDA 2006; deep learning later.",
+		whyItMatters: "This is not prophecy of transformers. It is a programming model that got lucky in a new market — after real cost.",
+		whatToLearn: "Distinguish 'we built a general computer' from 'we foresaw the application.'",
+		whatToQuestion: "Lock-in as destiny; also luck as skill.",
+		evidenceNote: "CUDA release; later ML history.",
+		uncertain: "Internal P&L of CUDA by year.",
+		reflection: ["What workload would make your unused platform look inevitable?", "Who is funding the trough?"]
+	},
+	{
+		id: "lesson-founder-story-as-source",
+		title: "A founder story is a source type, not a fact type",
+		personIds: ["sara-blakely"],
+		relatedIds: ["blakely-bootstrap-patent"],
+		whatHappened: "$5,000, self-patent, no VC — widely retold, thinly triangulated here.",
+		whyItMatters: "Business press reprints memoir as accounting.",
+		whatToLearn: "Tag evidence. The 2021 Blackstone deal is a harder fact than the $5,000.",
+		whatToQuestion: "Any lesson that requires the round numbers to be exact.",
+		evidenceNote: "Secondary interviews.",
+		uncertain: "Early capital and patent drafting.",
+		reflection: ["Which of your origin numbers have never been audited?", "What independent record would change the lesson?"]
+	},
+	{
+		id: "lesson-reverse-in-public",
+		title: "Reversal speed is part of decision quality",
+		personIds: ["reed-hastings"],
+		relatedIds: ["hastings-qwikster", "qwikster"],
+		whatHappened: "Qwikster announced and killed in weeks. Price hike largely stayed.",
+		whyItMatters: "You can be directionally right and still fail the packaging. You can also reverse the wrong piece.",
+		whatToLearn: "Plan the undo. Say what you are not undoing.",
+		whatToQuestion: "Apologies that keep the rent.",
+		evidenceNote: "2011 blog and contemporaneous news.",
+		uncertain: "Board debate.",
+		reflection: ["What would you reverse in three weeks?", "What would you keep and why?"]
+	},
+	{
+		id: "lesson-distribution-is-the-product",
+		title: "If the channel is closed, the network is the product",
+		personIds: ["madam-cj-walker"],
+		relatedIds: ["walker-agent-network"],
+		whatHappened: "Walker agents and a factory under Jim Crow.",
+		whyItMatters: "Strategy under exclusion is not the same as strategy with shelf space.",
+		whatToLearn: "Draw the forbidden channels, then design around them.",
+		whatToQuestion: "Millionaire round numbers.",
+		evidenceNote: "NMAAHC; Bundles.",
+		uncertain: "Exact wealth.",
+		reflection: ["Which channel is actually closed to you, not just inconvenient?", "Who would you have to train for the channel to exist?"]
+	},
+	{
+		id: "lesson-metric-as-politics",
+		title: "A countable act can carry an uncountable claim",
+		personIds: ["wangari-maathai"],
+		relatedIds: ["maathai-greenbelt"],
+		whatHappened: "Trees plus land and dissent.",
+		whyItMatters: "Metrics can be a civic technology, not only a KPI.",
+		whatToLearn: "Pick a unit that organizes people and embarrasses power.",
+		whatToQuestion: "Gentle gardening tellings of Maathai.",
+		evidenceNote: "GBM; Nobel 2004; Unbowed.",
+		uncertain: "Tree-count accounting.",
+		reflection: ["What is your tree — the countable act?", "What claim is it smuggling?"]
+	},
+	{
+		id: "lesson-secrecy-is-not-a-method",
+		title: "Secrecy is not a substitute for a methods section",
+		personIds: ["elizabeth-holmes"],
+		relatedIds: ["holmes-secrecy", "theranos"],
+		whatHappened: "Theranos. Conviction.",
+		whyItMatters: "Entrepreneurial language ('fake it') does not cover fraud about a medical device.",
+		whatToLearn: "Demand independent validation. Famous boards are not assays.",
+		whatToQuestion: "Any lesson that treats Holmes as merely unlucky or 'ahead of her time.'",
+		evidenceNote: "Verdict; WSJ 2015; Carreyrou.",
+		uncertain: "Private beliefs about future capability — legally not a defense.",
+		reflection: ["What claim of yours cannot be checked by a stranger?", "Who is your Carreyrou?"]
+	},
+	{
+		id: "lesson-own-the-channel",
+		title: "Own the production of the voice if the voice is the product",
+		personIds: ["oprah-winfrey"],
+		relatedIds: ["oprah-own-the-show"],
+		whatHappened: "Harpo takes the show, 1988.",
+		whyItMatters: "Talent without the company is a rental.",
+		whatToLearn: "Map where residuals leak.",
+		whatToQuestion: "Advice that assumes you have her leverage.",
+		evidenceNote: "Harpo chronology.",
+		uncertain: "Contract terms.",
+		reflection: ["Who owns the archive of your work?", "What would production control cost you this year?"]
+	},
+	{
+		id: "lesson-localize-the-constraint",
+		title: "Copy the category, not the foreign UX",
+		personIds: ["jack-ma"],
+		relatedIds: ["ma-taobao", "alipay"],
+		whatHappened: "Taobao and Alipay versus eBay in China.",
+		whyItMatters: "Trust rails were the product.",
+		whatToLearn: "List the constraints the incumbent imported without noticing.",
+		whatToQuestion: "Nationalist inevitability stories; also 2020 as a separate political file.",
+		evidenceNote: "Alibaba F-1.",
+		uncertain: "Internal metrics of the war.",
+		reflection: ["What trust rail is missing in your market?", "What would eBay have had to unlearn?"]
+	},
+	{
+		id: "lesson-write-the-rule",
+		title: "Write the decision rule in public to select the right capital",
+		personIds: ["warren-buffett", "jeff-bezos"],
+		relatedIds: ["buffett-float", "bezos-long-term-1997"],
+		whatHappened: "Letters as investor-selection devices.",
+		whyItMatters: "Silent strategy attracts the wrong clock.",
+		whatToLearn: "Publish the scoreboard you want to be judged on.",
+		whatToQuestion: "Whether the letter is also a shield against other accountabilities (labor, power).",
+		evidenceNote: "Berkshire letters; Amazon 1997 letter.",
+		uncertain: "How many shareholders actually read them.",
+		reflection: ["What rule would you be willing to reprint every year?", "Who would leave if you wrote it down?"]
+	},
+	{
+		id: "lesson-wage-as-system",
+		title: "Wages can be a process-control tool, not a gift",
+		personIds: ["henry-ford"],
+		relatedIds: ["ford-five-dollar"],
+		whatHappened: "$5 day with a Sociological Department.",
+		whyItMatters: "Flow production makes turnover expensive. Paternalism was in the design.",
+		whatToLearn: "Read compensation as part of the machine.",
+		whatToQuestion: "Generosity narratives. Also Ford's antisemitic publishing in the same life.",
+		evidenceNote: "5 January 1914 announcement.",
+		uncertain: "Exact turnover elasticities by historian.",
+		reflection: ["What behavior is your wage buying?", "What surveillance is attached?"]
+	},
+	{
+		id: "lesson-do-not-sanitize",
+		title: "Do not split the production system from the politics as if they were two people",
+		personIds: [
+			"henry-ford",
+			"elon-musk",
+			"steve-jobs"
+		],
+		relatedIds: ["ford-five-dollar"],
+		whatHappened: "Ford: assembly and the Dearborn Independent. Others in this archive have labor, speech, or cruelty files beside the products.",
+		whyItMatters: "Sanitized heroes produce unusable lessons.",
+		whatToLearn: "Keep the controversy object next to the breakthrough object.",
+		whatToQuestion: "Any page that only has the car.",
+		evidenceNote: "Ford's newspaper is a historical fact; see also other controversy records.",
+		uncertain: "How to weight incommensurable harms and products — this archive does not compute a score.",
+		reflection: ["What did you leave out to keep the person usable?", "Who is harmed if the lesson travels without the controversy?"]
+	}
+];
+var sources = [
+	{
+		id: "curie-nobel-physics-1903",
+		title: "The Nobel Prize in Physics 1903",
+		author: "Nobel Foundation",
+		year: 1903,
+		type: "official",
+		publisher: "Nobel Prize Outreach",
+		url: "https://www.nobelprize.org/prizes/physics/1903/summary/",
+		excerpt: "The prize was awarded jointly to Henri Becquerel and to Pierre Curie and Marie Curie for their researches on the radiation phenomena discovered by Becquerel.",
+		notes: "Primary official citation for the 1903 physics prize."
+	},
+	{
+		id: "curie-nobel-chemistry-1911",
+		title: "The Nobel Prize in Chemistry 1911",
+		author: "Nobel Foundation",
+		year: 1911,
+		type: "official",
+		url: "https://www.nobelprize.org/prizes/chemistry/1911/summary/",
+		excerpt: "Awarded to Marie Curie in recognition of her services to the advancement of chemistry by the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element."
+	},
+	{
+		id: "curie-britannica",
+		title: "Marie Curie",
+		author: "Encyclopaedia Britannica",
+		year: 2026,
+		type: "secondary",
+		url: "https://www.britannica.com/biography/Marie-Curie",
+		notes: "Standard reference biography; used for dates and sequence, not for interpretation."
+	},
+	{
+		id: "curie-thesis-1903",
+		title: "Recherches sur les substances radioactives",
+		author: "Marie Curie",
+		year: 1903,
+		type: "paper",
+		publisher: "Faculty of Sciences, University of Paris",
+		notes: "Doctoral thesis presented 25 June 1903."
+	},
+	{
+		id: "institut-curie-legacy",
+		title: "The legacy of Marie Curie",
+		author: "Institut Curie",
+		year: 2024,
+		type: "official",
+		url: "https://institut-curie.org/legacy-marie-curie-perpetuating-spirit-pioneer"
+	},
+	{
+		id: "bezos-1997-letter",
+		title: "1997 Letter to Shareholders",
+		author: "Jeffrey P. Bezos",
+		year: 1998,
+		type: "letter",
+		publisher: "Amazon.com, Inc.",
+		url: "https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders",
+		excerpt: "But this is Day 1 for the Internet and, if we execute well, for Amazon.com. … We will continue to make investment decisions in light of long-term market leadership considerations rather than short-term profitability considerations or short-term Wall Street reactions."
+	},
+	{
+		id: "bezos-2015-letter",
+		title: "2015 Letter to Shareholders",
+		author: "Jeffrey P. Bezos",
+		year: 2016,
+		type: "letter",
+		publisher: "Amazon.com, Inc. / SEC exhibit",
+		url: "https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm",
+		excerpt: "Some decisions are consequential and irreversible or nearly irreversible — one-way doors — and these decisions must be made methodically, carefully, slowly, with great deliberation and consultation. … But most decisions aren't like that — they are changeable, reversible — they're two-way doors."
+	},
+	{
+		id: "bezos-2016-letter",
+		title: "2016 Letter to Shareholders",
+		author: "Jeffrey P. Bezos",
+		year: 2017,
+		type: "letter",
+		publisher: "Amazon.com, Inc.",
+		notes: "Discusses high-velocity decision making and disagree-and-commit."
+	},
+	{
+		id: "nadella-2014-email",
+		title: "Satya Nadella email to employees on first day as CEO",
+		author: "Satya Nadella",
+		year: 2014,
+		type: "letter",
+		publisher: "Microsoft",
+		url: "https://news.microsoft.com/source/2014/02/04/satya-nadella-email-to-employees-on-first-day-as-ceo/",
+		excerpt: "Our job is to ensure that Microsoft thrives in a mobile and cloud-first world."
+	},
+	{
+		id: "nadella-hit-refresh",
+		title: "Hit Refresh",
+		author: "Satya Nadella",
+		year: 2017,
+		type: "primary",
+		publisher: "Harper Business",
+		notes: "Autobiographical account of Microsoft's cultural shift. Treat as first-person, not independent verification."
+	},
+	{
+		id: "jobs-stanford-2005",
+		title: "Commencement address at Stanford University",
+		author: "Steve Jobs",
+		year: 2005,
+		type: "speech",
+		url: "https://news.stanford.edu/stories/2005/06/youve-got-to-find-what-you-love-jobs-says",
+		excerpt: "You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future."
+	},
+	{
+		id: "jobs-macworld-2007",
+		title: "Macworld 2007 keynote — iPhone introduction",
+		author: "Steve Jobs",
+		year: 2007,
+		type: "speech",
+		publisher: "Apple",
+		notes: "Primary recording of the product framing: iPod, phone, internet communicator."
+	},
+	{
+		id: "isaacson-jobs",
+		title: "Steve Jobs",
+		author: "Walter Isaacson",
+		year: 2011,
+		type: "secondary",
+		publisher: "Simon & Schuster",
+		notes: "Authorized biography based on interviews. High-quality secondary; still filtered through Jobs's cooperation and Isaacson's narrative choices."
+	},
+	{
+		id: "turing-1936",
+		title: "On Computable Numbers, with an Application to the Entscheidungsproblem",
+		author: "Alan M. Turing",
+		year: 1936,
+		type: "paper",
+		publisher: "Proceedings of the London Mathematical Society",
+		notes: "Submitted 28 May 1936; published 1936–37."
+	},
+	{
+		id: "turing-1950",
+		title: "Computing Machinery and Intelligence",
+		author: "Alan M. Turing",
+		year: 1950,
+		type: "paper",
+		publisher: "Mind",
+		excerpt: "I propose to consider the question, 'Can machines think?'"
+	},
+	{
+		id: "hodges-turing",
+		title: "Alan Turing: The Enigma",
+		author: "Andrew Hodges",
+		year: 1983,
+		type: "secondary",
+		publisher: "Burnett / Princeton University Press",
+		notes: "Standard scholarly biography."
+	},
+	{
+		id: "lovelace-note-g",
+		title: "Sketch of the Analytical Engine (translator's notes, Note G)",
+		author: "Ada Augusta Lovelace",
+		year: 1843,
+		type: "primary",
+		publisher: "Taylor's Scientific Memoirs",
+		excerpt: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform."
+	},
+	{
+		id: "kcl-photo-51",
+		title: "The story behind Photograph 51",
+		author: "King's College London",
+		year: 2023,
+		type: "academic",
+		url: "https://www.kcl.ac.uk/the-story-behind-photograph-51",
+		excerpt: "Photograph 51 is an X-ray diffraction image of DNA taken by Rosalind Franklin, together with her PhD student Raymond Gosling, at King's College London in May 1952."
+	},
+	{
+		id: "franklin-gosling-1953",
+		title: "Molecular Configuration in Sodium Thymonucleate",
+		author: "Rosalind E. Franklin and R. G. Gosling",
+		year: 1953,
+		type: "paper",
+		publisher: "Nature",
+		notes: "Published 25 April 1953 alongside Watson & Crick and Wilkins, Stokes & Wilson."
+	},
+	{
+		id: "watson-crick-1953",
+		title: "A Structure for Deoxyribose Nucleic Acid",
+		author: "J. D. Watson and F. H. C. Crick",
+		year: 1953,
+		type: "paper",
+		publisher: "Nature"
+	},
+	{
+		id: "maddox-franklin",
+		title: "Rosalind Franklin: The Dark Lady of DNA",
+		author: "Brenda Maddox",
+		year: 2002,
+		type: "secondary",
+		publisher: "HarperCollins"
+	},
+	{
+		id: "nasa-katherine-johnson",
+		title: "Katherine Johnson (1918–2020)",
+		author: "NASA Science",
+		year: 2020,
+		type: "official",
+		url: "https://science.nasa.gov/people/katherine-johnson/",
+		excerpt: "Even after NASA had electronic computers, John Glenn requested that Katherine personally recheck the computer calculations before his 1962 Friendship 7 flight."
+	},
+	{
+		id: "skopinski-johnson-1960",
+		title: "Determination of Azimuth Angle at Burnout for Placing a Satellite Over a Selected Earth Position",
+		author: "T. H. Skopinski and Katherine G. Johnson",
+		year: 1960,
+		type: "paper",
+		publisher: "NASA Technical Note D-233",
+		url: "https://ntrs.nasa.gov/citations/19980227091"
+	},
+	{
+		id: "nasm-glenn-johnson",
+		title: "Katherine Johnson, Hidden Figures, and John Glenn's Flight",
+		author: "Michael Neufeld",
+		year: 2017,
+		type: "academic",
+		publisher: "National Air and Space Museum",
+		url: "https://airandspace.si.edu/stories/editorial/glenn-johnson-hidden-figures"
+	},
+	{
+		id: "tu-nobel-lecture",
+		title: "Discovery of Artemisinin: A Gift from Traditional Chinese Medicine to the World",
+		author: "Tu Youyou",
+		year: 2015,
+		type: "speech",
+		publisher: "Nobel Foundation",
+		url: "https://www.nobelprize.org/prizes/medicine/2015/tu/lecture/"
+	},
+	{
+		id: "su-tu-2015",
+		title: "The discovery of artemisinin and Nobel Prize in Physiology or Medicine",
+		author: "Xin-zhuan Su and Louis H. Miller",
+		year: 2015,
+		type: "academic",
+		publisher: "Science China Life Sciences / PMC",
+		url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4966551/",
+		excerpt: "They replaced ethanol with ether in the extraction, which greatly improved the stability of the active ingredient. Animal tests showed 100% activity on 4 October 1971 (sample #191)."
+	},
+	{
+		id: "shannon-1948",
+		title: "A Mathematical Theory of Communication",
+		author: "Claude E. Shannon",
+		year: 1948,
+		type: "paper",
+		publisher: "Bell System Technical Journal"
+	},
+	{
+		id: "hopper-cobol",
+		title: "Grace Hopper and the Invention of the Information Age",
+		author: "Kurt W. Beyer",
+		year: 2009,
+		type: "secondary",
+		publisher: "MIT Press"
+	},
+	{
+		id: "mcclintock-pnas",
+		title: "The origin and behavior of mutable loci in maize",
+		author: "Barbara McClintock",
+		year: 1950,
+		type: "paper",
+		publisher: "Proceedings of the National Academy of Sciences"
+	},
+	{
+		id: "mcclintock-nobel-1983",
+		title: "The Nobel Prize in Physiology or Medicine 1983",
+		author: "Nobel Foundation",
+		year: 1983,
+		type: "official",
+		url: "https://www.nobelprize.org/prizes/medicine/1983/summary/"
+	},
+	{
+		id: "cern-web-history",
+		title: "A short history of the Web",
+		author: "CERN",
+		year: 2024,
+		type: "official",
+		url: "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+		excerpt: "Tim Berners-Lee wrote the first proposal for the World Wide Web in March 1989. On 30 April 1993, CERN made the source code of WorldWideWeb available on a royalty-free basis."
+	},
+	{
+		id: "berners-lee-1989",
+		title: "Information Management: A Proposal",
+		author: "Tim Berners-Lee",
+		year: 1989,
+		type: "primary",
+		publisher: "CERN",
+		url: "https://www.w3.org/History/1989/proposal.html"
+	},
+	{
+		id: "walker-nmaahc",
+		title: "Madam C.J. Walker's Wonderful Hair Grower",
+		author: "National Museum of African American History and Culture",
+		year: 2020,
+		type: "archival",
+		url: "https://nmaahc.si.edu/explore/stories/madam-cj-walkers-wonderful-hair-grower"
+	},
+	{
+		id: "walker-official",
+		title: "About Madam C.J. Walker",
+		author: "Madam C.J. Walker Estate / official site",
+		year: 2024,
+		type: "official",
+		url: "https://madamcjwalker.com/about/"
+	},
+	{
+		id: "bundles-walker",
+		title: "On Her Own Ground: The Life and Times of Madam C.J. Walker",
+		author: "A'Lelia Bundles",
+		year: 2001,
+		type: "secondary",
+		publisher: "Scribner",
+		notes: "Biography by Walker's great-great-granddaughter; strong archival base."
+	},
+	{
+		id: "blakely-fortune-2024",
+		title: "Spanx founder Sara Blakely's $1 billion idea started with $5,000 in savings",
+		author: "Fortune",
+		year: 2024,
+		type: "secondary",
+		url: "https://fortune.com/article/spanx-founder-sara-blakely-billion-dollar-idea-started-with-5000-in-savings/",
+		notes: "Secondary reporting of Blakely's frequently retold origin story. Treat origin details as reported by the founder."
+	},
+	{
+		id: "hastings-qwikster-blog",
+		title: "An explanation and some reflections / Qwikster reversal",
+		author: "Reed Hastings",
+		year: 2011,
+		type: "letter",
+		publisher: "Netflix blog",
+		notes: "Primary company communication around the 2011 pricing and Qwikster decisions."
+	},
+	{
+		id: "npr-qwikster-2011",
+		title: "Netflix Scuttles Its 'Qwikster' DVD Rental Plan",
+		author: "NPR",
+		year: 2011,
+		type: "secondary",
+		url: "https://www.npr.org/sections/thetwo-way/2011/10/10/141209082/netflix-kills-qwikster-price-hike-lives-on"
+	},
+	{
+		id: "falcon1-wiki-primary-note",
+		title: "Falcon 1",
+		author: "SpaceX / contemporaneous reporting compiled",
+		year: 2008,
+		type: "secondary",
+		url: "https://en.wikipedia.org/wiki/Falcon_1",
+		notes: "Launch outcomes are documented; Musk's later IAC 2017 comments are first-person recollection."
+	},
+	{
+		id: "musk-iac-2017",
+		title: "Making Life Multiplanetary (IAC 2017)",
+		author: "Elon Musk",
+		year: 2017,
+		type: "speech",
+		publisher: "International Astronautical Congress",
+		excerpt: "The first three launches failed. Fortunately the fourth launch — that was the last money that we had for Falcon 1 — the fourth launch worked, or that would have been it for SpaceX."
+	},
+	{
+		id: "sequoia-nvidia-cuda",
+		title: "Nvidia: An Overnight Success Story 30 Years in the Making",
+		author: "Sequoia Capital / Crucible Moments",
+		year: 2023,
+		type: "interview",
+		url: "https://sequoiacap.com/podcast/crucible-moments-nvidia",
+		notes: "Includes Jensen Huang on CUDA's early use cases. First-person plus interviewer framing."
+	},
+	{
+		id: "nvidia-cuda-2006",
+		title: "NVIDIA CUDA documentation and contemporaneous release",
+		author: "NVIDIA",
+		year: 2006,
+		type: "official",
+		notes: "CUDA publicly released 2006 as a GPGPU programming platform."
+	},
+	{
+		id: "maathai-nobel-2004",
+		title: "The Nobel Peace Prize 2004 — Wangari Maathai",
+		author: "Nobel Foundation",
+		year: 2004,
+		type: "official",
+		url: "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/",
+		excerpt: "Awarded for her contribution to sustainable development, democracy and peace. First African woman to receive the Peace Prize."
+	},
+	{
+		id: "maathai-unbowed",
+		title: "Unbowed: A Memoir",
+		author: "Wangari Maathai",
+		year: 2006,
+		type: "primary",
+		publisher: "Knopf"
+	},
+	{
+		id: "greenbelt-maathai",
+		title: "Wangari Maathai",
+		author: "The Green Belt Movement",
+		year: 2024,
+		type: "official",
+		url: "https://www.greenbeltmovement.org/wangari-maathai/"
+	},
+	{
+		id: "julian-sciencehistory",
+		title: "Percy Lavon Julian",
+		author: "Science History Institute",
+		year: 2017,
+		type: "academic",
+		url: "https://www.sciencehistory.org/education/scientific-biographies/percy-lavon-julian/"
+	},
+	{
+		id: "julian-physostigmine-1935",
+		title: "Studies in the Indole Series. V. The Complete Synthesis of Physostigmine (Eserine)",
+		author: "Percy L. Julian and Josef Pikl",
+		year: 1935,
+		type: "paper",
+		publisher: "Journal of the American Chemical Society"
+	},
+	{
+		id: "oprah-harpo",
+		title: "The Oprah Winfrey Show / Harpo Productions",
+		author: "Museum of Broadcast Communications / contemporaneous records",
+		year: 1988,
+		type: "secondary",
+		notes: "Harpo founded 1986; Harpo took production control of the show in 1988."
+	},
+	{
+		id: "edison-patents",
+		title: "U.S. patent records for incandescent lamp and related systems",
+		author: "Thomas A. Edison",
+		year: 1879,
+		type: "patent",
+		publisher: "United States Patent Office",
+		notes: "Edison's contribution is a system (high-resistance filament, parallel distribution), not the first incandescent lamp."
+	},
+	{
+		id: "tesla-ac-patents",
+		title: "Polyphase alternating current patents",
+		author: "Nikola Tesla",
+		year: 1888,
+		type: "patent",
+		publisher: "United States Patent Office"
+	},
+	{
+		id: "jonnes-empires-of-light",
+		title: "Empires of Light: Edison, Tesla, Westinghouse, and the Race to Electrify the World",
+		author: "Jill Jonnes",
+		year: 2003,
+		type: "secondary",
+		publisher: "Random House"
+	},
+	{
+		id: "jack-ma-alibaba-ipo",
+		title: "Alibaba Group Holding Limited Form F-1",
+		author: "Alibaba Group",
+		year: 2014,
+		type: "government",
+		publisher: "U.S. Securities and Exchange Commission",
+		notes: "Primary filing for company history as presented to regulators."
+	},
+	{
+		id: "holmes-verdict-2022",
+		title: "United States v. Elizabeth A. Holmes — verdict and sentencing records",
+		author: "U.S. District Court, Northern District of California",
+		year: 2022,
+		type: "government",
+		notes: "Holmes was convicted on four counts of conspiracy and wire fraud related to Theranos investors. Patient-related counts produced mixed results. Treat legal findings as facts of the record, not as a complete moral biography."
+	},
+	{
+		id: "carreyrou-bad-blood",
+		title: "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
+		author: "John Carreyrou",
+		year: 2018,
+		type: "secondary",
+		publisher: "Knopf",
+		notes: "Investigative account based on reporting for The Wall Street Journal."
+	},
+	{
+		id: "wsj-theranos-2015",
+		title: "Hot Startup Theranos Has Struggled With Its Blood-Test Technology",
+		author: "John Carreyrou",
+		year: 2015,
+		type: "secondary",
+		publisher: "The Wall Street Journal"
+	},
+	{
+		id: "lamarr-patent-1942",
+		title: "Secret Communication System, U.S. Patent 2,292,387",
+		author: "Hedy Kiesler Markey (Hedy Lamarr) and George Antheil",
+		year: 1942,
+		type: "patent",
+		notes: "Frequency-hopping spread spectrum concept. Later influence on wireless is historically mediated, not a direct product lineage."
+	},
+	{
+		id: "hopper-compiler",
+		title: "The Education of a Computer",
+		author: "Grace Murray Hopper",
+		year: 1952,
+		type: "paper",
+		publisher: "Proceedings of the ACM"
+	},
+	{
+		id: "maxwell-treatise-1873",
+		title: "A Treatise on Electricity and Magnetism",
+		author: "James Clerk Maxwell",
+		year: 1873,
+		type: "primary",
+		publisher: "Clarendon Press"
+	},
+	{
+		id: "feynman-cargo-cult",
+		title: "Cargo Cult Science (Caltech commencement address)",
+		author: "Richard P. Feynman",
+		year: 1974,
+		type: "speech",
+		excerpt: "The first principle is that you must not fool yourself — and you are the easiest person to fool."
+	},
+	{
+		id: "gates-altair-basic",
+		title: "An Open Letter to Hobbyists",
+		author: "Bill Gates",
+		year: 1976,
+		type: "letter",
+		publisher: "Homebrew Computer Club Newsletter",
+		notes: "Primary source for Gates's early software-as-property argument."
+	},
+	{
+		id: "page-brin-pagerank",
+		title: "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+		author: "Sergey Brin and Lawrence Page",
+		year: 1998,
+		type: "paper",
+		publisher: "Stanford / WWW Conference"
+	},
+	{
+		id: "zuckerberg-harvard-connection",
+		title: "Contemporaneous Harvard Crimson and later legal records on Thefacebook",
+		author: "Various",
+		year: 2004,
+		type: "secondary",
+		notes: "Founding facts are documented; many later cultural claims are contested. Mark evidence carefully."
+	},
+	{
+		id: "chesky-airbnb-cereal",
+		title: "Airbnb founding accounts (Y Combinator / founder interviews)",
+		author: "Brian Chesky, Joe Gebbia, Nathan Blecharczyk",
+		year: 2009,
+		type: "interview",
+		notes: "Obama O's / Cap'n McCain's cereal as a fundraising experiment is founder-reported."
+	},
+	{
+		id: "ford-five-dollar-day",
+		title: "Ford Motor Company announcement of the $5 day",
+		author: "Ford Motor Company",
+		year: 1914,
+		type: "official",
+		notes: "The $5 day combined wages and profit-sharing with behavioral conditions. Do not reduce it to simple generosity."
+	},
+	{
+		id: "buffett-letters",
+		title: "Berkshire Hathaway Letters to Shareholders",
+		author: "Warren E. Buffett",
+		year: "1977–present",
+		type: "letter",
+		publisher: "Berkshire Hathaway",
+		url: "https://www.berkshirehathaway.com/letters/letters.html"
+	},
+	{
+		id: "einstein-1905-relativity",
+		title: "Zur Elektrodynamik bewegter Körper",
+		author: "Albert Einstein",
+		year: 1905,
+		type: "paper",
+		publisher: "Annalen der Physik"
+	},
+	{
+		id: "darwin-origin-1859",
+		title: "On the Origin of Species",
+		author: "Charles Darwin",
+		year: 1859,
+		type: "primary",
+		publisher: "John Murray"
+	},
+	{
+		id: "newton-principia-1687",
+		title: "Philosophiæ Naturalis Principia Mathematica",
+		author: "Isaac Newton",
+		year: 1687,
+		type: "primary",
+		publisher: "Royal Society"
+	}
+];
+var sourceById = Object.fromEntries(sources.map((s) => [s.id, s]));
+var allPeople = [
+	...people,
+	...scientistPeople,
+	...builderPeople
+];
+var allDecisions = [...decisions, ...builderDecisions];
+var personById = Object.fromEntries(allPeople.map((person) => [person.id, person]));
+var personBySlug = Object.fromEntries(allPeople.map((person) => [person.slug, person]));
+var decisionById = Object.fromEntries(allDecisions.map((decision) => [decision.id, decision]));
+var decisionBySlug = Object.fromEntries(allDecisions.map((decision) => [decision.slug, decision]));
+var failureById = Object.fromEntries(failures.map((failure) => [failure.id, failure]));
+var failureBySlug = Object.fromEntries(failures.map((failure) => [failure.slug, failure]));
+var lessonById = Object.fromEntries(lessons.map((lesson) => [lesson.id, lesson]));
+Object.fromEntries(quotes.map((quote) => [quote.id, quote]));
+Object.fromEntries(experiments.map((item) => [item.id, item]));
+Object.fromEntries(breakthroughs.map((item) => [item.id, item]));
+Object.fromEntries(technologies.map((item) => [item.id, item]));
+Object.fromEntries(discoveries.map((item) => [item.id, item]));
+var catalogStats = {
+	people: allPeople.length,
+	decisions: allDecisions.length,
+	failures: failures.length,
+	sources: sources.length,
+	quotes: quotes.length,
+	lessons: lessons.length,
+	experiments: experiments.length,
+	breakthroughs: breakthroughs.length,
+	technologies: technologies.length,
+	discoveries: discoveries.length
+};
+function getPerson(idOrSlug) {
+	return personById[idOrSlug] ?? personBySlug[idOrSlug];
+}
+function getDecision(idOrSlug) {
+	return decisionById[idOrSlug] ?? decisionBySlug[idOrSlug];
+}
+function getFailure(idOrSlug) {
+	return failureById[idOrSlug] ?? failureBySlug[idOrSlug];
+}
+function getDecisionsForPerson(personId) {
+	return allDecisions.filter((decision) => decision.personId === personId);
+}
+function getFailuresForPerson(personId) {
+	return failures.filter((failure) => failure.personId === personId);
+}
+function getQuotesForPerson(personId) {
+	return quotes.filter((quote) => quote.personId === personId);
+}
+function getExperimentsForPerson(personId) {
+	return experiments.filter((experiment) => experiment.personId === personId);
+}
+function getBreakthroughsForPerson(personId) {
+	return breakthroughs.filter((breakthrough) => breakthrough.personId === personId);
+}
+function getTechnologiesForPerson(personId) {
+	return technologies.filter((technology) => technology.personIds.includes(personId));
+}
+function getDiscoveriesForPerson(personId) {
+	return discoveries.filter((discovery) => discovery.personId === personId);
+}
+function getSources(sourceIds) {
+	return sourceIds.map((id) => sourceById[id]).filter((source) => Boolean(source));
+}
+function collectPersonSourceIds(person) {
+	const ids = /* @__PURE__ */ new Set();
+	for (const item of person.education) item.sourceIds.forEach((id) => ids.add(id));
+	for (const event of person.timeline) event.sourceIds.forEach((id) => ids.add(id));
+	for (const principle of person.principles) principle.sourceIds.forEach((id) => ids.add(id));
+	for (const record of person.communications) record.sourceIds.forEach((id) => ids.add(id));
+	for (const controversy of person.controversies) controversy.sourceIds.forEach((id) => ids.add(id));
+	for (const factor of person.successFactors) factor.sourceIds.forEach((id) => ids.add(id));
+	for (const decision of getDecisionsForPerson(person.id)) decision.sourceIds.forEach((id) => ids.add(id));
+	for (const failure of getFailuresForPerson(person.id)) failure.sourceIds.forEach((id) => ids.add(id));
+	for (const quote of getQuotesForPerson(person.id)) quote.sourceIds.forEach((id) => ids.add(id));
+	for (const experiment of getExperimentsForPerson(person.id)) experiment.sourceIds.forEach((id) => ids.add(id));
+	for (const breakthrough of getBreakthroughsForPerson(person.id)) breakthrough.sourceIds.forEach((id) => ids.add(id));
+	for (const technology of getTechnologiesForPerson(person.id)) technology.sourceIds.forEach((id) => ids.add(id));
+	for (const discovery of getDiscoveriesForPerson(person.id)) discovery.sourceIds.forEach((id) => ids.add(id));
+	return [...ids];
+}
+function getAllTimelineEvents(limit) {
+	const events = allPeople.flatMap((person) => person.timeline.map((event) => ({
+		...event,
+		personName: person.name,
+		personId: person.id
+	}))).sort((a, b) => a.year - b.year);
+	return limit ? events.slice(0, limit) : events;
+}
+//#endregion
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DvDRwfPC.js
+var import_react = /* @__PURE__ */ __toESM(require_react());
+var import_jsx_runtime = require_jsx_runtime();
+var __defProp = Object.defineProperty;
+var __exportAll = (all, no_symbols) => {
+	let target = {};
+	for (var name in all) __defProp(target, name, {
+		get: all[name],
+		enumerable: true
+	});
+	if (!no_symbols) __defProp(target, Symbol.toStringTag, { value: "Module" });
+	return target;
+};
+function AppErrorComponent({ error }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
+		className: "flex min-h-screen flex-col items-center justify-center gap-3 px-6 text-center bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+				className: "text-red-500",
+				"aria-hidden": "true",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TriangleAlert, {
+					className: "size-10",
+					strokeWidth: 2
+				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+				className: "text-lg font-semibold",
+				children: "Something went wrong"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+				className: "max-w-md text-sm break-words text-zinc-500 dark:text-zinc-400",
+				children: error.message || "An unexpected error occurred. Try reloading the page."
+			})
+		]
+	});
+}
+/**
+* App-wide client provider mounted once near the root (in `src/routes/__root.tsx`):
+*
+*   <AuthProvider><Outlet /></AuthProvider>
+*
+* Better Auth's React client (`@/lib/auth/client`) needs NO context provider —
+* its `useSession()` works standalone — so this is a passthrough today. It's
+* kept as the single, stable mount point for any future client-side providers
+* (e.g. a toast or theme provider) without churning the root shell.
+*/
+function AuthProvider({ children }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children });
+}
+function isGrokEmbedderOrigin(origin) {
+	try {
+		const url = new URL(origin);
+		if (url.protocol !== "https:" && url.protocol !== "http:") return false;
+		const host = url.hostname.toLowerCase();
+		if (host === "grok.com" || host.endsWith(".grok.com")) return true;
+		if (host === "localhost" || host === "127.0.0.1" || host === "[::1]") return true;
+		return false;
+	} catch {
+		return false;
+	}
+}
+function isSandboxPreviewGuestHost(hostname) {
+	const host = hostname.toLowerCase();
+	return host === "grok-sandbox.com" || host.endsWith(".grok-sandbox.com");
+}
+function isRemintPreviewPair(guestHost, parentHost) {
+	const guest = guestHost.toLowerCase();
+	const parent = parentHost.toLowerCase();
+	const i = guest.indexOf(".preview.");
+	if (i <= 0) return false;
+	const label = guest.slice(0, i);
+	const rest = guest.slice(i + 9);
+	if (label.includes(".") || !rest.includes(".")) return false;
+	return parent === rest || parent === `grok.${rest}`;
+}
+function resolveParentEmbedderOrigin(parentIsSelf, referrer, ancestorOrigin, guestHostname = "") {
+	if (parentIsSelf) return null;
+	for (const candidate of [referrer, ancestorOrigin ?? ""].filter(Boolean)) try {
+		const url = new URL(candidate.includes("://") ? candidate : `https://${candidate}`);
+		if (url.protocol !== "https:" && url.protocol !== "http:") continue;
+		if (isGrokEmbedderOrigin(url.origin)) return url.origin;
+		if (isSandboxPreviewGuestHost(guestHostname) || isRemintPreviewPair(guestHostname, url.hostname)) return url.origin;
+	} catch {}
+	return null;
+}
+/**
+* Guest side of the grok-web ↔ sandbox preview postMessage bridge.
+*
+* Activates only when this page is framed by an allowlisted Grok embedder.
+* Top-level runs (download/export, local `npm run dev`, deployed sites) noop.
+*/
+var PREVIEW_BRIDGE_CHANNEL = "grok-preview-bridge";
+var EnvelopeSchema = object({
+	channel: literal(PREVIEW_BRIDGE_CHANNEL),
+	version: number().int().positive(),
+	type: string().min(1)
+});
+var HelloSchema = EnvelopeSchema.extend({ type: literal("hello") });
+var NavigateSchema = EnvelopeSchema.extend({
+	type: literal("navigate"),
+	path: string().min(1)
+});
+var HistorySchema = EnvelopeSchema.extend({
+	type: literal("history"),
+	delta: union([literal(-1), literal(1)])
+});
+function isSafeBridgePath(path) {
+	if (!path.startsWith("/") || path.startsWith("//") || path.includes("\\")) return false;
+	try {
+		return new URL(path, "https://preview.invalid").origin === "https://preview.invalid";
+	} catch {
+		return false;
+	}
+}
+/**
+* Install host↔guest messaging. Returns a dispose function.
+* Noops (returns a no-op dispose) when not embedded under a Grok parent.
+*/
+function installPreviewHostBridge(options = {}) {
+	if (typeof window === "undefined") return () => {};
+	const ancestorOrigin = typeof location.ancestorOrigins !== "undefined" && location.ancestorOrigins.length > 0 ? location.ancestorOrigins[0] : null;
+	const parentOrigin = resolveParentEmbedderOrigin(window.parent === window, document.referrer, ancestorOrigin, window.location.hostname);
+	if (parentOrigin === null) return () => {};
+	const ROOT_STATE_KEY = "__grokPreviewBridgeRoot";
+	const originalPushState = window.history.pushState.bind(window.history);
+	const originalReplaceState = window.history.replaceState.bind(window.history);
+	const isAtHistoryRoot = () => {
+		const state = window.history.state;
+		return Boolean(state && typeof state === "object" && state[ROOT_STATE_KEY] === true);
+	};
+	try {
+		const current = window.history.state;
+		if (!(current !== null && typeof current === "object" && Object.prototype.hasOwnProperty.call(current, ROOT_STATE_KEY))) {
+			const isRoot = window.history.length <= 1;
+			originalReplaceState(current && typeof current === "object" ? {
+				...current,
+				[ROOT_STATE_KEY]: isRoot
+			} : { [ROOT_STATE_KEY]: isRoot }, "", window.location.href);
+		}
+	} catch {}
+	const post = (message) => {
+		window.parent.postMessage(message, parentOrigin);
+	};
+	const reportLocation = () => {
+		post({
+			channel: PREVIEW_BRIDGE_CHANNEL,
+			version: 1,
+			type: "location",
+			path: window.location.pathname || "/",
+			search: window.location.search,
+			hash: window.location.hash
+		});
+	};
+	const reportRoutes = () => {
+		const paths = options.getRoutePaths?.() ?? [];
+		post({
+			channel: PREVIEW_BRIDGE_CHANNEL,
+			version: 1,
+			type: "routes",
+			paths
+		});
+	};
+	const defaultNavigate = (path) => {
+		if (!isSafeBridgePath(path)) return;
+		try {
+			const url = new URL(path, window.location.origin);
+			if (url.origin !== window.location.origin) return;
+			const next = `${url.pathname}${url.search}${url.hash}`;
+			window.history.pushState(window.history.state, "", next);
+			window.dispatchEvent(new PopStateEvent("popstate", { state: window.history.state }));
+		} catch {}
+	};
+	const navigate = (path) => {
+		if (!isSafeBridgePath(path)) return;
+		if (options.navigate) {
+			options.navigate(path);
+			return;
+		}
+		defaultNavigate(path);
+	};
+	const announce = () => {
+		reportLocation();
+		reportRoutes();
+		post({
+			channel: PREVIEW_BRIDGE_CHANNEL,
+			version: 1,
+			type: "ready"
+		});
+	};
+	const onMessage = (event) => {
+		if (event.source !== window.parent) return;
+		if (event.origin !== parentOrigin) return;
+		const envelope = EnvelopeSchema.safeParse(event.data);
+		if (!envelope.success || envelope.data.version !== 1) return;
+		if (envelope.data.type === "hello") {
+			if (!HelloSchema.safeParse(event.data).success) return;
+			announce();
+			return;
+		}
+		if (envelope.data.type === "navigate") {
+			const parsed = NavigateSchema.safeParse(event.data);
+			if (!parsed.success) return;
+			navigate(parsed.data.path);
+			queueMicrotask(reportLocation);
+			return;
+		}
+		if (envelope.data.type === "history") {
+			const parsed = HistorySchema.safeParse(event.data);
+			if (!parsed.success) return;
+			if (parsed.data.delta === -1 && isAtHistoryRoot()) return;
+			window.history.go(parsed.data.delta);
+		}
+	};
+	const onPopState = () => {
+		reportLocation();
+	};
+	const onHashChange = () => {
+		reportLocation();
+	};
+	window.history.pushState = (data, unused, url) => {
+		const next = data && typeof data === "object" ? {
+			...data,
+			[ROOT_STATE_KEY]: false
+		} : data;
+		originalPushState(next, unused, url);
+		reportLocation();
+	};
+	window.history.replaceState = (data, unused, url) => {
+		const next = isAtHistoryRoot() ? {
+			...data && typeof data === "object" ? data : {},
+			[ROOT_STATE_KEY]: true
+		} : data;
+		originalReplaceState(next, unused, url);
+		reportLocation();
+	};
+	window.addEventListener("message", onMessage);
+	window.addEventListener("popstate", onPopState);
+	window.addEventListener("hashchange", onHashChange);
+	announce();
+	return () => {
+		window.removeEventListener("message", onMessage);
+		window.removeEventListener("popstate", onPopState);
+		window.removeEventListener("hashchange", onHashChange);
+		window.history.pushState = originalPushState;
+		window.history.replaceState = originalReplaceState;
+	};
+}
+/** Collect static path patterns from a TanStack route tree (best-effort). */
+function collectRoutePathsFromTree(routeTree) {
+	const paths = /* @__PURE__ */ new Set();
+	const walk = (node) => {
+		if (!node || typeof node !== "object") return;
+		const record = node;
+		const full = typeof record.fullPath === "string" ? record.fullPath : typeof record.path === "string" ? record.path : null;
+		if (full !== null && full !== "") paths.add(full.startsWith("/") ? full : `/${full}`);
+		else if (full === "") paths.add("/");
+		const children = record.children;
+		if (Array.isArray(children)) for (const child of children) walk(child);
+		else if (children && typeof children === "object") for (const child of Object.values(children)) walk(child);
+	};
+	walk(routeTree);
+	return [...paths];
+}
+/**
+* Mount once in `__root.tsx` so the Grok preview chrome can drive navigation
+* (and later receive registered routes). Noops when the app is not embedded.
+*/
+function PreviewHostBridge() {
+	const router = useRouter();
+	(0, import_react.useEffect)(() => {
+		return installPreviewHostBridge({
+			navigate: (path) => {
+				router.history.push(path);
+			},
+			getRoutePaths: () => collectRoutePathsFromTree(router.routeTree)
+		});
+	}, [router]);
+	return null;
+}
+var navItems = [
+	{
+		label: "People",
+		href: "#people"
+	},
+	{
+		label: "Timeline",
+		href: "#timeline"
+	},
+	{
+		label: "Decisions",
+		href: "#decisions"
+	},
+	{
+		label: "Graph",
+		href: "#graph"
+	},
+	{
+		label: "Sources",
+		href: "#sources"
+	},
+	{
+		label: "Learning",
+		href: "#learning"
+	}
+];
+function Shell({ children }) {
+	const [mobileOpen, setMobileOpen] = (0, import_react.useState)(false);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "min-h-dvh bg-bg text-ink",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
+			className: "sticky top-0 z-30 border-b border-border bg-surface/95 backdrop-blur",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+						href: "#top",
+						className: "flex min-h-11 items-center gap-3",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "grid size-10 place-items-center rounded-sm border border-border bg-ink text-sm font-semibold text-surface",
+							children: "L"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "block font-display text-xl leading-none",
+							children: "Lattice"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "hidden text-xs text-muted sm:block",
+							children: "Decision intelligence archive"
+						})] })]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", {
+						className: "hidden items-center gap-1 lg:flex",
+						"aria-label": "Primary navigation",
+						children: navItems.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+							href: item.href,
+							className: "rounded-sm px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-ink",
+							children: item.label
+						}, item.href))
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "hidden items-center gap-2 text-muted lg:flex",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Brain, {
+									className: "size-5",
+									"aria-hidden": "true"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(GitBranch, {
+									className: "size-5",
+									"aria-hidden": "true"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(LibraryBig, {
+									className: "size-5",
+									"aria-hidden": "true"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Search, {
+									className: "size-5",
+									"aria-hidden": "true"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BookOpen, {
+									className: "size-5",
+									"aria-hidden": "true"
+								})
+							]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+							type: "button",
+							className: "grid size-11 place-items-center border border-border bg-paper lg:hidden",
+							"aria-expanded": mobileOpen,
+							"aria-controls": "mobile-nav",
+							"aria-label": mobileOpen ? "Close navigation" : "Open navigation",
+							onClick: () => setMobileOpen((open) => !open),
+							children: mobileOpen ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, { className: "size-5" }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Menu, { className: "size-5" })
+						})]
+					})
+				]
+			}), mobileOpen ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", {
+				id: "mobile-nav",
+				className: "border-t border-border px-4 py-3 lg:hidden",
+				"aria-label": "Mobile navigation",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+					className: "grid gap-1",
+					children: navItems.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+						href: item.href,
+						onClick: () => setMobileOpen(false),
+						className: "flex min-h-11 items-center rounded-sm px-3 text-sm font-medium text-muted transition hover:bg-surface-2 hover:text-ink",
+						children: item.label
+					}) }, item.href))
+				})
+			}) : null]
+		}), children]
+	});
+}
+var styles_default = "/assets/styles-C0F9iSKH.css";
+var APP_NAME = "Lattice";
+var APP_DESC = "A research archive of how exceptional people think, decide, fail, and revise — with sources attached.";
+var assetPath = (path) => `/${path}`.replace(/\/{2,}/g, "/");
+var Route$4 = createRootRoute({
+	head: () => ({
+		meta: [
+			{ charSet: "utf-8" },
+			{
+				name: "viewport",
+				content: "width=device-width, initial-scale=1"
+			},
+			{ title: APP_NAME },
+			{
+				name: "description",
+				content: APP_DESC
+			},
+			{
+				name: "theme-color",
+				content: "#f1ece3"
+			}
+		],
+		links: [
+			{
+				rel: "icon",
+				type: "image/svg+xml",
+				href: assetPath("favicon.svg")
+			},
+			{
+				rel: "stylesheet",
+				href: styles_default
+			},
+			{
+				rel: "manifest",
+				href: assetPath("__grok/manifest.webmanifest")
+			},
+			{
+				rel: "apple-touch-icon",
+				href: assetPath("__grok/icon-180.png")
+			},
+			{
+				rel: "preconnect",
+				href: "https://fonts.googleapis.com"
+			},
+			{
+				rel: "preconnect",
+				href: "https://fonts.gstatic.com",
+				crossOrigin: "anonymous"
+			},
+			{
+				rel: "stylesheet",
+				href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap"
+			}
+		]
+	}),
+	component: () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("html", {
+		lang: "en",
+		className: "antialiased",
+		suppressHydrationWarning: true,
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("head", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeadContent, {}) }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("body", {
+			className: "bg-bg text-ink font-sans",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PreviewHostBridge, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AuthProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shell, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {}) }) }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scripts, {})
+			]
+		})]
+	})
+});
+var $$splitComponentImporter$3 = () => import("./routes-DMOOGqyv.mjs");
+var Route$3 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$3, "component") });
+var $$splitComponentImporter$2 = () => import("../_slug-CmnifcD5.mjs");
+var Route$2 = createFileRoute("/decisions/$slug")({
+	loader: ({ params }) => {
+		const decision = getDecision(params.slug);
+		if (!decision) throw notFound();
+		return { decision };
+	},
+	component: lazyRouteComponent($$splitComponentImporter$2, "component")
+});
+var $$splitComponentImporter$1 = () => import("../_slug-DSnp1fx9.mjs");
+var Route$1 = createFileRoute("/failures/$slug")({
+	loader: ({ params }) => {
+		const failure = getFailure(params.slug);
+		if (!failure) throw notFound();
+		return { failure };
+	},
+	component: lazyRouteComponent($$splitComponentImporter$1, "component")
+});
+var $$splitComponentImporter = () => import("../_slug-BUwEw2sx.mjs");
+var Route = createFileRoute("/people/$slug")({
+	loader: ({ params }) => {
+		const person = getPerson(params.slug);
+		if (!person) throw notFound();
+		return { person };
+	},
+	component: lazyRouteComponent($$splitComponentImporter, "component")
+});
+var rootRouteChildren = {
+	IndexRoute: Route$3.update({
+		id: "/",
+		path: "/",
+		getParentRoute: () => Route$4
+	}),
+	DecisionsSlugRoute: Route$2.update({
+		id: "/decisions/$slug",
+		path: "/decisions/$slug",
+		getParentRoute: () => Route$4
+	}),
+	FailuresSlugRoute: Route$1.update({
+		id: "/failures/$slug",
+		path: "/failures/$slug",
+		getParentRoute: () => Route$4
+	}),
+	PeopleSlugRoute: Route.update({
+		id: "/people/$slug",
+		path: "/people/$slug",
+		getParentRoute: () => Route$4
+	})
+};
+var routeTree = Route$4._addFileChildren(rootRouteChildren)._addFileTypes();
+var router_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+function getRouter() {
+	return createRouter({
+		routeTree,
+		defaultErrorComponent: AppErrorComponent,
+		basepath: "/".replace(/\/$/, "") || "/"
+	});
+}
+//#endregion
+export { personById as C, technologies as E, lessons as S, sources as T, getFailuresForPerson as _, allDecisions as a, getSources as b, catalogStats as c, experiments as d, failureById as f, getDecisionsForPerson as g, getDecision as h, Route$2 as i, collectPersonSourceIds as l, getAllTimelineEvents as m, Route as n, allPeople as o, failures as p, Route$1 as r, breakthroughs as s, router_exports as t, discoveries as u, getPerson as v, quotes as w, lessonById as x, getQuotesForPerson as y };

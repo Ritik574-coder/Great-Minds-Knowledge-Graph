@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Newsreader", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --font-sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --color-bg: #f1ece3;
+  --color-bg-warm: #e7e0d3;
+  --color-surface: #faf7f2;
+  --color-surface-2: #efe8dc;
+  --color-ink: #1a1714;
+  --color-fg: #1a1714;
+  --color-muted: #6e6860;
+  --color-subtle: #8a847a;
+  --color-accent: #2f4a56;
+  --color-accent-2: #3d5a66;
+  --color-accent-fg: #f4f0e8;
+  --color-border: #d4cdc0;
+  --color-rule: #c4bbae;
+  --color-paper: #f7f3eb;
+
+  --color-fact: #2f4a56;
+  --color-quote: #3d3a34;
+  --color-reported: #5c5348;
+  --color-finding: #355246;
+  --color-interpretation: #6b5344;
+  --color-inference: #4a5c4e;
+  --color-controversy: #8b3a2a;
+  --color-unknown: #8a847a;
+  --color-documented: #2c4a3e;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --shadow-border: 0 0 0 1px rgba(26, 23, 20, 0.08), 0 1px 2px -1px rgba(26, 23, 20, 0.06),
+    0 2px 8px 0 rgba(26, 23, 20, 0.04);
+  --shadow-border-hover: 0 0 0 1px rgba(26, 23, 20, 0.14), 0 4px 16px -4px rgba(26, 23, 20, 0.1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-bg);
+    color: var(--color-fg);
+    min-height: 100dvh;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent) 22%, transparent);
+    color: var(--color-ink);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.archive-grid {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--color-ink) 5%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--color-ink) 5%, transparent) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.rule {
+  height: 1px;
+  background: var(--color-rule);
+}
+
+.prose-archive p + p {
+  margin-top: 0.9em;
+}
