@@ -1,4 +1,4 @@
-# Lattice — Great Minds Knowledge Graph
+# Lattice — Great Minds Knowledge Graph 
 
 <div align="center">
 
